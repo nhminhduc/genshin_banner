@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/out-tsc",
+        "module": "CommonJS",
+        "types": [
+            "jest",
+            "node"
+        ],
+        "jsx": "react"
+    },
+    "include": [
+        "src/**/*.spec.tsx",
+        "src/**/*.spec.ts",
+    ]
+}
