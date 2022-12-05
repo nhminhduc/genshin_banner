@@ -1,0 +1,506 @@
+[
+  {
+    "name": "albedo",
+    "vision_key": "geo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-10-14",
+      "version": "3.1.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Albedo"
+  },
+  {
+    "name": "aloy",
+    "vision_key": "cryo",
+    "rarity": "4",
+    "link": "https://genshin-impact.fandom.com/wiki/Aloy"
+  },
+  {
+    "name": "amber",
+    "vision_key": "pyro",
+    "rarity": "4",
+    "link": "https://genshin-impact.fandom.com/wiki/Amber"
+  },
+  {
+    "name": "arataki-itto",
+    "vision_key": "geo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-06-21",
+      "version": "2.7.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Arataki_Itto"
+  },
+  {
+    "name": "ayaka",
+    "vision_key": "cryo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-04-19",
+      "version": "2.6.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka"
+  },
+  {
+    "name": "ayato",
+    "vision_key": "hydro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2015-10-10",
+      "version": "2.6.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
+  },
+  {
+    "name": "barbara",
+    "vision_key": "hydro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-10-14",
+      "version": "3.1.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Barbara"
+  },
+  {
+    "name": "beidou",
+    "vision_key": "electro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-10-14",
+      "version": "3.1.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Beidou"
+  },
+  {
+    "name": "bennett",
+    "vision_key": "pyro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-11-02",
+      "version": "3.2.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Bennett"
+  },
+  {
+    "name": "chongyun",
+    "vision_key": "cryo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-06-21",
+      "version": "2.7.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Chongyun"
+  },
+  {
+    "name": "collei",
+    "vision_key": "dendro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-08-24",
+      "version": "3.0.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Collei"
+  },
+  {
+    "name": "diluc",
+    "vision_key": "pyro",
+    "rarity": "5",
+    "link": "https://genshin-impact.fandom.com/wiki/Diluc"
+  },
+  {
+    "name": "diona",
+    "vision_key": "cryo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-08-24",
+      "version": "3.0.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Diona"
+  },
+  {
+    "name": "eula",
+    "vision_key": "cryo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2021-11-24",
+      "version": "2.3.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Eula"
+  },
+  {
+    "name": "fischl",
+    "vision_key": "electro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-08-24",
+      "version": "3.0.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Fischl"
+  },
+  {
+    "name": "ganyu",
+    "vision_key": "cryo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-09-09",
+      "version": "3.0.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Ganyu"
+  },
+  {
+    "name": "gorou",
+    "vision_key": "geo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-06-21",
+      "version": "2.7.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Gorou"
+  },
+  {
+    "name": "hu-tao",
+    "vision_key": "pyro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2021-11-02",
+      "version": "2.2.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Hu_Tao"
+  },
+  {
+    "name": "jean",
+    "vision_key": "anemo",
+    "rarity": "5",
+    "link": "https://genshin-impact.fandom.com/wiki/Jean"
+  },
+  {
+    "name": "kaeya",
+    "vision_key": "cryo",
+    "rarity": "4",
+    "link": "https://genshin-impact.fandom.com/wiki/Kaeya"
+  },
+  {
+    "name": "kazuha",
+    "vision_key": "anemo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-07-13",
+      "version": "2.8.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Kazuha"
+  },
+  {
+    "name": "keqing",
+    "vision_key": "electro",
+    "rarity": "5",
+    "link": "https://genshin-impact.fandom.com/wiki/Keqing"
+  },
+  {
+    "name": "klee",
+    "vision_key": "pyro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-07-13",
+      "version": "2.8.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Klee"
+  },
+  {
+    "name": "kokomi",
+    "vision_key": "hydro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-09-09",
+      "version": "3.0.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Kokomi"
+  },
+  {
+    "name": "kuki-shinobu",
+    "vision_key": "electro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-09-28",
+      "version": "3.1.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Kuki_Shinobu"
+  },
+  {
+    "name": "lisa",
+    "vision_key": "electro",
+    "rarity": "4",
+    "link": "https://genshin-impact.fandom.com/wiki/Lisa"
+  },
+  {
+    "name": "mona",
+    "vision_key": "hydro",
+    "rarity": "5",
+    "link": "https://genshin-impact.fandom.com/wiki/Mona"
+  },
+  {
+    "name": "nahida",
+    "vision_key": "dendro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-11-02",
+      "version": "3.2.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Nahida"
+  },
+  {
+    "name": "nilou",
+    "vision_key": "hydro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-10-14",
+      "version": "3.1.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Nilou"
+  },
+  {
+    "name": "ningguang",
+    "vision_key": "geo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-07-13",
+      "version": "2.8.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Ningguang"
+  },
+  {
+    "name": "noelle",
+    "vision_key": "geo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-11-02",
+      "version": "3.2.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Noelle"
+  },
+  {
+    "name": "qiqi",
+    "vision_key": "cryo",
+    "rarity": "5",
+    "link": "https://genshin-impact.fandom.com/wiki/Qiqi"
+  },
+  {
+    "name": "raiden",
+    "vision_key": "electro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-03-08",
+      "version": "2.5.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
+  },
+  {
+    "name": "razor",
+    "vision_key": "electro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-11-02",
+      "version": "3.2.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Razor"
+  },
+  {
+    "name": "rosaria",
+    "vision_key": "cryo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-04-19",
+      "version": "2.6.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Rosaria"
+  },
+  {
+    "name": "kujou-sara",
+    "vision_key": "electro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-03-08",
+      "version": "2.5.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Kujou_Sara"
+  },
+  {
+    "name": "sayu",
+    "vision_key": "anemo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-09-28",
+      "version": "3.1.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Sayu"
+  },
+  {
+    "name": "shenhe",
+    "vision_key": "cryo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-01-05",
+      "version": "2.4.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Shenhe"
+  },
+  {
+    "name": "shikanoin-heizou",
+    "vision_key": "anemo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-11-18",
+      "version": "3.2.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Shikanoin_Heizou"
+  },
+  {
+    "name": "sucrose",
+    "vision_key": "anemo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-09-09",
+      "version": "3.0.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Sucrose"
+  },
+  {
+    "name": "tartaglia",
+    "vision_key": "hydro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-11-18",
+      "version": "3.2.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Tartaglia"
+  },
+  {
+    "name": "thoma",
+    "vision_key": "pyro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-11-18",
+      "version": "3.2.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Thoma"
+  },
+  {
+    "name": "tighnari",
+    "vision_key": "dendro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-08-24",
+      "version": "3.0.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Tighnari"
+  },
+  {
+    "name": "venti",
+    "vision_key": "anemo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-09-28",
+      "version": "3.1.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Venti"
+  },
+  {
+    "name": "xiangling",
+    "vision_key": "pyro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-10-14",
+      "version": "3.1.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Xiangling"
+  },
+  {
+    "name": "xiao",
+    "vision_key": "anemo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-05-31",
+      "version": "2.7.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Xiao"
+  },
+  {
+    "name": "xingqiu",
+    "vision_key": "hydro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-09-09",
+      "version": "3.0.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Xingqiu"
+  },
+  {
+    "name": "xinyan",
+    "vision_key": "pyro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-08-02",
+      "version": "2.8.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Xinyan"
+  },
+  {
+    "name": "yae-miko",
+    "vision_key": "electro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-11-18",
+      "version": "3.2.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Yae_Miko"
+  },
+  {
+    "name": "yanfei",
+    "vision_key": "pyro",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-05-31",
+      "version": "2.7.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Yanfei"
+  },
+  {
+    "name": "yelan",
+    "vision_key": "hydro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-05-31",
+      "version": "2.7.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Yelan"
+  },
+  {
+    "name": "yoimiya",
+    "vision_key": "pyro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-11-02",
+      "version": "3.2.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Yoimiya"
+  },
+  {
+    "name": "yun-jin",
+    "vision_key": "geo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-08-02",
+      "version": "2.8.2"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Yun_Jin"
+  },
+  {
+    "name": "zhongli",
+    "vision_key": "geo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-08-24",
+      "version": "3.0.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Zhongli"
+  }
+]

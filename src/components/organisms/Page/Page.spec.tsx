@@ -1,10 +1,10 @@
-import { describe, expect, test } from '@jest/globals';
-import { render } from 'react-dom';
-import Page from './Page';
+import { describe, expect, test } from "vitest";
+import { render } from "@testing-library/react";
+import Page from "./Page";
 
-describe('Page test', () => {
-    test('Page load', () => {
-        const { asFragment } = render(<Page />);
-        expect(asFragment()).toMatchSnapshot();
-    });
+describe("Page test", () => {
+  test("Page load", () => {
+    const { asFragment } = render(<Page />);
+    expect(asFragment).toMatchSnapshot();
+  });
 });
