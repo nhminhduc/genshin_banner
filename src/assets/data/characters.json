@@ -13,12 +13,14 @@
     "name": "aloy",
     "vision_key": "cryo",
     "rarity": "4",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Aloy"
   },
   {
     "name": "amber",
     "vision_key": "pyro",
     "rarity": "4",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Amber"
   },
   {
@@ -77,7 +79,7 @@
     "rarity": "4",
     "banner": {
       "last_date": "2022-11-02",
-      "version": "3.2.1"
+      "version": "3.2.2"
     },
     "link": "https://genshin-impact.fandom.com/wiki/Bennett"
   },
@@ -105,6 +107,7 @@
     "name": "diluc",
     "vision_key": "pyro",
     "rarity": "5",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Diluc"
   },
   {
@@ -171,12 +174,14 @@
     "name": "jean",
     "vision_key": "anemo",
     "rarity": "5",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Jean"
   },
   {
     "name": "kaeya",
     "vision_key": "cryo",
     "rarity": "4",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Kaeya"
   },
   {
@@ -193,6 +198,7 @@
     "name": "keqing",
     "vision_key": "electro",
     "rarity": "5",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Keqing"
   },
   {
@@ -229,23 +235,15 @@
     "name": "lisa",
     "vision_key": "electro",
     "rarity": "4",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Lisa"
   },
   {
     "name": "mona",
     "vision_key": "hydro",
     "rarity": "5",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Mona"
-  },
-  {
-    "name": "nahida",
-    "vision_key": "dendro",
-    "rarity": "5",
-    "banner": {
-      "last_date": "2022-11-02",
-      "version": "3.2.1"
-    },
-    "link": "https://genshin-impact.fandom.com/wiki/Nahida"
   },
   {
     "name": "nilou",
@@ -273,7 +271,7 @@
     "rarity": "4",
     "banner": {
       "last_date": "2022-11-02",
-      "version": "3.2.1"
+      "version": "3.2.2"
     },
     "link": "https://genshin-impact.fandom.com/wiki/Noelle"
   },
@@ -281,6 +279,7 @@
     "name": "qiqi",
     "vision_key": "cryo",
     "rarity": "5",
+    "banner": {},
     "link": "https://genshin-impact.fandom.com/wiki/Qiqi"
   },
   {
@@ -299,7 +298,7 @@
     "rarity": "4",
     "banner": {
       "last_date": "2022-11-02",
-      "version": "3.2.1"
+      "version": "3.2.2"
     },
     "link": "https://genshin-impact.fandom.com/wiki/Razor"
   },
@@ -479,7 +478,7 @@
     "rarity": "5",
     "banner": {
       "last_date": "2022-11-02",
-      "version": "3.2.1"
+      "version": "3.2.2"
     },
     "link": "https://genshin-impact.fandom.com/wiki/Yoimiya"
   },

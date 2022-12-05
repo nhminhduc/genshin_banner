@@ -1,23 +1,19 @@
+import useVersionList from "../hooks/useVersionList";
 import { Banner } from "../types/CharacterType";
-import _ from 'lodash';
-import characters from "../assets/data/characters.json";
+import { formatDistanceToNowStrict, parseISO } from "date-fns";
 
-const VersionFromLastBanner = (banner: Banner) => {
+const fromLastBanner = (banner: Banner) => {
   const currentVersion = "3.2.2";
-  const today = _.now();
-  const { version } = banner;
+  const { version, last_date: lastDate } = banner;
 
   if (version === currentVersion) {
-    return 0;
+    return { noVersions: "0", noDays: "0" };
   }
 
-  const versionList = [...new Set(characters.flatMap(({ banner }) => banner?.version).filter((version): version is string => version !== undefined).sort((n1, n2) => {
-    if (n1 > n2) return -1;
-    if (n1 < n2) return 1;
-    return 0;
-  }))];
-  console.log(versionList);
-  return versionList.indexOf(version)
+  const versionList = useVersionList();
+  const noVersion = version ? versionList.indexOf(version) as unknown as string : "";
+  const noDays = lastDate ? formatDistanceToNowStrict(parseISO(lastDate), { addSuffix: true, unit: "day" }) : "";
+  return { noVersions: noVersion, noDays: noDays };
 }
 
-export default VersionFromLastBanner;
+export default fromLastBanner;

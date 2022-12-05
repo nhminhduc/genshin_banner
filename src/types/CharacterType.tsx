@@ -1,7 +1,7 @@
 
 export type Banner = {
-  last_date: string;
-  version: string;
+  last_date?: string;
+  version?: string;
 }
 
 export type Character = {
@@ -10,4 +10,11 @@ export type Character = {
   rarity: string;
   banner: Banner;
   link: string;
+}
+
+export type CharacterData = Character & {
+  fromLastBanner: {
+    noVersions: string;
+    noDays: string;
+  }
 }
