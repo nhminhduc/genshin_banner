@@ -1,6 +1,7 @@
+import CharacterList from "components/molecules/CharacterList/CharacterList";
 
 const Page = () => {
-  return (<div>abc</div>)
+  return (<CharacterList />)
 };
 
 export default Page;
