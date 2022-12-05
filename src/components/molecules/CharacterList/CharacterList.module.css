@@ -1,0 +1,8 @@
+.characterImageList {
+  background-repeat: "no-repeat";
+  background-size: "cover";
+}
+
+.characterImage.MuiImageListItem-img {
+  object-fit: contain;
+}
