@@ -1,10 +1,13 @@
 import CharacterContextProvider from "context/CharacterContext";
+import FilterContextProvider from "context/FilterContext";
 
 import Page from "./Page";
 
 const PageWrapper = () => (
   <CharacterContextProvider>
-    <Page />
+    <FilterContextProvider>
+      <Page />
+    </FilterContextProvider>
   </CharacterContextProvider>
 );
 

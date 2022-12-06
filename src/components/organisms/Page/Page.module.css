@@ -7,7 +7,7 @@
   height: 100%;
   opacity: 0.4;
   z-index: -1;
-  background-image: url("./bg.webp");
+  background-image: url("/bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
