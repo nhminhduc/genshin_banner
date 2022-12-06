@@ -1,26 +1,20 @@
-import { useContext, useMemo } from "react";
 import characters from "assets/data/characters.json";
-import fromLastBanner from "utils/fromLastBanner";
-import { CharacterDataContext } from "components/organisms/Page/PageWrapper";
+import { useMemo } from "react";
+import { CharacterData, FromLastBanner } from "types/CharacterType";
+import GetFromLastBanner from "utils/fromLastBanner";
 
 export function useCharacterfromJson() {
-  const charactersJSON = useMemo(() => characters, [characters]);
+  const charactersJSON = useMemo(() => characters, []);
   return charactersJSON;
 }
 
 export function useCharacterData() {
   const charactersJSON = useCharacterfromJson();
-  const characterData = charactersJSON.map((character: any) => {
-    character["fromLastBanner"] = fromLastBanner(character.banner);
-    return character;
-  }) as unknown as CharacterData[];
+  const characterData: CharacterData[] = charactersJSON.map(
+    (character): CharacterData => {
+      const temp: FromLastBanner = GetFromLastBanner(character.banner);
+      return { fromLastBanner: temp, ...character } as unknown as CharacterData;
+    },
+  );
   return characterData;
-}
-
-export function useCharacterDataContext() {
-  const context = useContext(CharacterDataContext);
-  if (context === undefined) {
-    throw new Error("useCharacterDataContext must be used within a CharacterDataProvider");
-  }
-  return context;
 }

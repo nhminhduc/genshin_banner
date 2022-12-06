@@ -6,4 +6,4 @@ import geo from "./geo.webp";
 import hydro from "./hydro.webp";
 import pyro from "./pyro.webp";
 
-export { anemo, cryo, dendro, electro, geo, hydro, pyro }
+export { anemo, cryo, dendro, electro, geo, hydro, pyro };

@@ -1,5 +1,6 @@
-import { describe, expect, test } from "vitest";
 import { render } from "@testing-library/react";
+import { describe, expect, test } from "vitest";
+
 import Page from "./Page";
 
 describe("Page test", () => {

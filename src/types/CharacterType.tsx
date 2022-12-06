@@ -1,20 +1,29 @@
-
-export type Banner = {
+export interface Banner {
   last_date?: string;
   version?: string;
 }
 
-export type Character = {
-  name: string;
-  vision_key: string;
-  rarity: string;
+export interface Character {
   banner: Banner;
   link: string;
+  name: string;
+  rarity: string;
+  vision_key: string;
 }
 
-export type CharacterData = Character & {
+export interface FromLastBanner {
+  noDays: string;
+  noVersions: string;
+}
+
+export interface CharacterData {
+  banner: Banner;
   fromLastBanner: {
-    noVersions: string;
     noDays: string;
-  }
+    noVersions: string;
+  };
+  link: string;
+  name: string;
+  rarity: string;
+  vision_key: string;
 }
