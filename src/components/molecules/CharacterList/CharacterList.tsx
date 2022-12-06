@@ -8,8 +8,8 @@ const CharacterList = () => {
   const characterDataContext: CharacterData[] = useCharacterContext();
   const mediumSize = useMediaQuery("(min-width:660px)");
   const ImageListStyle = mediumSize
-    ? { height: 480, width: 480 }
-    : { height: 360, width: 360 };
+    ? { height: 640, width: 560 }
+    : { height: 480, width: 360 };
 
   return (
     <ImageList
