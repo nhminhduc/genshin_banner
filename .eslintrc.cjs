@@ -122,7 +122,7 @@ module.exports = {
           { exceptAfterSingleLine: true },
         ],
 
-        "lodash/import-scope": [2, "method"],
+        "lodash/import-scope": [2, "member"],
 
         // increase max classes per file from 1 (airbnb) to 3
         // https://eslint.org/docs/rules/max-classes-per-file

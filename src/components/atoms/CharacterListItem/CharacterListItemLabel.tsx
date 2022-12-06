@@ -2,13 +2,13 @@ import cx from "classnames";
 import { startCase } from "lodash";
 
 interface CharacterListItemLabelProps {
-  noVersions: string;
   name: string;
+  noVersions: string;
 }
 
 const CharacterListItemLabel = ({
-  noVersions,
   name,
+  noVersions,
 }: CharacterListItemLabelProps) => (
   <div
     className={cx(
@@ -25,7 +25,9 @@ const CharacterListItemLabel = ({
     >
       {noVersions}
     </div>
-    <div className={cx("font-bold text-sm text-[#1a1d23]")}>{startCase(name)}</div>
+    <div className={cx("font-bold text-sm text-slate-600")}>
+      {startCase(name)}
+    </div>
   </div>
 );
 

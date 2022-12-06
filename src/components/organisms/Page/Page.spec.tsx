@@ -9,7 +9,7 @@ describe("Page test", () => {
     const { asFragment } = render(
       <CharacterContextProvider>
         <Page />
-      </CharacterContextProvider>
+      </CharacterContextProvider>,
     );
     expect(asFragment).toMatchSnapshot();
   });

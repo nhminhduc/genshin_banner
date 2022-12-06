@@ -4,6 +4,8 @@ import CharacterListItem from "components/atoms/CharacterListItem/CharacterListI
 import { useCharacterContext } from "hooks/useCharacterContext";
 import type { CharacterData } from "types/CharacterType";
 
+import s from "./CharacterList.module.css";
+
 const CharacterList = () => {
   const characterDataContext: CharacterData[] = useCharacterContext();
   const mediumSize = useMediaQuery("(min-width:660px)");
@@ -13,7 +15,7 @@ const CharacterList = () => {
 
   return (
     <ImageList
-      className={cx("overflow-hidden")}
+      className={cx(s["scrollbar-hide"], "overflow-x-hidden")}
       cols={mediumSize ? 4 : 3}
       gap={4}
       rowHeight={156}
@@ -23,12 +25,7 @@ const CharacterList = () => {
         const { fromLastBanner, name, rarity } = characterData;
         const { noVersions } = fromLastBanner;
         return (
-          <CharacterListItem
-            key={name}
-            name={name}
-            noVersions={noVersions}
-            rarity={rarity}
-          />
+          <CharacterListItem key={name} name={name} noVersions={noVersions} />
         );
       })}
     </ImageList>

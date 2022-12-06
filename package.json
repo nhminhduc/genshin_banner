@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
+    "coverage": "vitest run --coverage",
     "format": "npx prettier --write . && npx eslint --fix ."
   },
   "dependencies": {
@@ -29,6 +30,7 @@
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.1",
     "@vitejs/plugin-react": "^2.2.0",
+    "@vitest/coverage-c8": "^0.25.4",
     "@webpack-cli/generators": "^3.0.0",
     "autoprefixer": "^10.4.13",
     "css-loader": "^6.7.2",
