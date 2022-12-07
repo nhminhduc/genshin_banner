@@ -1,8 +1,9 @@
 import { createContext, useMemo, useReducer } from "react";
 import { actions, FilterReducer, initialState } from "reducer/FilterReducer";
-import { Filter } from "types/FilterType";
+import { Filter, FilterAction } from "types/FilterType";
 
-const FilterContext = createContext<Filter | undefined>(undefined);
+export type FilterContextType = Filter & FilterAction;
+export const FilterContext = createContext<FilterContextType | undefined>(undefined);
 
 const FilterContextProvider = ({ children }: any) => {
   const [state, dispatch] = useReducer(FilterReducer, initialState);
@@ -12,14 +13,14 @@ const FilterContextProvider = ({ children }: any) => {
       nameFilter: state.nameFilter,
       elementFilter: state.elementFilter,
       rarityFilter: state.rarityFilter,
-      filterByName: () => {
-        dispatch({ type: actions.SET_NAME_FILTER });
+      filterByName: (name: string | undefined) => {
+        dispatch({ type: actions.SET_NAME_FILTER, value: name });
       },
-      filterByElement: () => {
-        dispatch({ type: actions.SET_ELEMENT_FILTER });
+      filterByElement: (element: string | undefined) => {
+        dispatch({ type: actions.SET_ELEMENT_FILTER, value: element });
       },
-      filterByRarity: () => {
-        dispatch({ type: actions.SET_RARITY_FILTER });
+      filterByRarity: (rarity: string | undefined) => {
+        dispatch({ type: actions.SET_RARITY_FILTER, value: rarity });
       },
     }),
     [state, dispatch],

@@ -1,3 +1,3 @@
-import * as element from "assets/images/elements";
+import * as elements from "assets/images/elements";
 
-export { element };
+export { elements };

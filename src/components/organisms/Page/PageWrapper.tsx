@@ -4,11 +4,11 @@ import FilterContextProvider from "context/FilterContext";
 import Page from "./Page";
 
 const PageWrapper = () => (
-  <CharacterContextProvider>
-    <FilterContextProvider>
+  <FilterContextProvider>
+    <CharacterContextProvider>
       <Page />
-    </FilterContextProvider>
-  </CharacterContextProvider>
+    </CharacterContextProvider>
+  </FilterContextProvider>
 );
 
 export default PageWrapper;

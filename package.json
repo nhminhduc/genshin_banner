@@ -15,6 +15,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.10.16",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "classnames": "^2.3.2",
     "date-fns": "^2.29.3",
     "lodash": "^4.17.21",

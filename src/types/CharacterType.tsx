@@ -9,6 +9,7 @@ export interface Character {
   name: string;
   rarity: string;
   vision_key: string;
+  found?: boolean;
 }
 
 export interface FromLastBanner {
@@ -16,14 +17,6 @@ export interface FromLastBanner {
   noVersions: string;
 }
 
-export interface CharacterData {
-  banner: Banner;
-  fromLastBanner: {
-    noDays: string;
-    noVersions: string;
-  };
-  link: string;
-  name: string;
-  rarity: string;
-  vision_key: string;
+export interface CharacterData extends Character {
+  fromLastBanner: FromLastBanner;
 }

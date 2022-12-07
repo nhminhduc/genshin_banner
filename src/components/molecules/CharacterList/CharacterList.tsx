@@ -10,22 +10,22 @@ const CharacterList = () => {
   const characterDataContext: CharacterData[] = useCharacterContext();
   const mediumSize = useMediaQuery("(min-width:660px)");
   const ImageListStyle = mediumSize
-    ? { height: 640, width: 560 }
+    ? { height: 640, width: 600 }
     : { height: 480, width: 360 };
 
   return (
     <ImageList
-      className={cx(s["scrollbar-hide"], "overflow-x-hidden")}
+      className={cx(s["scrollbar"], "overflow-x-hidden")}
       cols={mediumSize ? 4 : 3}
       gap={4}
       rowHeight={156}
       sx={{ ...ImageListStyle }}
     >
       {characterDataContext.map((characterData) => {
-        const { fromLastBanner, name, rarity } = characterData;
+        const { fromLastBanner, name, vision_key: visionKey, found } = characterData;
         const { noVersions } = fromLastBanner;
         return (
-          <CharacterListItem key={name} name={name} noVersions={noVersions} />
+          <CharacterListItem key={name} name={name} visionKey={visionKey} noVersions={noVersions} found={found} />
         );
       })}
     </ImageList>

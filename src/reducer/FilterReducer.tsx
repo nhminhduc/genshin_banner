@@ -10,6 +10,7 @@ export const actions = {
 
 type ActionsMap = {
   type: string;
+  value?: string;
 };
 
 export const FilterReducer = (state: Filter, action: ActionsMap): Filter => {
@@ -17,17 +18,17 @@ export const FilterReducer = (state: Filter, action: ActionsMap): Filter => {
     case actions.SET_NAME_FILTER:
       return {
         ...state,
-        nameFilter: state.nameFilter,
+        nameFilter: action.value,
       };
     case actions.SET_ELEMENT_FILTER:
       return {
         ...state,
-        elementFilter: state.elementFilter,
+        elementFilter: action.value,
       };
     case actions.SET_RARITY_FILTER:
       return {
         ...state,
-        rarityFilter: state.rarityFilter,
+        rarityFilter: action.value,
       };
     default:
       return state;

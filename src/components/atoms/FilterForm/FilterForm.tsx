@@ -1,15 +1,19 @@
+import { useFilterContext } from "hooks/useFilterContext";
 import React, { useRef, useState } from "react";
 
 const FilterForm = () => {
-  const [value, setValue] = useState("");
   const ref = useRef(null);
+  const { elementFilter, filterByName } = useFilterContext();
+  const [value, setValue] = useState(elementFilter);
 
   const handleOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setValue(event.currentTarget.value);
+    filterByName(event.currentTarget.value);
   };
 
   const handleReset = () => {
     setValue("");
+    filterByName(undefined);
   };
 
   return (
@@ -20,7 +24,7 @@ const FilterForm = () => {
         onChange={handleOnChange}
         ref={ref}
         type="text"
-        value={value}
+        value={value || ""}
       />
       <button onClick={handleReset} type="button">
         X
