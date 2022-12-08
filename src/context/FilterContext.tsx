@@ -3,7 +3,9 @@ import { actions, FilterReducer, initialState } from "reducer/FilterReducer";
 import { Filter, FilterAction } from "types/FilterType";
 
 export type FilterContextType = Filter & FilterAction;
-export const FilterContext = createContext<FilterContextType | undefined>(undefined);
+export const FilterContext = createContext<FilterContextType | undefined>(
+  undefined,
+);
 
 const FilterContextProvider = ({ children }: any) => {
   const [state, dispatch] = useReducer(FilterReducer, initialState);
@@ -13,19 +15,19 @@ const FilterContextProvider = ({ children }: any) => {
       nameFilter: state.nameFilter,
       elementFilter: state.elementFilter,
       rarityFilter: state.rarityFilter,
-      filterByName: (name: string) => {
+      filterByName: (name: string | undefined) => {
         dispatch({ type: actions.SET_NAME_FILTER, value: name });
       },
-      setElementFilter: (element: string[]) => {
+      setElementFilter: (element: string[] | undefined) => {
         dispatch({ type: actions.SET_ELEMENT_FILTER, value: element });
       },
-      removeElementFilter: (element: string) => {
+      removeElementFilter: (element: string | undefined) => {
         dispatch({ type: actions.REMOVE_ELEMENT_FILTER, value: element });
       },
-      setRarityFilter: (rarity: string[]) => {
+      setRarityFilter: (rarity: string[] | undefined) => {
         dispatch({ type: actions.SET_RARITY_FILTER, value: rarity });
       },
-      removeRarityFilter: (rarity: string) => {
+      removeRarityFilter: (rarity: string | undefined) => {
         dispatch({ type: actions.REMOVE_RARITY_FILTER, value: rarity });
       },
     }),

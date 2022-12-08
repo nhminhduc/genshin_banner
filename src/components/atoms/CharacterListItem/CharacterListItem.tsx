@@ -5,27 +5,33 @@ import cx from "classnames";
 import CharacterListItemLabel from "./CharacterListItemLabel";
 
 interface CharacterListItemProps {
-  name: string;
-  visionKey: string;
-  noVersions?: string;
   found?: boolean;
+  link: string;
+  name: string;
+  noVersions?: string;
+  visionKey: string;
 }
 
 const CharacterListItem = ({
-  name,
-  visionKey,
-  noVersions = "0",
   found,
-}: CharacterListItemProps) => {
-  return (
+  link,
+  name,
+  noVersions = "0",
+  visionKey,
+}: CharacterListItemProps) => (
+  <a href={link}>
     <ImageListItem
       className={cx(
         "bg-amber-100/50 rounded border-2 border-[#ebe7df] border-solid flex",
-        { "opacity-30": !found }
+        { "opacity-30": !found },
       )}
     >
       <span>
-        <img alt={visionKey} className="w-8 h-8 absolute right-0" src={elements[visionKey as keyof typeof elements]} />
+        <img
+          alt={visionKey}
+          className="w-8 h-8 absolute right-0"
+          src={elements[visionKey as keyof typeof elements]}
+        />
       </span>
       <img
         alt={name}
@@ -35,7 +41,7 @@ const CharacterListItem = ({
       />
       <CharacterListItemLabel name={name} noVersions={noVersions} />
     </ImageListItem>
-  )
-};
+  </a>
+);
 
 export default CharacterListItem;

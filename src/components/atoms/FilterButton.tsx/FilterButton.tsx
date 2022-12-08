@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 
 type FilterButtonProp = {
-  checked?: boolean,
-  className?: string,
-  id: string,
-  label: string,
-  name: string,
+  checked?: boolean;
+  className?: string;
+  id: string;
+  label: string;
+  name: string;
   onButtonClick(element: string, isChecked: boolean): void;
-}
+};
 
 const FilterButton = ({
   checked = false,
@@ -24,20 +24,19 @@ const FilterButton = ({
   };
 
   useEffect(() => {
-    onButtonClick(id, isChecked)
-  }, [isChecked]);
+    onButtonClick(id, isChecked);
+  }, [id, isChecked]);
 
   return (
     <div className={className}>
       <input
+        checked={isChecked}
         id={id}
         name={name}
         onChange={handleOnChange}
         type="checkbox"
-        checked={isChecked}
       />
-      <label htmlFor={id}>{label}
-      </label>
+      <label htmlFor={id}>{label}</label>
     </div>
   );
 };

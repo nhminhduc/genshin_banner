@@ -15,17 +15,30 @@ const CharacterList = () => {
 
   return (
     <ImageList
-      className={cx(s["scrollbar"], "overflow-x-hidden")}
+      className={cx(s.scrollbar, "overflow-x-hidden mr-10")}
       cols={mediumSize ? 4 : 3}
       gap={4}
       rowHeight={156}
       sx={{ ...ImageListStyle }}
     >
       {characterDataContext.map((characterData) => {
-        const { fromLastBanner, name, vision_key: visionKey, found } = characterData;
+        const {
+          found,
+          fromLastBanner,
+          link,
+          name,
+          vision_key: visionKey,
+        } = characterData;
         const { noVersions } = fromLastBanner;
         return (
-          <CharacterListItem key={name} name={name} visionKey={visionKey} noVersions={noVersions} found={found} />
+          <CharacterListItem
+            found={found}
+            key={name}
+            link={link}
+            name={name}
+            noVersions={noVersions}
+            visionKey={visionKey}
+          />
         );
       })}
     </ImageList>

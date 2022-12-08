@@ -1,40 +1,33 @@
 type FilterInputProps = {
-  onChange(event: React.ChangeEvent<HTMLInputElement>): void;
-  onReset(): void;
+  className?: string;
   id?: string;
-  name: string;
   innerRef?: React.LegacyRef<HTMLInputElement>;
+  name: string;
+  onChange(event: React.ChangeEvent<HTMLInputElement>): void;
   type?: string;
   value: string;
-  className?: string;
-}
+};
 
 const FilterInput = ({
-  onChange,
-  onReset,
+  className,
   id,
-  name,
   innerRef,
+  name,
+  onChange,
   type = "text",
   value,
-  className
-}: FilterInputProps) => {
-  return (
-    <div>
-      <input
-        id={id}
-        name={name}
-        onChange={onChange}
-        ref={innerRef}
-        type={type}
-        value={value}
-        className={className}
-      />
-      <button onClick={onReset} type="button">
-        X
-      </button>
-    </div>
-  );
-};
+}: FilterInputProps) => (
+  <div>
+    <input
+      className={className}
+      id={id}
+      name={name}
+      onChange={onChange}
+      ref={innerRef}
+      type={type}
+      value={value}
+    />
+  </div>
+);
 
 export default FilterInput;

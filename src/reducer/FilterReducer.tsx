@@ -17,34 +17,42 @@ type ActionsMap = {
 
 export const FilterReducer = (state: Filter, action: ActionsMap): Filter => {
   switch (action.type) {
-    case actions.SET_NAME_FILTER:
+    case actions.SET_NAME_FILTER: {
       return {
         ...state,
         nameFilter: action.value as string,
       };
-    case actions.SET_ELEMENT_FILTER:
-      console.log(action.value);
+    }
+    case actions.SET_ELEMENT_FILTER: {
       return {
         ...state,
         elementFilter: action.value as string[],
       };
-    case actions.REMOVE_ELEMENT_FILTER:
-      const elements = state.elementFilter?.filter((element) => element !== action.value);
+    }
+    case actions.REMOVE_ELEMENT_FILTER: {
+      const elements = state.elementFilter?.filter(
+        (element) => element !== action.value,
+      );
       return {
         ...state,
         elementFilter: elements,
       };
-    case actions.SET_RARITY_FILTER:
+    }
+    case actions.SET_RARITY_FILTER: {
       return {
         ...state,
         rarityFilter: action.value as string[],
       };
-    case actions.REMOVE_RARITY_FILTER:
-      const rarities = state.rarityFilter?.filter((rarity) => rarity !== action.value);
+    }
+    case actions.REMOVE_RARITY_FILTER: {
+      const rarities = state.rarityFilter?.filter(
+        (rarity) => rarity !== action.value,
+      );
       return {
         ...state,
         rarityFilter: rarities,
       };
+    }
     default:
       return state;
   }

@@ -1,10 +1,10 @@
+import FilterInput from "components/atoms/FilterForm/FilterInput";
 import { useFilterContext } from "hooks/useFilterContext";
 import React, { useRef, useState } from "react";
-import FilterInput from "components/atoms/FilterForm/FilterInput";
 
 const FilterNameInput = () => {
   const ref = useRef(null);
-  const { nameFilter, filterByName } = useFilterContext();
+  const { filterByName, nameFilter } = useFilterContext();
   const [value, setValue] = useState(nameFilter);
 
   const handleOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -12,14 +12,16 @@ const FilterNameInput = () => {
     filterByName(event.currentTarget.value);
   };
 
-  const handleReset = () => {
-    setValue("");
-    filterByName(undefined);
-  };
-
   return (
-    <FilterInput id="name" name="name" onChange={handleOnChange} innerRef={ref} type="text" value={value || ""} onReset={handleReset} />
-  )
+    <FilterInput
+      id="name"
+      innerRef={ref}
+      name="name"
+      onChange={handleOnChange}
+      type="text"
+      value={value || ""}
+    />
+  );
 };
 
 export default FilterNameInput;

@@ -5,7 +5,5 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
-  browserslist: [
-    "defaults"
-  ]
+  browserslist: ["defaults"],
 };

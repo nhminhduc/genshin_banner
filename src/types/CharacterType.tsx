@@ -5,11 +5,11 @@ export interface Banner {
 
 export interface Character {
   banner: Banner;
+  found?: boolean;
   link: string;
   name: string;
   rarity: string;
   vision_key: string;
-  found?: boolean;
 }
 
 export interface FromLastBanner {
