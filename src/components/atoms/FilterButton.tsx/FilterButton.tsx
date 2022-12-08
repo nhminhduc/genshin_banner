@@ -10,7 +10,7 @@ type FilterButtonProp = {
 };
 
 const FilterButton = ({
-  checked = false,
+  checked = true,
   className,
   id,
   label,

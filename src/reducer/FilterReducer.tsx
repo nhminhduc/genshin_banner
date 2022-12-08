@@ -1,6 +1,10 @@
 import { Filter } from "types/FilterType";
 
-export const initialState: Filter = {};
+export const initialState: Filter = {
+  nameFilter: "",
+  elementFilter: ["anemo", "cryo", "dendro", "electro", "geo", "hydro", "pyro"],
+  rarityFilter: ["4", "5"],
+};
 
 export const actions = {
   SET_NAME_FILTER: "SET_NAME_FILTER",
