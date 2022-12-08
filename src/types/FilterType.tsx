@@ -1,11 +1,13 @@
 export type Filter = {
-  elementFilter?: string;
   nameFilter?: string;
-  rarityFilter?: string;
+  elementFilter?: string[];
+  rarityFilter?: string[];
 };
 
 export type FilterAction = {
   filterByName(name?: string): void,
-  filterByElement(element?: string): void,
-  filterByRarity(rarity?: string): void,
+  setElementFilter(element?: string[]): void,
+  removeElementFilter(element?: string): void,
+  setRarityFilter(rarity?: string[]): void,
+  removeRarityFilter(rarity?: string): void,
 };

@@ -13,14 +13,20 @@ const FilterContextProvider = ({ children }: any) => {
       nameFilter: state.nameFilter,
       elementFilter: state.elementFilter,
       rarityFilter: state.rarityFilter,
-      filterByName: (name: string | undefined) => {
+      filterByName: (name: string) => {
         dispatch({ type: actions.SET_NAME_FILTER, value: name });
       },
-      filterByElement: (element: string | undefined) => {
+      setElementFilter: (element: string[]) => {
         dispatch({ type: actions.SET_ELEMENT_FILTER, value: element });
       },
-      filterByRarity: (rarity: string | undefined) => {
+      removeElementFilter: (element: string) => {
+        dispatch({ type: actions.REMOVE_ELEMENT_FILTER, value: element });
+      },
+      setRarityFilter: (rarity: string[]) => {
         dispatch({ type: actions.SET_RARITY_FILTER, value: rarity });
+      },
+      removeRarityFilter: (rarity: string) => {
+        dispatch({ type: actions.REMOVE_RARITY_FILTER, value: rarity });
       },
     }),
     [state, dispatch],
