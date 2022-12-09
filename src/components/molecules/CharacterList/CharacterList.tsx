@@ -27,6 +27,7 @@ const CharacterList = () => {
           fromLastBanner,
           link,
           name,
+          rarity,
           vision_key: visionKey,
         } = characterData;
         const { noVersions } = fromLastBanner;
@@ -38,6 +39,7 @@ const CharacterList = () => {
             name={name}
             noVersions={noVersions}
             visionKey={visionKey}
+            rarity={rarity}
           />
         );
       })}

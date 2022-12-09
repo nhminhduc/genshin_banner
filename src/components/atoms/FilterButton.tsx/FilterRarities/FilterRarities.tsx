@@ -1,3 +1,4 @@
+import Star from "assets/images/Star";
 import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
 import { useFilterContext } from "hooks/useFilterContext";
 
@@ -28,6 +29,7 @@ const FilterRarities = () => {
           label={rarity}
           name="rarityFilter"
           onButtonClick={onButtonClick}
+          icon={<Star />}
         />
       ))}
     </div>

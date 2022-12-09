@@ -1,25 +1,28 @@
-import { useEffect, useState } from "react";
+import cx from "classnames";
+import { ComponentProps, ReactElement, useEffect, useState } from "react";
 
 type FilterButtonProp = {
-  checked?: boolean;
+  chosen?: boolean;
   className?: string;
   id: string;
-  label: string;
+  label?: string;
   name: string;
+  icon?: ReactElement<ComponentProps<"svg" | "img">>;
   onButtonClick(element: string, isChecked: boolean): void;
 };
 
 const FilterButton = ({
-  checked = true,
+  chosen = true,
   className,
   id,
   label,
   name,
+  icon,
   onButtonClick,
 }: FilterButtonProp) => {
-  const [isChecked, setIsChecked] = useState(checked);
+  const [isChecked, setIsChecked] = useState(chosen);
 
-  const handleOnChange = () => {
+  const handleOnClick = () => {
     setIsChecked((prev) => !prev);
   };
 
@@ -27,17 +30,19 @@ const FilterButton = ({
     onButtonClick(id, isChecked);
   }, [id, isChecked]);
 
+  const Icon = icon ? icon : null;
   return (
-    <div className={className}>
-      <input
-        checked={isChecked}
-        id={id}
-        name={name}
-        onChange={handleOnChange}
-        type="checkbox"
-      />
-      <label htmlFor={id}>{label}</label>
-    </div>
+    <button
+      className={cx("flex", isChecked, className, {
+        "opacity-30": !isChecked,
+      })}
+      id={id}
+      name={name}
+      onClick={handleOnClick}
+      type="button"
+    >
+      {label} {Icon}
+    </button>
   );
 };
 

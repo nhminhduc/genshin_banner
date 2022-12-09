@@ -1,7 +1,12 @@
 import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
+import { elements as elementsIcon } from "assets/images";
 import { useFilterContext } from "hooks/useFilterContext";
+import cx from "classnames";
 
-const FilterElements = () => {
+type FilterElementsProps = {
+  className?: string;
+}
+const FilterElements = ({ className }: FilterElementsProps) => {
   const { elementFilter, removeElementFilter, setElementFilter } =
     useFilterContext();
 
@@ -28,14 +33,20 @@ const FilterElements = () => {
     "pyro",
   ];
   return (
-    <div>
+    <div className={cx("flex w-20 flex-wrap", className)}>
       {elements.map((element) => (
         <FilterButton
           id={element}
           key={element}
-          label={element}
           name="elementFilter"
           onButtonClick={onButtonClick}
+          className={cx("bg-red-500 basis-8")}
+          icon={<img
+            alt={element}
+            className="w-8 h-8"
+            src={elementsIcon[element as keyof typeof elementsIcon]}
+          />
+          }
         />
       ))}
     </div>

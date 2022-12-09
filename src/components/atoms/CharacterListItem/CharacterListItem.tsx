@@ -10,6 +10,7 @@ interface CharacterListItemProps {
   name: string;
   noVersions?: string;
   visionKey: string;
+  rarity: string;
 }
 
 const CharacterListItem = ({
@@ -18,12 +19,17 @@ const CharacterListItem = ({
   name,
   noVersions = "0",
   visionKey,
+  rarity
 }: CharacterListItemProps) => (
   <a href={link}>
     <ImageListItem
       className={cx(
-        "bg-amber-100/50 rounded border-2 border-[#ebe7df] border-solid flex",
-        { "opacity-30": !found },
+        "bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex",
+        {
+          "opacity-30": !found,
+          "bg-[#9470bb]": rarity === "4",
+          "bg-[#c87c24]": rarity === "5",
+        },
       )}
     >
       <span>
