@@ -28,8 +28,8 @@
     "vision_key": "geo",
     "rarity": "5",
     "banner": {
-      "last_date": "2022-06-21",
-      "version": "2.7.2"
+      "last_date": "2022-12-07",
+      "version": "3.3.1"
     },
     "link": "https://genshin-impact.fandom.com/wiki/Arataki_Itto"
   },
@@ -131,6 +131,16 @@
     "link": "https://genshin-impact.fandom.com/wiki/Eula"
   },
   {
+    "name": "faruzan",
+    "vision_key": "anemo",
+    "rarity": "4",
+    "banner": {
+      "last_date": "2022-12-07",
+      "version": "3.3.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Faruzan"
+  },
+  {
     "name": "fischl",
     "vision_key": "electro",
     "rarity": "4",
@@ -155,8 +165,8 @@
     "vision_key": "geo",
     "rarity": "4",
     "banner": {
-      "last_date": "2022-06-21",
-      "version": "2.7.2"
+      "last_date": "2022-12-07",
+      "version": "3.3.1"
     },
     "link": "https://genshin-impact.fandom.com/wiki/Gorou"
   },
@@ -403,6 +413,16 @@
     "link": "https://genshin-impact.fandom.com/wiki/Venti"
   },
   {
+    "name": "wanderer",
+    "vision_key": "anemo",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-12-07",
+      "version": "3.3.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Wanderer"
+  },
+  {
     "name": "xiangling",
     "vision_key": "pyro",
     "rarity": "4",
@@ -457,8 +477,8 @@
     "vision_key": "pyro",
     "rarity": "4",
     "banner": {
-      "last_date": "2022-05-31",
-      "version": "2.7.1"
+      "last_date": "2022-12-07",
+      "version": "3.3.1"
     },
     "link": "https://genshin-impact.fandom.com/wiki/Yanfei"
   },
