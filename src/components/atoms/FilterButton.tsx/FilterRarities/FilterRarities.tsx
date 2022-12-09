@@ -1,28 +1,29 @@
 import Star from "assets/images/Star";
 import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
 import { useFilterContext } from "hooks/useFilterContext";
+import { useEffect, useState } from "react";
 
 const FilterRarities = () => {
-  const { rarityFilter, removeRarityFilter, setRarityFilter } =
-    useFilterContext();
+  const { setRarityFilter } = useFilterContext();
 
-  const onButtonClick = (rarity: string, isChecked: boolean) => {
+  const initialState = ["4", "5"];
+  const [rarities, setRarities] = useState(initialState);
+
+  const onButtonClick = (rarityValue: string, isChecked: boolean) => {
     if (isChecked === true) {
-      if (Array.isArray(rarityFilter)) {
-        rarityFilter?.push(rarity);
-        setRarityFilter([...new Set(rarityFilter)]);
-      } else {
-        setRarityFilter([rarity]);
-      }
+      setRarities([rarityValue, ...rarities]);
     } else {
-      removeRarityFilter(rarity);
+      setRarities(rarities.filter((rarity) => rarity !== rarityValue));
     }
   };
 
-  const rarities = ["4", "5"];
+  useEffect(() => {
+    setRarityFilter(rarities);
+  }, [rarities]);
+
   return (
     <div>
-      {rarities.map((rarity) => (
+      {initialState.map((rarity) => (
         <FilterButton
           id={rarity}
           key={rarity}

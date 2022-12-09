@@ -21,14 +21,8 @@ const FilterContextProvider = ({ children }: any) => {
       setElementFilter: (element: string[] | undefined) => {
         dispatch({ type: actions.SET_ELEMENT_FILTER, value: element });
       },
-      removeElementFilter: (element: string | undefined) => {
-        dispatch({ type: actions.REMOVE_ELEMENT_FILTER, value: element });
-      },
       setRarityFilter: (rarity: string[] | undefined) => {
         dispatch({ type: actions.SET_RARITY_FILTER, value: rarity });
-      },
-      removeRarityFilter: (rarity: string | undefined) => {
-        dispatch({ type: actions.REMOVE_RARITY_FILTER, value: rarity });
       },
     }),
     [state, dispatch],

@@ -6,8 +6,6 @@ export type Filter = {
 
 export type FilterAction = {
   filterByName: (name?: string) => void;
-  removeElementFilter: (element?: string) => void;
-  removeRarityFilter: (rarity?: string) => void;
   setElementFilter: (element?: string[]) => void;
   setRarityFilter: (rarity?: string[]) => void;
 };

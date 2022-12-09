@@ -2,39 +2,32 @@ import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
 import { elements as elementsIcon } from "assets/images";
 import { useFilterContext } from "hooks/useFilterContext";
 import cx from "classnames";
+import { useEffect, useState } from "react";
 
 type FilterElementsProps = {
   className?: string;
 }
 const FilterElements = ({ className }: FilterElementsProps) => {
-  const { elementFilter, removeElementFilter, setElementFilter } =
-    useFilterContext();
+  const { setElementFilter } = useFilterContext();
 
-  const onButtonClick = (element: string, isChecked: boolean) => {
+  const initialState = ["anemo", "cryo", "dendro", "electro", "geo", "hydro", "pyro"];
+  const [elements, setElements] = useState(initialState);
+
+  const onButtonClick = (elementValue: string, isChecked: boolean) => {
     if (isChecked === true) {
-      if (Array.isArray(elementFilter)) {
-        elementFilter?.push(element);
-        setElementFilter([...new Set(elementFilter)]);
-      } else {
-        setElementFilter([element]);
-      }
+      setElements([elementValue, ...elements]);
     } else {
-      removeElementFilter(element);
+      setElements(elements.filter((element) => element !== elementValue));
     }
   };
 
-  const elements = [
-    "anemo",
-    "cryo",
-    "dendro",
-    "electro",
-    "geo",
-    "hydro",
-    "pyro",
-  ];
+  useEffect(() => {
+    setElementFilter(elements);
+  }, [elements]);
+
   return (
     <div className={cx("flex w-20 flex-wrap", className)}>
-      {elements.map((element) => (
+      {initialState.map((element) => (
         <FilterButton
           id={element}
           key={element}
