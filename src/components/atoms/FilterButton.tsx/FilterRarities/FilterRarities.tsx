@@ -1,36 +1,37 @@
 import Star from "assets/images/Star";
 import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
 import { useFilterContext } from "hooks/useFilterContext";
-import { useEffect, useState } from "react";
+import { isEqual } from "lodash";
 
 const FilterRarities = () => {
-  const { setRarityFilter } = useFilterContext();
+  const { rarityFilter, setRarityFilter } = useFilterContext();
 
-  const initialState = ["4", "5"];
-  const [rarities, setRarities] = useState(initialState);
+  const rarities = ["4", "5"];
 
-  const onButtonClick = (rarityValue: string, isChecked: boolean) => {
-    if (isChecked === true) {
-      setRarities([rarityValue, ...rarities]);
-    } else {
-      setRarities(rarities.filter((rarity) => rarity !== rarityValue));
+  const onRarityFilterButtonClick = (rarityValue: string, isChecked: boolean) => {
+    if (isEqual(rarityFilter, rarities)) {
+      return setRarityFilter([rarityValue]);
     }
+    if (isChecked === true) {
+      return setRarityFilter([rarityValue, ...rarityFilter]);
+    }
+    if (rarityFilter.length === 1) {
+      return setRarityFilter(rarities);
+    }
+    return setRarityFilter(rarityFilter.filter((element) => element !== rarityValue));
   };
-
-  useEffect(() => {
-    setRarityFilter(rarities);
-  }, [rarities]);
 
   return (
     <div>
-      {initialState.map((rarity) => (
+      {rarities.map((rarity) => (
         <FilterButton
           id={rarity}
           key={rarity}
           label={rarity}
           name="rarityFilter"
-          onButtonClick={onButtonClick}
+          onButtonClick={onRarityFilterButtonClick}
           icon={<Star />}
+          chosen={rarityFilter.includes(rarity)}
         />
       ))}
     </div>

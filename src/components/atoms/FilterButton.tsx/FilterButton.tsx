@@ -20,21 +20,14 @@ const FilterButton = ({
   icon,
   onButtonClick,
 }: FilterButtonProp) => {
-  const [isChecked, setIsChecked] = useState(chosen);
-
   const handleOnClick = () => {
-    setIsChecked((prev) => !prev);
-  };
-
-  useEffect(() => {
-    onButtonClick(id, isChecked);
-  }, [id, isChecked]);
-
+    onButtonClick(id, !chosen);
+  }
   const Icon = icon ? icon : null;
   return (
     <button
-      className={cx("flex", isChecked, className, {
-        "opacity-30": !isChecked,
+      className={cx("flex", chosen, className, {
+        "opacity-30": !chosen,
       })}
       id={id}
       name={name}
