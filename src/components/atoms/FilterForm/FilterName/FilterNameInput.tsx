@@ -1,6 +1,7 @@
 import FilterInput from "components/atoms/FilterForm/FilterInput";
 import { useFilterContext } from "hooks/useFilterContext";
 import React, { useRef, useState } from "react";
+import { MdOutlineCancel } from 'react-icons/md';
 
 const FilterNameInput = () => {
   const ref = useRef(null);
@@ -20,6 +21,7 @@ const FilterNameInput = () => {
       onChange={handleOnChange}
       type="text"
       value={value || ""}
+      icon={<MdOutlineCancel />}
     />
   );
 };

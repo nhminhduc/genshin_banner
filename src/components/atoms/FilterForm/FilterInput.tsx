@@ -1,3 +1,5 @@
+import { ComponentProps, ReactElement } from "react";
+
 type FilterInputProps = {
   className?: string;
   id?: string;
@@ -6,6 +8,7 @@ type FilterInputProps = {
   onChange(event: React.ChangeEvent<HTMLInputElement>): void;
   type?: string;
   value: string;
+  icon?: ReactElement<ComponentProps<"svg" | "img">>;
 };
 
 const FilterInput = ({
@@ -16,6 +19,7 @@ const FilterInput = ({
   onChange,
   type = "text",
   value,
+  icon,
 }: FilterInputProps) => (
   <div>
     <input
