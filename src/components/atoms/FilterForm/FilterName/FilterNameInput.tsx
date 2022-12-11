@@ -1,7 +1,6 @@
 import FilterInput from "components/atoms/FilterForm/FilterInput";
 import { useFilterContext } from "hooks/useFilterContext";
 import React, { useRef, useState } from "react";
-import { MdOutlineCancel } from 'react-icons/md';
 
 const FilterNameInput = () => {
   const ref = useRef(null);
@@ -21,8 +20,8 @@ const FilterNameInput = () => {
       onChange={handleOnChange}
       type="text"
       value={value || ""}
-      icon={<MdOutlineCancel />}
-      className="border rounded"
+      className="border-2 rounded border-amber-500 w-36 md:w-48"
+      placeholder="Filter by name"
     />
   );
 };

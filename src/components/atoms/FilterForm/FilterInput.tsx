@@ -1,14 +1,14 @@
-import { ComponentProps, ReactElement } from "react";
+import { ComponentProps, LegacyRef, ReactElement } from "react";
 
 type FilterInputProps = {
   className?: string;
   id?: string;
-  innerRef?: React.LegacyRef<HTMLInputElement>;
+  innerRef?: LegacyRef<HTMLInputElement>;
   name: string;
   onChange(event: React.ChangeEvent<HTMLInputElement>): void;
   type?: string;
   value: string;
-  icon?: ReactElement<ComponentProps<"svg" | "img">>;
+  placeholder?: string;
 };
 
 const FilterInput = ({
@@ -19,7 +19,7 @@ const FilterInput = ({
   onChange,
   type = "text",
   value,
-  icon,
+  placeholder
 }: FilterInputProps) => (
   <div>
     <input
@@ -30,6 +30,7 @@ const FilterInput = ({
       ref={innerRef}
       type={type}
       value={value}
+      placeholder={placeholder}
     />
   </div>
 );

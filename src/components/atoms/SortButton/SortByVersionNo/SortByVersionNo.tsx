@@ -1,11 +1,7 @@
-import cx from "classnames";
 import { useFilterContext } from "hooks/useFilterContext";
 import SortButton from "../SortButton";
 
-type SortByVersionNoProps = {
-  className?: string;
-}
-const SortByVersionNo = ({ className }: SortByVersionNoProps) => {
+const SortByVersionNo = () => {
   const { sortByVersionNoDesc, setSortByVersionNoDesc } = useFilterContext();
 
   const onSortByVersionNoButtonClick = (sortDescDirection: boolean) => {
@@ -18,7 +14,7 @@ const SortByVersionNo = ({ className }: SortByVersionNoProps) => {
 
   return (
     <SortButton
-      className={cx(className, "bg-amber-600 border border-amber-200 rounded p-1 text-white font-bold")}
+      className="bg-amber-600 border border-amber-200 rounded p-1 text-white font-medium md:font-bold md:self-end"
       id="versionNo"
       name="versionNo"
       label="Sort by last appearance"
