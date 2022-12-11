@@ -1,0 +1,14 @@
+// Vitest Snapshot v1
+
+exports[`SortButton test > SortButton load 1`] = `
+<div>
+  <button
+    class="flex items-center opacity-30"
+    id="SortButton-test"
+    name="SortButton test"
+    type="button"
+  >
+     
+  </button>
+</div>
+`;

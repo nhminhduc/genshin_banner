@@ -3,14 +3,14 @@ import CharacterContextProvider from "context/CharacterContext";
 import FilterContextProvider from "context/FilterContext";
 import { describe, expect, test } from "vitest";
 
-import CharacterList from "./CharacterList";
+import SortByVersionNo from "./SortByVersionNo";
 
-describe("CharacterList test", () => {
-  test("CharacterList load", () => {
+describe("SortByVersionNo test", () => {
+  test("SortByVersionNo load", () => {
     const { container } = render(
       <FilterContextProvider>
         <CharacterContextProvider>
-          <CharacterList />
+          <SortByVersionNo />
         </CharacterContextProvider>
       </FilterContextProvider>,
     );

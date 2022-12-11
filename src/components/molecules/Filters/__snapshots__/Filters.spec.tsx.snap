@@ -1,0 +1,155 @@
+// Vitest Snapshot v1
+
+exports[`Filters test > Filters load 1`] = `
+<div>
+  <div
+    class="flex flex-col items-center bg-slate-300/75 h-full rounded p-4 mt-10"
+  >
+    <div>
+      <input
+        class="border-2 rounded border-amber-500 w-36 md:w-48"
+        defaultvalue=""
+        id="name"
+        name="name"
+        placeholder="Filter by name"
+        type="text"
+      />
+    </div>
+    <div
+      class="flex flex-wrap w-36 md:w-24 p-2 mt-2"
+    >
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        id="anemo"
+        name="elementFilter"
+        type="button"
+      >
+         
+        <img
+          alt="anemo"
+          class="w-9 h-9"
+          src="/genshin_banner/src/assets/images/elements/anemo.png"
+        />
+      </button>
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        id="cryo"
+        name="elementFilter"
+        type="button"
+      >
+         
+        <img
+          alt="cryo"
+          class="w-9 h-9"
+          src="/genshin_banner/src/assets/images/elements/cryo.png"
+        />
+      </button>
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        id="dendro"
+        name="elementFilter"
+        type="button"
+      >
+         
+        <img
+          alt="dendro"
+          class="w-9 h-9"
+          src="/genshin_banner/src/assets/images/elements/dendro.png"
+        />
+      </button>
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        id="electro"
+        name="elementFilter"
+        type="button"
+      >
+         
+        <img
+          alt="electro"
+          class="w-9 h-9"
+          src="/genshin_banner/src/assets/images/elements/electro.png"
+        />
+      </button>
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        id="geo"
+        name="elementFilter"
+        type="button"
+      >
+         
+        <img
+          alt="geo"
+          class="w-9 h-9"
+          src="/genshin_banner/src/assets/images/elements/geo.png"
+        />
+      </button>
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        id="hydro"
+        name="elementFilter"
+        type="button"
+      >
+         
+        <img
+          alt="hydro"
+          class="w-9 h-9"
+          src="/genshin_banner/src/assets/images/elements/hydro.png"
+        />
+      </button>
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        id="pyro"
+        name="elementFilter"
+        type="button"
+      >
+         
+        <img
+          alt="pyro"
+          class="w-9 h-9"
+          src="/genshin_banner/src/assets/images/elements/pyro.png"
+        />
+      </button>
+    </div>
+    <div
+      class="m-2"
+    >
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded w-12 my-1 text-white font-bold"
+        id="4"
+        name="rarityFilter"
+        type="button"
+      >
+        4
+         
+        <svg
+          class="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M381.2 150.3l143.7 21.2c11.9 1.7 21.9 10.1 25.7 21.6 3.8 11.6.7 24.2-7.9 32.8L438.5 328.1l24.6 146.6c2 12-2.9 24.2-12.9 31.3-9.9 7.1-23 8-33.7 2.3l-128.4-68.5-128.3 68.5c-10.8 5.7-23.9 4.8-33.8-2.3-9.9-7.1-14.9-19.3-12.8-31.3l24.6-146.6L33.58 225.9c-8.61-8.6-11.67-21.2-7.89-32.8 3.77-11.5 13.74-19.9 25.73-21.6L195 150.3l64.4-132.33C264.7 6.954 275.9-.04 288.1-.04c12.3 0 23.5 6.994 28.8 18.01l64.3 132.33z"
+          />
+        </svg>
+      </button>
+      <button
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded w-12 my-1 text-white font-bold"
+        id="5"
+        name="rarityFilter"
+        type="button"
+      >
+        5
+         
+        <svg
+          class="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+          viewBox="0 0 576 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M381.2 150.3l143.7 21.2c11.9 1.7 21.9 10.1 25.7 21.6 3.8 11.6.7 24.2-7.9 32.8L438.5 328.1l24.6 146.6c2 12-2.9 24.2-12.9 31.3-9.9 7.1-23 8-33.7 2.3l-128.4-68.5-128.3 68.5c-10.8 5.7-23.9 4.8-33.8-2.3-9.9-7.1-14.9-19.3-12.8-31.3l24.6-146.6L33.58 225.9c-8.61-8.6-11.67-21.2-7.89-32.8 3.77-11.5 13.74-19.9 25.73-21.6L195 150.3l64.4-132.33C264.7 6.954 275.9-.04 288.1-.04c12.3 0 23.5 6.994 28.8 18.01l64.3 132.33z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

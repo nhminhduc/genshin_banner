@@ -3,14 +3,14 @@ import CharacterContextProvider from "context/CharacterContext";
 import FilterContextProvider from "context/FilterContext";
 import { describe, expect, test } from "vitest";
 
-import CharacterList from "./CharacterList";
+import FilterElements from "./FilterElements";
 
-describe("CharacterList test", () => {
-  test("CharacterList load", () => {
+describe("FilterElements test", () => {
+  test("FilterElements load", () => {
     const { container } = render(
       <FilterContextProvider>
         <CharacterContextProvider>
-          <CharacterList />
+          <FilterElements />
         </CharacterContextProvider>
       </FilterContextProvider>,
     );

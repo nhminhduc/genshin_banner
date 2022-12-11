@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`SortByVersionNo test > SortByVersionNo load 1`] = `
+<div>
+  <button
+    class="flex items-center bg-amber-600 border border-amber-200 rounded p-1 text-white font-medium md:font-bold md:self-end opacity-30"
+    id="versionNo"
+    name="versionNo"
+    type="button"
+  >
+     
+    Sort by last appearance
+  </button>
+</div>
+`;

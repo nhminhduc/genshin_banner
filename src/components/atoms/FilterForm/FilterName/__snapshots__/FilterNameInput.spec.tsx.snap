@@ -1,0 +1,16 @@
+// Vitest Snapshot v1
+
+exports[`FilterNameInput test > FilterNameInput load 1`] = `
+<div>
+  <div>
+    <input
+      class="border-2 rounded border-amber-500 w-36 md:w-48"
+      defaultvalue=""
+      id="name"
+      name="name"
+      placeholder="Filter by name"
+      type="text"
+    />
+  </div>
+</div>
+`;

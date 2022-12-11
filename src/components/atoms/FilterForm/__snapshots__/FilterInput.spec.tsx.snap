@@ -1,0 +1,13 @@
+// Vitest Snapshot v1
+
+exports[`FilterInput test > FilterInput load 1`] = `
+<div>
+  <div>
+    <input
+      defaultvalue="FilterInput test"
+      name="FilterInput test"
+      type="text"
+    />
+  </div>
+</div>
+`;

@@ -7,7 +7,7 @@
     "dev": "npx concurrently 'vite' 'tailwindcss -i ./src/index.css -o ./dist/output.css'",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest --dom",
     "coverage": "vitest run --coverage",
     "format": "npx prettier --write . && npx eslint --fix ."
   },

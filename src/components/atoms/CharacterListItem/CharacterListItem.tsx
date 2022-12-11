@@ -8,7 +8,7 @@ interface CharacterListItemProps {
   found?: boolean;
   link: string;
   name: string;
-  noVersions?: string;
+  noVersions?: number;
   rarity: string;
   visionKey: string;
 }
@@ -17,7 +17,7 @@ const CharacterListItem = ({
   found,
   link,
   name,
-  noVersions = "0",
+  noVersions,
   rarity,
   visionKey,
 }: CharacterListItemProps) => (

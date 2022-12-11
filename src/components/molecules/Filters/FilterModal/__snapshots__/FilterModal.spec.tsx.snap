@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`FilterModal test > FilterModal load 1`] = `
+<div>
+  <div
+    class="bg-amber-600 border border-amber-200 rounded p-1 mr-4 text-white font-medium md:hidden"
+  >
+    <button
+      type="button"
+    >
+      Filters
+    </button>
+  </div>
+</div>
+`;

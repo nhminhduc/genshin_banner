@@ -1,0 +1,14 @@
+// Vitest Snapshot v1
+
+exports[`FilterButton test > FilterButton load 1`] = `
+<div>
+  <button
+    class="flex justify-around items-center"
+    id="FilterButton-test"
+    name="FilterButton test"
+    type="button"
+  >
+     
+  </button>
+</div>
+`;
