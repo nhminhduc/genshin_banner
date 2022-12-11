@@ -1,19 +1,22 @@
-import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
 import { elements as elementsIcon } from "assets/images";
-import { useFilterContext } from "hooks/useFilterContext";
 import cx from "classnames";
-import { isEqual } from "lodash";
+import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
 import { config } from "config";
+import { useFilterContext } from "hooks/useFilterContext";
+import { isEqual } from "lodash";
 
 type FilterElementsProps = {
   className?: string;
-}
+};
 const FilterElements = ({ className }: FilterElementsProps) => {
   const { elementFilter, setElementFilter } = useFilterContext();
 
-  const elements = config.elements;
+  const { elements } = config;
 
-  const onElementFilterButtonClick = (elementValue: string, isChecked: boolean) => {
+  const onElementFilterButtonClick = (
+    elementValue: string,
+    isChecked: boolean,
+  ) => {
     if (isEqual(elementFilter, elements)) {
       return setElementFilter([elementValue]);
     }
@@ -23,25 +26,28 @@ const FilterElements = ({ className }: FilterElementsProps) => {
     if (elementFilter.length === 1) {
       return setElementFilter(elements);
     }
-    return setElementFilter(elementFilter.filter((element) => element !== elementValue));
+    return setElementFilter(
+      elementFilter.filter((element) => element !== elementValue),
+    );
   };
 
   return (
     <div className={cx("flex flex-wrap w-36 md:w-24 p-2 mt-2", className)}>
       {elements.map((element) => (
         <FilterButton
+          chosen={elementFilter.includes(element)}
+          className="bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          icon={
+            <img
+              alt={element}
+              className="w-9 h-9"
+              src={elementsIcon[element as keyof typeof elementsIcon]}
+            />
+          }
           id={element}
           key={element}
           name="elementFilter"
           onButtonClick={onElementFilterButtonClick}
-          className="bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
-          icon={<img
-            alt={element}
-            className="w-9 h-9"
-            src={elementsIcon[element as keyof typeof elementsIcon]}
-          />
-          }
-          chosen={elementFilter.includes(element)}
         />
       ))}
     </div>

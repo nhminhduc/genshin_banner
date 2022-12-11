@@ -1,4 +1,4 @@
-import { ComponentProps, LegacyRef, ReactElement } from "react";
+import { LegacyRef } from "react";
 
 type FilterInputProps = {
   className?: string;
@@ -6,9 +6,9 @@ type FilterInputProps = {
   innerRef?: LegacyRef<HTMLInputElement>;
   name: string;
   onChange(event: React.ChangeEvent<HTMLInputElement>): void;
+  placeholder?: string;
   type?: string;
   value: string;
-  placeholder?: string;
 };
 
 const FilterInput = ({
@@ -17,9 +17,9 @@ const FilterInput = ({
   innerRef,
   name,
   onChange,
+  placeholder,
   type = "text",
   value,
-  placeholder
 }: FilterInputProps) => (
   <div>
     <input
@@ -27,10 +27,10 @@ const FilterInput = ({
       id={id}
       name={name}
       onChange={onChange}
+      placeholder={placeholder}
       ref={innerRef}
       type={type}
       value={value}
-      placeholder={placeholder}
     />
   </div>
 );

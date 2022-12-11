@@ -38,8 +38,8 @@ const CharacterList = () => {
             link={link}
             name={name}
             noVersions={noVersions !== undefined ? `${noVersions}` : ""}
-            visionKey={visionKey}
             rarity={rarity}
+            visionKey={visionKey}
           />
         );
       })}

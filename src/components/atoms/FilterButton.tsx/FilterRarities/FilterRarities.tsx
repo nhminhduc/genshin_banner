@@ -7,9 +7,12 @@ import { isEqual } from "lodash";
 const FilterRarities = () => {
   const { rarityFilter, setRarityFilter } = useFilterContext();
 
-  const rarities = config.rarities;
+  const { rarities } = config;
 
-  const onRarityFilterButtonClick = (rarityValue: string, isChecked: boolean) => {
+  const onRarityFilterButtonClick = (
+    rarityValue: string,
+    isChecked: boolean,
+  ) => {
     if (isEqual(rarityFilter, rarities)) {
       return setRarityFilter([rarityValue]);
     }
@@ -19,21 +22,23 @@ const FilterRarities = () => {
     if (rarityFilter.length === 1) {
       return setRarityFilter(rarities);
     }
-    return setRarityFilter(rarityFilter.filter((element) => element !== rarityValue));
+    return setRarityFilter(
+      rarityFilter.filter((element) => element !== rarityValue),
+    );
   };
 
   return (
     <div className="m-2">
       {rarities.map((rarity) => (
         <FilterButton
+          chosen={rarityFilter.includes(rarity)}
+          className="bg-amber-700 border border-amber-200 rounded w-12 my-1 text-white font-bold"
+          icon={<Star />}
           id={rarity}
           key={rarity}
           label={rarity}
           name="rarityFilter"
           onButtonClick={onRarityFilterButtonClick}
-          icon={<Star />}
-          chosen={rarityFilter.includes(rarity)}
-          className="bg-amber-700 border border-amber-200 rounded w-12 my-1 text-white font-bold"
         />
       ))}
     </div>

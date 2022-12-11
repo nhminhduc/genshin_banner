@@ -14,14 +14,14 @@ const FilterNameInput = () => {
 
   return (
     <FilterInput
+      className="border-2 rounded border-amber-500 w-36 md:w-48"
       id="name"
       innerRef={ref}
       name="name"
       onChange={handleOnChange}
+      placeholder="Filter by name"
       type="text"
       value={value || ""}
-      className="border-2 rounded border-amber-500 w-36 md:w-48"
-      placeholder="Filter by name"
     />
   );
 };

@@ -26,8 +26,11 @@ const FilterContextProvider = ({ children }: any) => {
         dispatch({ type: actions.SET_RARITY_FILTER, value: rarity });
       },
       setSortByVersionNoDesc: (sortByVersionNoDesc: boolean | undefined) => {
-        dispatch({ type: actions.SET_SORT_BY_VERSION_NO_DESC, value: sortByVersionNoDesc });
-      }
+        dispatch({
+          type: actions.SET_SORT_BY_VERSION_NO_DESC,
+          value: sortByVersionNoDesc,
+        });
+      },
     }),
     [state, dispatch],
   );

@@ -17,9 +17,9 @@ const GetFromLastBanner = (banner: Banner): FromLastBanner => {
       : undefined;
   const noDays =
     lastDate && lastDate !== null
-      ? formatDistanceToNowStrict(parseISO(lastDate), {
-        addSuffix: false,
-      }) as unknown as number
+      ? (formatDistanceToNowStrict(parseISO(lastDate), {
+          addSuffix: false,
+        }) as unknown as number)
       : undefined;
   return { noDays, noVersions: noVersion };
 };

@@ -4,26 +4,26 @@ import { ComponentProps, ReactElement } from "react";
 type FilterButtonProp = {
   chosen?: boolean;
   className?: string;
+  icon?: ReactElement<ComponentProps<"svg" | "img">>;
   id: string;
   label?: string;
   name: string;
-  icon?: ReactElement<ComponentProps<"svg" | "img">>;
   onButtonClick(element: string, isChecked: boolean): void;
 };
 
 const FilterButton = ({
   chosen = true,
   className,
+  icon,
   id,
   label,
   name,
-  icon,
   onButtonClick,
 }: FilterButtonProp) => {
   const handleOnClick = () => {
     onButtonClick(id, !chosen);
-  }
-  const Icon = icon ? icon : null;
+  };
+  const Icon = icon || null;
   return (
     <button
       className={cx("flex justify-around items-center", chosen, className, {

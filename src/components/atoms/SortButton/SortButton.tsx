@@ -3,22 +3,22 @@ import { ComponentProps, ReactElement } from "react";
 
 type SortButtonProp = {
   className?: string;
+  icon?: ReactElement<ComponentProps<"svg" | "img">>;
   id: string;
   label?: string;
   name: string;
-  sortDesc?: boolean;
-  icon?: ReactElement<ComponentProps<"svg" | "img">>;
   onButtonClick(isChecked: boolean): void;
+  sortDesc?: boolean;
 };
 
 const SortButton = ({
   className,
+  icon,
   id,
-  sortDesc = false,
   label,
   name,
-  icon,
   onButtonClick,
+  sortDesc = false,
 }: SortButtonProp) => {
   const handleOnClick = () => {
     onButtonClick(!sortDesc);
@@ -38,6 +38,6 @@ const SortButton = ({
       {Icon} {label}
     </button>
   );
-}
+};
 
 export default SortButton;

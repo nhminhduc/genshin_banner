@@ -9,8 +9,8 @@ interface CharacterListItemProps {
   link: string;
   name: string;
   noVersions?: string;
-  visionKey: string;
   rarity: string;
+  visionKey: string;
 }
 
 const CharacterListItem = ({
@@ -18,8 +18,8 @@ const CharacterListItem = ({
   link,
   name,
   noVersions = "0",
+  rarity,
   visionKey,
-  rarity
 }: CharacterListItemProps) => (
   <a href={link}>
     <ImageListItem
@@ -42,6 +42,7 @@ const CharacterListItem = ({
       <img
         alt={name}
         className={cx("characterImage", "w-full h-full truncate")}
+        loading="lazy"
         src={`characters/${name}/icon-big.webp`}
       />
       <CharacterListItemLabel name={name} noVersions={noVersions} />
