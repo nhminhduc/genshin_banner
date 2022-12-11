@@ -15,7 +15,7 @@ const CharacterList = () => {
 
   return (
     <ImageList
-      className={cx(s.scrollbar, "overflow-x-hidden mr-10")}
+      className={cx(s.scrollbar, "overflow-x-hidden")}
       cols={mediumSize ? 4 : 3}
       gap={4}
       rowHeight={156}

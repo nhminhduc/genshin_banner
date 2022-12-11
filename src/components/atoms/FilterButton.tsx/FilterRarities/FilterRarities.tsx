@@ -23,7 +23,7 @@ const FilterRarities = () => {
   };
 
   return (
-    <div>
+    <div className="m-2">
       {rarities.map((rarity) => (
         <FilterButton
           id={rarity}
@@ -33,6 +33,7 @@ const FilterRarities = () => {
           onButtonClick={onRarityFilterButtonClick}
           icon={<Star />}
           chosen={rarityFilter.includes(rarity)}
+          className="bg-amber-700 border border-amber-200 rounded w-12 my-1 text-white font-bold"
         />
       ))}
     </div>

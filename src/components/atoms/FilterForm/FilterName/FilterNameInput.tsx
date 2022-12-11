@@ -22,6 +22,7 @@ const FilterNameInput = () => {
       type="text"
       value={value || ""}
       icon={<MdOutlineCancel />}
+      className="border rounded"
     />
   );
 };

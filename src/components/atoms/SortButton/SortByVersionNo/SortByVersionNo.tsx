@@ -17,7 +17,13 @@ const SortByVersionNo = ({ className }: SortByVersionNoProps) => {
   }
 
   return (
-    <SortButton className={cx(className)} id="versionNo" name="versionNo" label="Sort by last appearance" sortDesc={sortByVersionNoDesc} onButtonClick={onSortByVersionNoButtonClick} />
+    <SortButton
+      className={cx(className, "bg-amber-600 border border-amber-200 rounded p-1 text-white font-bold")}
+      id="versionNo"
+      name="versionNo"
+      label="Sort by last appearance"
+      sortDesc={sortByVersionNoDesc}
+      onButtonClick={onSortByVersionNoButtonClick} />
   );
 };
 

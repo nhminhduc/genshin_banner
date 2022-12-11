@@ -27,17 +27,17 @@ const FilterElements = ({ className }: FilterElementsProps) => {
   };
 
   return (
-    <div className={cx("flex w-20 flex-wrap", className)}>
+    <div className={cx("flex flex-wrap w-24 p-2", className)}>
       {elements.map((element) => (
         <FilterButton
           id={element}
           key={element}
           name="elementFilter"
           onButtonClick={onElementFilterButtonClick}
-          className={cx("bg-red-500 basis-8")}
+          className={cx("bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]")}
           icon={<img
             alt={element}
-            className="w-8 h-8"
+            className="w-9 h-9"
             src={elementsIcon[element as keyof typeof elementsIcon]}
           />
           }

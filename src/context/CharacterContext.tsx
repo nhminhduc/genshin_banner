@@ -11,17 +11,33 @@ const CharacterContextProvider = ({ children }: any) => {
   const characterData: CharacterData[] = useCharacterData();
   const { elementFilter, nameFilter, rarityFilter, sortByVersionNoDesc } = useFilterContext();
 
+  const filterCharacters = (character: CharacterData) => {
+    const { name, rarity, vision_key: visionKey } = character;
+    return (nameFilter === undefined || name.includes(nameFilter)) &&
+      (elementFilter === undefined ||
+        elementFilter.some((element) => element === visionKey)) &&
+      (rarityFilter === undefined ||
+        rarityFilter.some((rarityF) => rarityF === rarity));
+  }
+
+  const sortByVersionNo = (obj1: number | undefined, obj2: number | undefined) => {
+    if (sortByVersionNoDesc === true) {
+      if (obj1 === undefined) {
+        return 1;
+      }
+      if (obj2 === undefined) {
+        return -1;
+      }
+      return obj2 - obj1;
+    }
+    return 0;
+  }
+
   const characters = useMemo(
     () => {
       const foundCharacters = characterData
-        .filter((character) => {
-          const { name, rarity, vision_key: visionKey } = character;
-          return (nameFilter === undefined || name.includes(nameFilter)) &&
-            (elementFilter === undefined ||
-              elementFilter.some((element) => element === visionKey)) &&
-            (rarityFilter === undefined ||
-              rarityFilter.some((rarityF) => rarityF === rarity));
-        }).map((character) => {
+        .filter((character) => filterCharacters(character))
+        .map((character) => {
           if (character.fromLastBanner.noVersions === undefined && sortByVersionNoDesc === true) {
             return character;
           }
@@ -30,16 +46,7 @@ const CharacterContextProvider = ({ children }: any) => {
         .sort((obj1, obj2) => {
           const { noVersions: obj1VersionNo } = obj1.fromLastBanner;
           const { noVersions: obj2VersionNo } = obj2.fromLastBanner;
-          if (sortByVersionNoDesc === true) {
-            if (obj1VersionNo === undefined) {
-              return 1;
-            }
-            if (obj2VersionNo === undefined) {
-              return -1;
-            }
-            return obj2VersionNo - obj1VersionNo;
-          }
-          return 0;
+          return sortByVersionNo(obj1VersionNo, obj2VersionNo);
         });
       const unfoundCharacters = characterData
         .filter((character) => (
@@ -47,16 +54,7 @@ const CharacterContextProvider = ({ children }: any) => {
         )).sort((obj1, obj2) => {
           const { noVersions: obj1VersionNo } = obj1.fromLastBanner;
           const { noVersions: obj2VersionNo } = obj2.fromLastBanner;
-          if (sortByVersionNoDesc === true) {
-            if (obj1VersionNo === undefined) {
-              return 1;
-            }
-            if (obj2VersionNo === undefined) {
-              return -1;
-            }
-            return obj2VersionNo - obj1VersionNo;
-          }
-          return 0;
+          return sortByVersionNo(obj1VersionNo, obj2VersionNo);
         });
       return [...foundCharacters, ...unfoundCharacters];
     },

@@ -26,7 +26,7 @@ const FilterButton = ({
   const Icon = icon ? icon : null;
   return (
     <button
-      className={cx("flex items-center", chosen, className, {
+      className={cx("flex justify-around items-center", chosen, className, {
         "opacity-30": !chosen,
       })}
       id={id}

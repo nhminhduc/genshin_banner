@@ -42,7 +42,6 @@ const CharacterListItem = ({
       <img
         alt={name}
         className={cx("characterImage", "w-full h-full truncate")}
-        loading="lazy"
         src={`characters/${name}/icon-big.webp`}
       />
       <CharacterListItemLabel name={name} noVersions={noVersions} />
