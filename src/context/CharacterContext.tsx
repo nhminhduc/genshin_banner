@@ -9,34 +9,58 @@ export const CharacterContext = createContext<CharacterData[] | undefined>(
 
 const CharacterContextProvider = ({ children }: any) => {
   const characterData: CharacterData[] = useCharacterData();
-  const { elementFilter, nameFilter, rarityFilter } = useFilterContext();
+  const { elementFilter, nameFilter, rarityFilter, sortByVersionNoDesc } = useFilterContext();
 
   const characters = useMemo(
-    () =>
-      characterData
-        .map((character) => {
+    () => {
+      const foundCharacters = characterData
+        .filter((character) => {
           const { name, rarity, vision_key: visionKey } = character;
-          if (
-            (nameFilter === undefined || name.includes(nameFilter)) &&
+          return (nameFilter === undefined || name.includes(nameFilter)) &&
             (elementFilter === undefined ||
               elementFilter.some((element) => element === visionKey)) &&
             (rarityFilter === undefined ||
-              rarityFilter.some((rarityF) => rarityF === rarity))
-          ) {
-            return { found: true, ...character };
+              rarityFilter.some((rarityF) => rarityF === rarity));
+        }).map((character) => {
+          if (character.fromLastBanner.noVersions === undefined && sortByVersionNoDesc === true) {
+            return character;
           }
-          return character;
+          return { found: true, ...character }
         })
         .sort((obj1, obj2) => {
-          if (obj1.found !== true) {
-            return 1;
-          }
-          if (obj2.found !== true) {
-            return -1;
+          const { noVersions: obj1VersionNo } = obj1.fromLastBanner;
+          const { noVersions: obj2VersionNo } = obj2.fromLastBanner;
+          if (sortByVersionNoDesc === true) {
+            if (obj1VersionNo === undefined) {
+              return 1;
+            }
+            if (obj2VersionNo === undefined) {
+              return -1;
+            }
+            return obj2VersionNo - obj1VersionNo;
           }
           return 0;
-        }),
-    [characterData, nameFilter, elementFilter, rarityFilter],
+        });
+      const unfoundCharacters = characterData
+        .filter((character) => (
+          !foundCharacters.map(({ name }) => name).includes(character.name)
+        )).sort((obj1, obj2) => {
+          const { noVersions: obj1VersionNo } = obj1.fromLastBanner;
+          const { noVersions: obj2VersionNo } = obj2.fromLastBanner;
+          if (sortByVersionNoDesc === true) {
+            if (obj1VersionNo === undefined) {
+              return 1;
+            }
+            if (obj2VersionNo === undefined) {
+              return -1;
+            }
+            return obj2VersionNo - obj1VersionNo;
+          }
+          return 0;
+        });
+      return [...foundCharacters, ...unfoundCharacters];
+    },
+    [characterData, nameFilter, elementFilter, rarityFilter, sortByVersionNoDesc],
   );
 
   return (

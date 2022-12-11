@@ -13,8 +13,8 @@ export interface Character {
 }
 
 export interface FromLastBanner {
-  noDays: string;
-  noVersions: string;
+  noDays?: number;
+  noVersions?: number;
 }
 
 export interface CharacterData extends Character {

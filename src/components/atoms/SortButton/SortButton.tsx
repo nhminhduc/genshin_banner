@@ -1,42 +1,43 @@
 import cx from "classnames";
 import { ComponentProps, ReactElement } from "react";
 
-type FilterButtonProp = {
-  chosen?: boolean;
+type SortButtonProp = {
   className?: string;
   id: string;
   label?: string;
   name: string;
+  sortDesc?: boolean;
   icon?: ReactElement<ComponentProps<"svg" | "img">>;
-  onButtonClick(element: string, isChecked: boolean): void;
+  onButtonClick(isChecked: boolean): void;
 };
 
-const FilterButton = ({
-  chosen = true,
+const SortButton = ({
   className,
   id,
+  sortDesc = false,
   label,
   name,
   icon,
   onButtonClick,
-}: FilterButtonProp) => {
+}: SortButtonProp) => {
   const handleOnClick = () => {
-    onButtonClick(id, !chosen);
-  }
-  const Icon = icon ? icon : null;
+    onButtonClick(!sortDesc);
+  };
+
+  const Icon = icon ?? null;
   return (
     <button
-      className={cx("flex items-center", chosen, className, {
-        "opacity-30": !chosen,
+      className={cx("flex items-center", sortDesc, className, {
+        "opacity-30": !sortDesc,
       })}
       id={id}
       name={name}
       onClick={handleOnClick}
       type="button"
     >
-      {label} {Icon}
+      {Icon} {label}
     </button>
   );
-};
+}
 
-export default FilterButton;
+export default SortButton;

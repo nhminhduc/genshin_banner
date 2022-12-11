@@ -2,8 +2,8 @@ import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
 import { elements as elementsIcon } from "assets/images";
 import { useFilterContext } from "hooks/useFilterContext";
 import cx from "classnames";
-import { useEffect, useState } from "react";
 import { isEqual } from "lodash";
+import { config } from "config";
 
 type FilterElementsProps = {
   className?: string;
@@ -11,7 +11,7 @@ type FilterElementsProps = {
 const FilterElements = ({ className }: FilterElementsProps) => {
   const { elementFilter, setElementFilter } = useFilterContext();
 
-  const elements = ["anemo", "cryo", "dendro", "electro", "geo", "hydro", "pyro"];
+  const elements = config.elements;
 
   const onElementFilterButtonClick = (elementValue: string, isChecked: boolean) => {
     if (isEqual(elementFilter, elements)) {

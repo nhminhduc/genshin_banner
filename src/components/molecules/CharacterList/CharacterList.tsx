@@ -37,7 +37,7 @@ const CharacterList = () => {
             key={name}
             link={link}
             name={name}
-            noVersions={noVersions}
+            noVersions={noVersions !== undefined ? `${noVersions}` : ""}
             visionKey={visionKey}
             rarity={rarity}
           />

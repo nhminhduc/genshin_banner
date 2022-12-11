@@ -1,12 +1,13 @@
 import Star from "assets/images/Star";
 import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
+import { config } from "config";
 import { useFilterContext } from "hooks/useFilterContext";
 import { isEqual } from "lodash";
 
 const FilterRarities = () => {
   const { rarityFilter, setRarityFilter } = useFilterContext();
 
-  const rarities = ["4", "5"];
+  const rarities = config.rarities;
 
   const onRarityFilterButtonClick = (rarityValue: string, isChecked: boolean) => {
     if (isEqual(rarityFilter, rarities)) {

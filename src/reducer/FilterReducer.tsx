@@ -1,22 +1,22 @@
+import { config } from "config";
 import { Filter } from "types/FilterType";
 
 export const initialState: Filter = {
   nameFilter: "",
-  elementFilter: ["anemo", "cryo", "dendro", "electro", "geo", "hydro", "pyro"],
-  rarityFilter: ["4", "5"],
+  elementFilter: config.elements,
+  rarityFilter: config.rarities,
 };
 
 export const actions = {
   SET_NAME_FILTER: "SET_NAME_FILTER",
   SET_ELEMENT_FILTER: "SET_ELEMENT_FILTER",
-  REMOVE_ELEMENT_FILTER: "REMOVE_ELEMENT_FILTER",
   SET_RARITY_FILTER: "SET_RARITY_FILTER",
-  REMOVE_RARITY_FILTER: "REMOVE_RARITY_FILTER",
+  SET_SORT_BY_VERSION_NO_DESC: "SET_SORT_BY_VERSION_NO_DESC"
 };
 
 type ActionsMap = {
   type: string;
-  value?: string | string[];
+  value?: boolean | string | string[];
 };
 
 export const FilterReducer = (state: Filter, action: ActionsMap): Filter => {
@@ -33,28 +33,16 @@ export const FilterReducer = (state: Filter, action: ActionsMap): Filter => {
         elementFilter: action.value as string[],
       };
     }
-    case actions.REMOVE_ELEMENT_FILTER: {
-      const elements = state.elementFilter?.filter(
-        (element) => element !== action.value,
-      );
-      return {
-        ...state,
-        elementFilter: elements,
-      };
-    }
     case actions.SET_RARITY_FILTER: {
       return {
         ...state,
         rarityFilter: action.value as string[],
       };
     }
-    case actions.REMOVE_RARITY_FILTER: {
-      const rarities = state.rarityFilter?.filter(
-        (rarity) => rarity !== action.value,
-      );
+    case actions.SET_SORT_BY_VERSION_NO_DESC: {
       return {
         ...state,
-        rarityFilter: rarities,
+        sortByVersionNoDesc: action.value as boolean,
       };
     }
     default:

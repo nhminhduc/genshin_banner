@@ -15,6 +15,7 @@ const FilterContextProvider = ({ children }: any) => {
       nameFilter: state.nameFilter,
       elementFilter: state.elementFilter,
       rarityFilter: state.rarityFilter,
+      sortByVersionNoDesc: state.sortByVersionNoDesc,
       filterByName: (name: string | undefined) => {
         dispatch({ type: actions.SET_NAME_FILTER, value: name });
       },
@@ -24,6 +25,9 @@ const FilterContextProvider = ({ children }: any) => {
       setRarityFilter: (rarity: string[] | undefined) => {
         dispatch({ type: actions.SET_RARITY_FILTER, value: rarity });
       },
+      setSortByVersionNoDesc: (sortByVersionNoDesc: boolean | undefined) => {
+        dispatch({ type: actions.SET_SORT_BY_VERSION_NO_DESC, value: sortByVersionNoDesc });
+      }
     }),
     [state, dispatch],
   );
