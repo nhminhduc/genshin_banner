@@ -1,8 +1,8 @@
 import cx from "classnames";
-import SortByVersionNo from "components/atoms/SortButton/SortByVersionNo/SortByVersionNo";
 import CharacterList from "components/molecules/CharacterList/CharacterList";
 import FilterModal from "components/molecules/Filters/FilterModal/FilterModal";
 import Filters from "components/molecules/Filters/Filters";
+import SortByVersionNo from "components/molecules/SortByVersionNo/SortByVersionNo";
 
 import s from "./Page.module.css";
 

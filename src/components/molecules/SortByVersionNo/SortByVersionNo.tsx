@@ -1,6 +1,5 @@
+import SortButton from "components/atoms/SortButton/SortButton";
 import { useFilterContext } from "hooks/useFilterContext";
-
-import SortButton from "../SortButton";
 
 const SortByVersionNo = () => {
   const { setSortByVersionNoDesc, sortByVersionNoDesc } = useFilterContext();

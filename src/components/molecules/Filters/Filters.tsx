@@ -1,7 +1,8 @@
 import cx from "classnames";
-import FilterElements from "components/atoms/FilterButton.tsx/FilterElements/FilterElements";
-import FilterRarities from "components/atoms/FilterButton.tsx/FilterRarities/FilterRarities";
-import FilterNameInput from "components/atoms/FilterForm/FilterName/FilterNameInput";
+
+import FilterElements from "./FilterElements/FilterElements";
+import FilterNameInput from "./FilterName/FilterNameInput";
+import FilterRarities from "./FilterRarities/FilterRarities";
 
 type FiltersProps = {
   className?: string;

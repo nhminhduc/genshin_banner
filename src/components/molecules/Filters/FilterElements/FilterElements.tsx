@@ -1,6 +1,6 @@
 import { elements as elementsIcon } from "assets/images";
 import cx from "classnames";
-import FilterButton from "components/atoms/FilterButton.tsx/FilterButton";
+import FilterButton from "components/atoms/FilterButton/FilterButton";
 import { config } from "config";
 import { useFilterContext } from "hooks/useFilterContext";
 import { isEqual } from "lodash";
