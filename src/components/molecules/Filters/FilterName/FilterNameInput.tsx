@@ -1,16 +1,22 @@
 import FilterInput from "components/atoms/FilterForm/FilterInput";
+import { useDebounce } from "hooks/useDebounce";
 import { useFilterContext } from "hooks/useFilterContext";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const FilterNameInput = () => {
   const ref = useRef(null);
   const { filterByName, nameFilter } = useFilterContext();
   const [value, setValue] = useState(nameFilter);
 
+  const debouncedSearchName = useDebounce(value, 250);
+
   const handleOnChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setValue(event.currentTarget.value);
-    filterByName(event.currentTarget.value);
   };
+
+  useEffect(() => {
+    filterByName(debouncedSearchName);
+  }, [debouncedSearchName]);
 
   return (
     <FilterInput
