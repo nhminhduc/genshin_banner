@@ -16,7 +16,7 @@ const FilterNameInput = () => {
 
   useEffect(() => {
     filterByName(debouncedSearchName);
-  }, [debouncedSearchName]);
+  }, [filterByName, debouncedSearchName]);
 
   return (
     <FilterInput
