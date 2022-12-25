@@ -11,7 +11,7 @@ const CharacterList = () => {
   const mediumSize = useMediaQuery("(min-width:660px)");
   const ImageListStyle = mediumSize
     ? { height: 640, width: 600 }
-    : { height: 480, width: 320 };
+    : { height: 480, width: 360 };
 
   return (
     <ImageList
@@ -19,7 +19,7 @@ const CharacterList = () => {
       cols={mediumSize ? 4 : 3}
       gap={4}
       rowHeight={156}
-      sx={{ ...ImageListStyle }}
+      sx={{ p: 2, ...ImageListStyle }}
     >
       {characterDataContext.map((characterData) => {
         const {
