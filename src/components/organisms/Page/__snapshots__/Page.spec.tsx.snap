@@ -31,14 +31,14 @@ exports[`Page test > Page load 1`] = `
         </div>
       </div>
       <ul
-        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-1bfw6gl-MuiImageList-root"
+        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-13nh5n-MuiImageList-root"
         style="grid-template-columns: repeat(3, 1fr); gap: 4px;"
       >
         <a
           href="https://genshin-impact.fandom.com/wiki/Albedo"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -58,7 +58,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Albedo
               </div>
@@ -74,7 +74,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Aloy"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -94,7 +94,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Aloy
               </div>
@@ -105,7 +105,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Amber"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -125,7 +125,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Amber
               </div>
@@ -136,7 +136,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Arataki_Itto"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -156,7 +156,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Arataki Itto
               </div>
@@ -172,7 +172,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -192,7 +192,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Ayaka
               </div>
@@ -208,7 +208,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -228,7 +228,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Ayato
               </div>
@@ -244,7 +244,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Barbara"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -264,7 +264,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Barbara
               </div>
@@ -280,7 +280,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Beidou"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -300,7 +300,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Beidou
               </div>
@@ -316,7 +316,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Bennett"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -336,7 +336,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Bennett
               </div>
@@ -352,7 +352,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Chongyun"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -372,7 +372,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Chongyun
               </div>
@@ -388,7 +388,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Collei"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -408,7 +408,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Collei
               </div>
@@ -424,7 +424,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Diluc"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -444,7 +444,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Diluc
               </div>
@@ -455,7 +455,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Diona"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -475,7 +475,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Diona
               </div>
@@ -491,7 +491,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Eula"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -511,7 +511,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Eula
               </div>
@@ -527,7 +527,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Faruzan"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -547,7 +547,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Faruzan
               </div>
@@ -563,7 +563,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Fischl"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -583,7 +583,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Fischl
               </div>
@@ -599,7 +599,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Ganyu"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -619,7 +619,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Ganyu
               </div>
@@ -635,7 +635,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Gorou"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -655,7 +655,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Gorou
               </div>
@@ -671,7 +671,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Hu_Tao"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -691,7 +691,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Hu Tao
               </div>
@@ -707,7 +707,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Jean"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -727,7 +727,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Jean
               </div>
@@ -738,7 +738,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Kaeya"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -758,7 +758,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Kaeya
               </div>
@@ -769,7 +769,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Kazuha"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -789,7 +789,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Kazuha
               </div>
@@ -805,7 +805,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Keqing"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -825,7 +825,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Keqing
               </div>
@@ -836,7 +836,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Klee"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -856,7 +856,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Klee
               </div>
@@ -872,7 +872,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Kokomi"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -892,7 +892,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Kokomi
               </div>
@@ -908,7 +908,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Kuki_Shinobu"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -928,7 +928,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Kuki Shinobu
               </div>
@@ -944,7 +944,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Lisa"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -964,7 +964,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Lisa
               </div>
@@ -975,7 +975,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Mona"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -995,7 +995,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Mona
               </div>
@@ -1006,7 +1006,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Nilou"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1026,7 +1026,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Nilou
               </div>
@@ -1042,7 +1042,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Ningguang"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1062,7 +1062,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Ningguang
               </div>
@@ -1078,7 +1078,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Noelle"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1098,7 +1098,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Noelle
               </div>
@@ -1114,7 +1114,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Qiqi"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1134,7 +1134,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Qiqi
               </div>
@@ -1145,7 +1145,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1165,7 +1165,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Raiden
               </div>
@@ -1181,7 +1181,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Razor"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1201,7 +1201,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Razor
               </div>
@@ -1217,7 +1217,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Rosaria"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1237,7 +1237,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Rosaria
               </div>
@@ -1253,7 +1253,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Kujou_Sara"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1273,7 +1273,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Kujou Sara
               </div>
@@ -1289,7 +1289,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Sayu"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1309,7 +1309,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Sayu
               </div>
@@ -1325,7 +1325,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Shenhe"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1345,7 +1345,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Shenhe
               </div>
@@ -1361,7 +1361,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Shikanoin_Heizou"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1381,7 +1381,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Shikanoin Heizou
               </div>
@@ -1397,7 +1397,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Sucrose"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1417,7 +1417,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Sucrose
               </div>
@@ -1433,7 +1433,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Tartaglia"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1453,7 +1453,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Tartaglia
               </div>
@@ -1469,7 +1469,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Thoma"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1489,7 +1489,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Thoma
               </div>
@@ -1505,7 +1505,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Tighnari"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1525,7 +1525,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Tighnari
               </div>
@@ -1541,7 +1541,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Venti"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1561,7 +1561,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Venti
               </div>
@@ -1577,7 +1577,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Wanderer"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1597,7 +1597,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Wanderer
               </div>
@@ -1613,7 +1613,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Xiangling"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1633,7 +1633,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Xiangling
               </div>
@@ -1649,7 +1649,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Xiao"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1669,7 +1669,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Xiao
               </div>
@@ -1685,7 +1685,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Xingqiu"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1705,7 +1705,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Xingqiu
               </div>
@@ -1721,7 +1721,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Xinyan"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1741,7 +1741,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Xinyan
               </div>
@@ -1757,7 +1757,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Yae_Miko"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1777,7 +1777,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Yae Miko
               </div>
@@ -1793,7 +1793,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Yanfei"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1813,7 +1813,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Yanfei
               </div>
@@ -1829,7 +1829,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Yelan"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1849,7 +1849,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Yelan
               </div>
@@ -1865,7 +1865,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Yoimiya"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1885,7 +1885,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Yoimiya
               </div>
@@ -1901,7 +1901,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Yun_Jin"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1921,7 +1921,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Yun Jin
               </div>
@@ -1937,7 +1937,7 @@ exports[`Page test > Page load 1`] = `
           href="https://genshin-impact.fandom.com/wiki/Zhongli"
         >
           <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
             style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
           >
             <span>
@@ -1957,7 +1957,7 @@ exports[`Page test > Page load 1`] = `
               class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
             >
               <div
-                class="font-bold text-sm text-slate-600"
+                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
               >
                 Zhongli
               </div>

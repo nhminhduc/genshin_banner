@@ -6,7 +6,7 @@ exports[`CharacterListItem test > CharacterListItem snapshot 1`] = `
     class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
   >
     <div
-      class="font-bold text-sm text-slate-600"
+      class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
     >
       Character List Item Test
     </div>
