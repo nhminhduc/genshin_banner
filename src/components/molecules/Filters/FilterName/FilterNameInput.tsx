@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 const FilterNameInput = () => {
   const ref = useRef(null);
-  const { nameFilter, filterByName } = useFilterContext();
+  const { filterByName, nameFilter } = useFilterContext();
   const [value, setValue] = useState(nameFilter);
 
   const debouncedSearchName = useDebounce(value, 250);

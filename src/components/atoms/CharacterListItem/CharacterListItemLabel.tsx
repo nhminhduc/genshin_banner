@@ -15,7 +15,7 @@ const CharacterListItemLabel = ({
       "flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2",
     )}
   >
-    <div className={cx("font-bold text-sm text-slate-600")}>
+    <div className={cx("font-bold text-sm text-slate-600 group-hover:text-rose-600")}>
       {startCase(name)}
     </div>
     {(noVersions || noVersions === 0) && (

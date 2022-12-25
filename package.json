@@ -1,13 +1,14 @@
 {
   "name": "genshin-banner",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "npx concurrently 'vite' 'tailwindcss -i ./src/index.css -o ./dist/output.css'",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest --dom",
+    "test:update": "vitest -u",
     "coverage": "vitest run --coverage",
     "format": "npx prettier --write . && npx eslint --fix ."
   },

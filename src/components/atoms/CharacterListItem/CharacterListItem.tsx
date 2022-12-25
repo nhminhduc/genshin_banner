@@ -24,7 +24,7 @@ const CharacterListItem = ({
   <a href={link}>
     <ImageListItem
       className={cx(
-        "bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex",
+        "bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10",
         {
           "opacity-30": !found,
           "bg-[#9470bb]": rarity === "4",
