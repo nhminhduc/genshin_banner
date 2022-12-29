@@ -233,9 +233,9 @@ exports[`Page test > Page load 1`] = `
                 Ayato
               </div>
               <div
-                class="font-bold text-xl text-rose-900"
+                class="font-bold text-xl text-green-600 text-lime-300"
               >
-                12
+                0
               </div>
             </div>
           </li>
@@ -518,7 +518,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                15
+                18
               </div>
             </div>
           </li>
@@ -698,7 +698,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                16
+                19
               </div>
             </div>
           </li>
@@ -1170,9 +1170,9 @@ exports[`Page test > Page load 1`] = `
                 Raiden
               </div>
               <div
-                class="font-bold text-xl text-rose-900"
+                class="font-bold text-xl text-green-600 text-lime-300"
               >
-                13
+                0
               </div>
             </div>
           </li>
@@ -1242,9 +1242,9 @@ exports[`Page test > Page load 1`] = `
                 Rosaria
               </div>
               <div
-                class="font-bold text-xl text-rose-900"
+                class="font-bold text-xl text-green-600 text-lime-300"
               >
-                11
+                0
               </div>
             </div>
           </li>
@@ -1278,9 +1278,9 @@ exports[`Page test > Page load 1`] = `
                 Kujou Sara
               </div>
               <div
-                class="font-bold text-xl text-rose-900"
+                class="font-bold text-xl text-green-600 text-lime-300"
               >
-                13
+                0
               </div>
             </div>
           </li>
@@ -1314,9 +1314,9 @@ exports[`Page test > Page load 1`] = `
                 Sayu
               </div>
               <div
-                class="font-bold text-xl text-rose-600"
+                class="font-bold text-xl text-green-600 text-lime-300"
               >
-                4
+                0
               </div>
             </div>
           </li>
@@ -1352,7 +1352,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                14
+                16
               </div>
             </div>
           </li>
