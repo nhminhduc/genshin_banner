@@ -63,9 +63,9 @@ exports[`Page test > Page load 1`] = `
                 Albedo
               </div>
               <div
-                class="font-bold text-xl text-lime-300"
+                class="font-bold text-xl text-rose-600"
               >
-                3
+                4
               </div>
             </div>
           </li>
@@ -161,9 +161,9 @@ exports[`Page test > Page load 1`] = `
                 Arataki Itto
               </div>
               <div
-                class="font-bold text-xl text-green-600 text-lime-300"
+                class="font-bold text-xl text-lime-300"
               >
-                0
+                1
               </div>
             </div>
           </li>
@@ -199,7 +199,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                11
+                12
               </div>
             </div>
           </li>
@@ -269,9 +269,9 @@ exports[`Page test > Page load 1`] = `
                 Barbara
               </div>
               <div
-                class="font-bold text-xl text-lime-300"
+                class="font-bold text-xl text-rose-600"
               >
-                3
+                4
               </div>
             </div>
           </li>
@@ -305,9 +305,9 @@ exports[`Page test > Page load 1`] = `
                 Beidou
               </div>
               <div
-                class="font-bold text-xl text-lime-300"
+                class="font-bold text-xl text-rose-600"
               >
-                3
+                4
               </div>
             </div>
           </li>
@@ -343,7 +343,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-lime-300"
               >
-                2
+                3
               </div>
             </div>
           </li>
@@ -377,9 +377,9 @@ exports[`Page test > Page load 1`] = `
                 Chongyun
               </div>
               <div
-                class="font-bold text-xl text-rose-600"
+                class="font-bold text-xl text-rose-900"
               >
-                9
+                10
               </div>
             </div>
           </li>
@@ -415,7 +415,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                6
+                7
               </div>
             </div>
           </li>
@@ -482,7 +482,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                6
+                7
               </div>
             </div>
           </li>
@@ -518,7 +518,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                18
+                19
               </div>
             </div>
           </li>
@@ -552,9 +552,9 @@ exports[`Page test > Page load 1`] = `
                 Faruzan
               </div>
               <div
-                class="font-bold text-xl text-green-600 text-lime-300"
+                class="font-bold text-xl text-lime-300"
               >
-                0
+                1
               </div>
             </div>
           </li>
@@ -590,7 +590,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                6
+                7
               </div>
             </div>
           </li>
@@ -626,7 +626,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                5
+                6
               </div>
             </div>
           </li>
@@ -660,9 +660,9 @@ exports[`Page test > Page load 1`] = `
                 Gorou
               </div>
               <div
-                class="font-bold text-xl text-green-600 text-lime-300"
+                class="font-bold text-xl text-lime-300"
               >
-                0
+                1
               </div>
             </div>
           </li>
@@ -698,7 +698,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                19
+                20
               </div>
             </div>
           </li>
@@ -796,7 +796,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                8
+                9
               </div>
             </div>
           </li>
@@ -863,7 +863,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                8
+                9
               </div>
             </div>
           </li>
@@ -899,7 +899,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                5
+                6
               </div>
             </div>
           </li>
@@ -935,7 +935,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                4
+                5
               </div>
             </div>
           </li>
@@ -1031,9 +1031,9 @@ exports[`Page test > Page load 1`] = `
                 Nilou
               </div>
               <div
-                class="font-bold text-xl text-lime-300"
+                class="font-bold text-xl text-rose-600"
               >
-                3
+                4
               </div>
             </div>
           </li>
@@ -1069,7 +1069,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                8
+                9
               </div>
             </div>
           </li>
@@ -1105,7 +1105,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-lime-300"
               >
-                2
+                3
               </div>
             </div>
           </li>
@@ -1208,7 +1208,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-lime-300"
               >
-                2
+                3
               </div>
             </div>
           </li>
@@ -1352,7 +1352,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                16
+                17
               </div>
             </div>
           </li>
@@ -1388,7 +1388,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-lime-300"
               >
-                1
+                2
               </div>
             </div>
           </li>
@@ -1424,7 +1424,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                5
+                6
               </div>
             </div>
           </li>
@@ -1460,7 +1460,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-lime-300"
               >
-                1
+                2
               </div>
             </div>
           </li>
@@ -1496,7 +1496,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-lime-300"
               >
-                1
+                2
               </div>
             </div>
           </li>
@@ -1532,7 +1532,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                6
+                7
               </div>
             </div>
           </li>
@@ -1568,7 +1568,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                4
+                5
               </div>
             </div>
           </li>
@@ -1602,9 +1602,9 @@ exports[`Page test > Page load 1`] = `
                 Wanderer
               </div>
               <div
-                class="font-bold text-xl text-green-600 text-lime-300"
+                class="font-bold text-xl text-lime-300"
               >
-                0
+                1
               </div>
             </div>
           </li>
@@ -1638,9 +1638,9 @@ exports[`Page test > Page load 1`] = `
                 Xiangling
               </div>
               <div
-                class="font-bold text-xl text-lime-300"
+                class="font-bold text-xl text-rose-600"
               >
-                3
+                4
               </div>
             </div>
           </li>
@@ -1676,7 +1676,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                10
+                11
               </div>
             </div>
           </li>
@@ -1712,7 +1712,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                5
+                6
               </div>
             </div>
           </li>
@@ -1748,7 +1748,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                7
+                8
               </div>
             </div>
           </li>
@@ -1784,7 +1784,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-lime-300"
               >
-                1
+                2
               </div>
             </div>
           </li>
@@ -1818,9 +1818,9 @@ exports[`Page test > Page load 1`] = `
                 Yanfei
               </div>
               <div
-                class="font-bold text-xl text-green-600 text-lime-300"
+                class="font-bold text-xl text-lime-300"
               >
-                0
+                1
               </div>
             </div>
           </li>
@@ -1856,7 +1856,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-900"
               >
-                10
+                11
               </div>
             </div>
           </li>
@@ -1892,7 +1892,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-lime-300"
               >
-                2
+                3
               </div>
             </div>
           </li>
@@ -1928,7 +1928,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                7
+                8
               </div>
             </div>
           </li>
@@ -1964,7 +1964,7 @@ exports[`Page test > Page load 1`] = `
               <div
                 class="font-bold text-xl text-rose-600"
               >
-                6
+                7
               </div>
             </div>
           </li>
