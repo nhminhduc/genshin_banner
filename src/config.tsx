@@ -27,6 +27,5 @@ const staticConfig = {
 };
 
 export const config = {
-  currentVersion: "3.3.2",
   ...staticConfig,
 };

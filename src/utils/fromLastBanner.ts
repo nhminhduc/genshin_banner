@@ -1,4 +1,3 @@
-import { config } from "config";
 import { formatDistanceToNowStrict, parseISO } from "date-fns";
 import useVersionList from "hooks/useVersionList";
 import { Banner, FromLastBanner } from "types/CharacterType";
@@ -7,7 +6,7 @@ const GetFromLastBanner = (banner: Banner): FromLastBanner => {
   const { last_date: lastDate, version } = banner;
   const versionList = useVersionList();
 
-  if (version === config.currentVersion) {
+  if (version === versionList[0]) {
     return { noDays: 0, noVersions: 0 };
   }
 
