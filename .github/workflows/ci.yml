@@ -20,4 +20,4 @@ jobs:
       - name: Run lint and test scripts
         run: npm run lint && npm run test
       - name: Build and deploy
-        run: npm run build && bash deploy.sh
+        run: npm run build && bash deploy.sh GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
