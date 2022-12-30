@@ -1,8 +1,6 @@
 name: CI
 
 on: [push, pull_request]
-permissions:
-  contents: write
 
 jobs:
   build-and-test:
@@ -22,5 +20,4 @@ jobs:
       - name: Run lint and test scripts
         run: npm run lint && npm run test
       - name: Build and deploy
-        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: npm run build && bash deploy.sh
