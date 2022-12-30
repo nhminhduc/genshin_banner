@@ -1,16 +1,26 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  pull_request:
+    types: [opened, synchronize]
+  push:
+    branches:
+      - master
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    if: github.event.action == 'opened' || (github.event.action == 'synchronized' && github.event.number > 1)
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 18.12.1
+      - name: Set Git user name and email
+        run: |
+          git config --global user.name "nhminhduc"
+          git config --global user.email "galaxyangelzz@gmail.com"
       - name: Install dependencies
         run: npm install
       - name: Run lint and test scripts
