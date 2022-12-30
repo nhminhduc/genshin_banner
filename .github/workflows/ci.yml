@@ -5,6 +5,7 @@ on: [push, pull_request]
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request' || (github.event_name == 'pull_request' && github.event.action != 'opened' && github.event.action != 'synchronize')
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
