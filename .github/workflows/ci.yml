@@ -1,0 +1,20 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18.12.1
+      - name: Install dependencies
+        run: npm install
+      - name: Run lint and test scripts
+        run: npm run lint && npm run test
+      - name: Build and deploy
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: npm run build && bash deploy.sh
