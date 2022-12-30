@@ -2,7 +2,7 @@ language: node_js
 jobs:
   include:
     - stage: "Build & test"
-      if: branch =~ /^(master)$/
+      if: pull_request || branch =~ /^master$/
       install:
         - nvm install
         - npm install
@@ -10,10 +10,10 @@ jobs:
         - npm run lint
         - npm run test
     - stage: "Before deploy"
-      if: branch =~ /^(master)$/
+      if: branch =~ /^master$/
       script:
         - npm run build
     - stage: "Deploy"
-      if: branch =~ /^(master)$/
+      if: branch =~ /^master$/
       script:
         - bash deploy.sh
