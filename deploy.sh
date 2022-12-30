@@ -19,6 +19,6 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
-git push main:gh-pages
+git push -u main gh-pages
 
 cd -
