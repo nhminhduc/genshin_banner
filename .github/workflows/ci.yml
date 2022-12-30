@@ -1,16 +1,10 @@
 name: CI
 
-on:
-  pull_request:
-    types: [opened, synchronize]
-  push:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    if: github.event.action == 'opened' || (github.event.action == 'synchronized' && github.event.number > 1)
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
