@@ -19,6 +19,6 @@ git checkout -B main
 git add -A
 git commit -m 'deploy'
 
-git push -f https://nhminhduc:${GITHUB_TOKEN}@github.com/nhminhduc/genshin_banner.git main:gh-pages
+git push main:gh-pages
 
 cd -
