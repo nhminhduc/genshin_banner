@@ -1,6 +1,9 @@
 name: Deploy to GitHub Pages
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   ci:
