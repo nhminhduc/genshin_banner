@@ -3,10 +3,7 @@
 # abort on errors
 set -e
 
-# build
-npm run format
-npm run coverage
-npm run build
+trap 'echo "Deployment failed. Check the logs for more information."' ERR
 
 # navigate into the build output directory
 cd dist

@@ -10,7 +10,8 @@
     "test": "vitest --dom",
     "test:update": "vitest -u",
     "coverage": "vitest run --coverage",
-    "format": "npx prettier --write . && npx eslint --fix ."
+    "format": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
