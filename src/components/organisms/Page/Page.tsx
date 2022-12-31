@@ -11,7 +11,7 @@ const Page = () => (
     className={cx(s.pageBackground, "flex justify-center items-start pt-10")}
   >
     <div className={cx("flex flex-col")}>
-      <div className="flex justify-between items-center	pb-2">
+      <div className="flex justify-between items-center pb-2 mx-4">
         <SortByVersionNo />
         <FilterModal />
       </div>
