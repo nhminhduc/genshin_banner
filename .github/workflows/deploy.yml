@@ -8,7 +8,8 @@ on:
 jobs:
   deploy:
     permissions:
-      pages: write # to deploy to Pages
+      pages: write
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
