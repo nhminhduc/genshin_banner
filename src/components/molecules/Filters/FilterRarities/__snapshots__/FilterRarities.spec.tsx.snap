@@ -14,7 +14,7 @@ exports[`FilterRarities test > FilterRarities load 1`] = `
       4
        
       <svg
-        class="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+        class="fill-[#f7d04d] h-4 w-4 md:h-5 md:w-5"
         viewBox="0 0 576 512"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -32,7 +32,7 @@ exports[`FilterRarities test > FilterRarities load 1`] = `
       5
        
       <svg
-        class="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+        class="fill-[#f7d04d] h-4 w-4 md:h-5 md:w-5"
         viewBox="0 0 576 512"
         xmlns="http://www.w3.org/2000/svg"
       >

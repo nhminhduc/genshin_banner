@@ -1,6 +1,12 @@
-const Star = () => (
+import cx from "classnames";
+
+type StarProps = {
+  className?: string;
+};
+
+const Star = ({ className }: StarProps) => (
   <svg
-    className="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+    className={cx("fill-[#f7d04d]", className)}
     viewBox="0 0 576 512"
     xmlns="http://www.w3.org/2000/svg"
   >

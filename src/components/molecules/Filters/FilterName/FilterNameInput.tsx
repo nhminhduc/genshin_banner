@@ -20,7 +20,7 @@ const FilterNameInput = () => {
 
   return (
     <FilterInput
-      className="border-2 rounded border-amber-500 w-36 md:w-48"
+      className="border-2 rounded border-amber-500 w-48 mt-4 md:h-8 md:w-56"
       id="name"
       innerRef={ref}
       name="name"

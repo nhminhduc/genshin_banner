@@ -32,11 +32,13 @@ const FilterElements = ({ className }: FilterElementsProps) => {
   };
 
   return (
-    <div className={cx("flex flex-wrap w-36 md:w-24 p-2 mt-2", className)}>
+    <div
+      className={cx("flex flex-wrap w-44 p-2 mt-2 justify-center", className)}
+    >
       {elements.map((element) => (
         <FilterButton
           chosen={elementFilter.includes(element)}
-          className="bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          className="bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           icon={
             <img
               alt={element}

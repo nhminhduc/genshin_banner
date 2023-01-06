@@ -11,7 +11,7 @@ const Filters = ({ className }: FiltersProps) => (
   <div
     className={cx(
       className,
-      "flex flex-col items-center bg-slate-300/75 h-full rounded p-4 mt-10",
+      "flex flex-col items-center bg-slate-300/75 h-full rounded md:p-4 md:mt-16",
     )}
   >
     <FilterNameInput />

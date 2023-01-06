@@ -5,6 +5,7 @@ export const initialState: Filter = {
   nameFilter: "",
   elementFilter: config.elements,
   rarityFilter: config.rarities,
+  currentCharacterName: "",
 };
 
 export const actions = {
@@ -12,6 +13,7 @@ export const actions = {
   SET_ELEMENT_FILTER: "SET_ELEMENT_FILTER",
   SET_RARITY_FILTER: "SET_RARITY_FILTER",
   SET_SORT_BY_VERSION_NO_DESC: "SET_SORT_BY_VERSION_NO_DESC",
+  SET_CURRENT_CHARACTER_NAME: "SET_CURRENT_CHARACTER_NAME",
 };
 
 type ActionsMap = {
@@ -43,6 +45,12 @@ export const FilterReducer = (state: Filter, action: ActionsMap): Filter => {
       return {
         ...state,
         sortByVersionNoDesc: action.value as boolean,
+      };
+    }
+    case actions.SET_CURRENT_CHARACTER_NAME: {
+      return {
+        ...state,
+        currentCharacterName: action.value as string,
       };
     }
     default:

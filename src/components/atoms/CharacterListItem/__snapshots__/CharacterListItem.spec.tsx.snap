@@ -2,36 +2,33 @@
 
 exports[`CharacterListItem test > CharacterListItem snapshot 1`] = `
 <div>
-  <a
-    href="https://google.com"
+  <li
+    class="MuiImageListItem-root rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer opacity-30 bg-[#9470bb] css-l086p4-MuiImageListItem-root"
+    style="height: auto; grid-column-end: span 1; grid-row-end: span 1;"
   >
-    <li
-      class="MuiImageListItem-root bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 opacity-30 bg-[#9470bb] css-l086p4-MuiImageListItem-root"
-      style="height: auto; grid-column-end: span 1; grid-row-end: span 1;"
-    >
-      <span>
-        <img
-          alt="pyro"
-          class="w-8 h-8 absolute right-0"
-          src="/genshin_banner/src/assets/images/elements/pyro.png"
-        />
-      </span>
+    <span>
       <img
-        alt="test CharacterListItem"
-        class="MuiImageListItem-img characterImage w-full h-full truncate"
-        loading="lazy"
-        src="characters/test CharacterListItem/icon-big.webp"
+        alt="pyro"
+        class="w-8 h-8 absolute right-0"
+        src="/genshin_banner/src/assets/images/elements/pyro.png"
       />
+    </span>
+    <img
+      alt="test CharacterListItem"
+      class="MuiImageListItem-img characterImage w-full h-full truncate"
+      loading="lazy"
+      src="characters/test CharacterListItem/icon-big.webp"
+    />
+    <div
+      class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+    >
       <div
-        class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+        class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
       >
-        <div
-          class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-        >
-          Test Character List Item
-        </div>
+        Test Character List Item
       </div>
-    </li>
-  </a>
+    </div>
+  </li>
+  ,
 </div>
 `;

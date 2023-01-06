@@ -25,7 +25,6 @@ const CharacterList = () => {
         const {
           found,
           fromLastBanner,
-          link,
           name,
           rarity,
           vision_key: visionKey,
@@ -35,7 +34,6 @@ const CharacterList = () => {
           <CharacterListItem
             found={found}
             key={name}
-            link={link}
             name={name}
             noVersions={noVersions}
             rarity={rarity}

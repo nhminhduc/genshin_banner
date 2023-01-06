@@ -3,11 +3,11 @@
 exports[`Filters test > Filters load 1`] = `
 <div>
   <div
-    class="flex flex-col items-center bg-slate-300/75 h-full rounded p-4 mt-10"
+    class="flex flex-col items-center bg-slate-300/75 h-full rounded md:p-4 md:mt-16"
   >
     <div>
       <input
-        class="border-2 rounded border-amber-500 w-36 md:w-48"
+        class="border-2 rounded border-amber-500 w-48 mt-4 md:h-8 md:w-56"
         defaultvalue=""
         id="name"
         name="name"
@@ -16,10 +16,10 @@ exports[`Filters test > Filters load 1`] = `
       />
     </div>
     <div
-      class="flex flex-wrap w-36 md:w-24 p-2 mt-2"
+      class="flex flex-wrap w-44 p-2 mt-2 justify-center"
     >
       <button
-        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
         id="anemo"
         name="elementFilter"
         type="button"
@@ -32,7 +32,7 @@ exports[`Filters test > Filters load 1`] = `
         />
       </button>
       <button
-        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
         id="cryo"
         name="elementFilter"
         type="button"
@@ -45,7 +45,7 @@ exports[`Filters test > Filters load 1`] = `
         />
       </button>
       <button
-        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
         id="dendro"
         name="elementFilter"
         type="button"
@@ -58,7 +58,7 @@ exports[`Filters test > Filters load 1`] = `
         />
       </button>
       <button
-        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
         id="electro"
         name="elementFilter"
         type="button"
@@ -71,7 +71,7 @@ exports[`Filters test > Filters load 1`] = `
         />
       </button>
       <button
-        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
         id="geo"
         name="elementFilter"
         type="button"
@@ -84,7 +84,7 @@ exports[`Filters test > Filters load 1`] = `
         />
       </button>
       <button
-        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
         id="hydro"
         name="elementFilter"
         type="button"
@@ -97,7 +97,7 @@ exports[`Filters test > Filters load 1`] = `
         />
       </button>
       <button
-        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+        class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
         id="pyro"
         name="elementFilter"
         type="button"
@@ -122,7 +122,7 @@ exports[`Filters test > Filters load 1`] = `
         4
          
         <svg
-          class="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+          class="fill-[#f7d04d] h-4 w-4 md:h-5 md:w-5"
           viewBox="0 0 576 512"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -140,7 +140,7 @@ exports[`Filters test > Filters load 1`] = `
         5
          
         <svg
-          class="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+          class="fill-[#f7d04d] h-4 w-4 md:h-5 md:w-5"
           viewBox="0 0 576 512"
           xmlns="http://www.w3.org/2000/svg"
         >

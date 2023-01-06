@@ -33,7 +33,7 @@ const FilterRarities = () => {
         <FilterButton
           chosen={rarityFilter.includes(rarity)}
           className="bg-amber-700 border border-amber-200 rounded w-12 my-1 text-white font-bold"
-          icon={<Star />}
+          icon={<Star className="h-4 w-4 md:h-5 md:w-5" />}
           id={rarity}
           key={rarity}
           label={rarity}

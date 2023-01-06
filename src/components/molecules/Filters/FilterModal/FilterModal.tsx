@@ -1,15 +1,24 @@
 import Filters from "components/molecules/Filters/Filters";
-import { useState } from "react";
-import ReactModal from "react-modal";
+import useModal from "hooks/useModal";
+import { useCallback, useState } from "react";
+import ReactDOM from "react-dom";
+import FocusLock from "react-focus-lock";
 
 const FilterModal = () => {
-  const [modalIsOpen, setIsOpen] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+
+  const handleClose = useCallback(() => {
+    setExpanded(false);
+  }, [setExpanded]);
+
+  const { modalRef } = useModal(expanded, handleClose, () => {
+    setExpanded(false);
+  });
+
   function openModal() {
-    setIsOpen(true);
+    setExpanded(true);
   }
-  function closeModal() {
-    setIsOpen(false);
-  }
+
   const modalStyle = {
     overlay: {
       backgroundColor: "rgba(255, 255, 255, 0.25)",
@@ -17,20 +26,35 @@ const FilterModal = () => {
   };
 
   return (
-    <div className="bg-amber-600 border border-amber-200 rounded p-1 mr-4 text-white font-medium md:hidden">
+    <div className="bg-amber-600 border border-amber-200 rounded p-1 mr-4 text-white font-medium lg:hidden">
       <button onClick={openModal} type="button">
         Filters
       </button>
-      <ReactModal
-        ariaHideApp={false}
-        className="overflow-hidden w-2/3 translate-x-1/4 translate-y-1/4 md:hidden"
-        contentLabel="Filters"
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={modalStyle}
-      >
-        <Filters />
-      </ReactModal>
+      {expanded
+        ? ReactDOM.createPortal(
+            <FocusLock>
+              <div className="modal-backdrop fixed w-full h-full top-0 lg:hidden">
+                <div
+                  aria-labelledby="modalTitle"
+                  aria-modal={true}
+                  className="w-2/3 translate-x-1/4 translate-y-1/2"
+                  onKeyDown={(event) => {
+                    if (event.key === "Escape") {
+                      event.preventDefault();
+                      setExpanded(false);
+                    }
+                  }}
+                  ref={modalRef}
+                  role="dialog"
+                  tabIndex={-1}
+                >
+                  <Filters />
+                </div>
+              </div>
+            </FocusLock>,
+            document.body,
+          )
+        : null}
     </div>
   );
 };
