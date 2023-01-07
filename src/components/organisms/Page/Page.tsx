@@ -39,7 +39,7 @@ const Page = () => {
     <div
       className={cx(
         s.pageBackground,
-        "flex justify-center items-start pt-10 lg:justify-start lg:mx-32",
+        "flex justify-center items-start pt-10 lg:mx-32",
       )}
     >
       <Filters className="hidden lg:flex" />

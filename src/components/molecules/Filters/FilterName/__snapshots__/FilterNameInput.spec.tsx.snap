@@ -4,7 +4,7 @@ exports[`FilterNameInput test > FilterNameInput load 1`] = `
 <div>
   <div>
     <input
-      class="border-2 rounded border-amber-500 w-48 mt-4 md:h-8 md:w-56"
+      class="p-2 border-2 rounded border-amber-500 w-48 mt-4 md:h-8 md:w-56"
       defaultvalue=""
       id="name"
       name="name"

@@ -3,14 +3,14 @@
 exports[`Page test > Page load 1`] = `
 <div>
   <div
-    class="_pageBackground_c84215 flex justify-center items-start pt-10 lg:justify-start lg:mx-32"
+    class="_pageBackground_c84215 flex justify-center items-start pt-10 lg:mx-32"
   >
     <div
       class="hidden lg:flex flex flex-col items-center bg-slate-300/75 h-full rounded md:p-4 md:mt-16"
     >
       <div>
         <input
-          class="border-2 rounded border-amber-500 w-48 mt-4 md:h-8 md:w-56"
+          class="p-2 border-2 rounded border-amber-500 w-48 mt-4 md:h-8 md:w-56"
           defaultvalue=""
           id="name"
           name="name"
@@ -31,7 +31,7 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="anemo"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/anemo.png"
+            src="images/elements/anemo.png"
           />
         </button>
         <button
@@ -44,7 +44,7 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="cryo"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/cryo.png"
+            src="images/elements/cryo.png"
           />
         </button>
         <button
@@ -57,7 +57,7 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="dendro"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/dendro.png"
+            src="images/elements/dendro.png"
           />
         </button>
         <button
@@ -70,7 +70,7 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="electro"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/electro.png"
+            src="images/elements/electro.png"
           />
         </button>
         <button
@@ -83,7 +83,7 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="geo"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/geo.png"
+            src="images/elements/geo.png"
           />
         </button>
         <button
@@ -96,7 +96,7 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="hydro"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/hydro.png"
+            src="images/elements/hydro.png"
           />
         </button>
         <button
@@ -109,7 +109,7 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="pyro"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/pyro.png"
+            src="images/elements/pyro.png"
           />
         </button>
       </div>
@@ -191,14 +191,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="geo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/geo.png"
+              src="images/elements/geo.png"
             />
           </span>
           <img
             alt="albedo"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/albedo/icon-big.webp"
+            src="images/characters/albedo/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -223,14 +223,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="aloy"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/aloy/icon-big.webp"
+            src="images/characters/aloy/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -250,14 +250,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="amber"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/amber/icon-big.webp"
+            src="images/characters/amber/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -277,14 +277,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="geo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/geo.png"
+              src="images/elements/geo.png"
             />
           </span>
           <img
             alt="arataki-itto"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/arataki-itto/icon-big.webp"
+            src="images/characters/arataki-itto/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -309,14 +309,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="ayaka"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/ayaka/icon-big.webp"
+            src="images/characters/ayaka/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -341,14 +341,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="hydro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/hydro.png"
+              src="images/elements/hydro.png"
             />
           </span>
           <img
             alt="ayato"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/ayato/icon-big.webp"
+            src="images/characters/ayato/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -373,14 +373,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="hydro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/hydro.png"
+              src="images/elements/hydro.png"
             />
           </span>
           <img
             alt="barbara"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/barbara/icon-big.webp"
+            src="images/characters/barbara/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -405,14 +405,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="beidou"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/beidou/icon-big.webp"
+            src="images/characters/beidou/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -437,14 +437,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="bennett"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/bennett/icon-big.webp"
+            src="images/characters/bennett/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -469,14 +469,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="chongyun"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/chongyun/icon-big.webp"
+            src="images/characters/chongyun/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -501,14 +501,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="dendro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/dendro.png"
+              src="images/elements/dendro.png"
             />
           </span>
           <img
             alt="collei"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/collei/icon-big.webp"
+            src="images/characters/collei/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -533,14 +533,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="diluc"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/diluc/icon-big.webp"
+            src="images/characters/diluc/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -560,14 +560,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="diona"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/diona/icon-big.webp"
+            src="images/characters/diona/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -592,14 +592,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="eula"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/eula/icon-big.webp"
+            src="images/characters/eula/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -624,14 +624,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="faruzan"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/faruzan/icon-big.webp"
+            src="images/characters/faruzan/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -656,14 +656,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="fischl"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/fischl/icon-big.webp"
+            src="images/characters/fischl/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -688,14 +688,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="ganyu"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/ganyu/icon-big.webp"
+            src="images/characters/ganyu/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -720,14 +720,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="geo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/geo.png"
+              src="images/elements/geo.png"
             />
           </span>
           <img
             alt="gorou"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/gorou/icon-big.webp"
+            src="images/characters/gorou/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -752,14 +752,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="hu-tao"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/hu-tao/icon-big.webp"
+            src="images/characters/hu-tao/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -784,14 +784,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="jean"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/jean/icon-big.webp"
+            src="images/characters/jean/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -811,14 +811,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="kaeya"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/kaeya/icon-big.webp"
+            src="images/characters/kaeya/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -838,14 +838,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="kazuha"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/kazuha/icon-big.webp"
+            src="images/characters/kazuha/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -870,14 +870,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="keqing"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/keqing/icon-big.webp"
+            src="images/characters/keqing/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -897,14 +897,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="klee"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/klee/icon-big.webp"
+            src="images/characters/klee/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -929,14 +929,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="hydro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/hydro.png"
+              src="images/elements/hydro.png"
             />
           </span>
           <img
             alt="kokomi"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/kokomi/icon-big.webp"
+            src="images/characters/kokomi/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -961,14 +961,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="kuki-shinobu"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/kuki-shinobu/icon-big.webp"
+            src="images/characters/kuki-shinobu/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -993,14 +993,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="lisa"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/lisa/icon-big.webp"
+            src="images/characters/lisa/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1020,14 +1020,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="hydro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/hydro.png"
+              src="images/elements/hydro.png"
             />
           </span>
           <img
             alt="mona"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/mona/icon-big.webp"
+            src="images/characters/mona/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1047,14 +1047,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="hydro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/hydro.png"
+              src="images/elements/hydro.png"
             />
           </span>
           <img
             alt="nilou"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/nilou/icon-big.webp"
+            src="images/characters/nilou/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1079,14 +1079,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="geo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/geo.png"
+              src="images/elements/geo.png"
             />
           </span>
           <img
             alt="ningguang"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/ningguang/icon-big.webp"
+            src="images/characters/ningguang/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1111,14 +1111,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="geo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/geo.png"
+              src="images/elements/geo.png"
             />
           </span>
           <img
             alt="noelle"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/noelle/icon-big.webp"
+            src="images/characters/noelle/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1143,14 +1143,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="qiqi"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/qiqi/icon-big.webp"
+            src="images/characters/qiqi/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1170,14 +1170,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="raiden"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/raiden/icon-big.webp"
+            src="images/characters/raiden/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1202,14 +1202,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="razor"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/razor/icon-big.webp"
+            src="images/characters/razor/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1234,14 +1234,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="rosaria"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/rosaria/icon-big.webp"
+            src="images/characters/rosaria/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1266,14 +1266,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="kujou-sara"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/kujou-sara/icon-big.webp"
+            src="images/characters/kujou-sara/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1298,14 +1298,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="sayu"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/sayu/icon-big.webp"
+            src="images/characters/sayu/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1330,14 +1330,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="cryo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/cryo.png"
+              src="images/elements/cryo.png"
             />
           </span>
           <img
             alt="shenhe"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/shenhe/icon-big.webp"
+            src="images/characters/shenhe/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1362,14 +1362,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="shikanoin-heizou"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/shikanoin-heizou/icon-big.webp"
+            src="images/characters/shikanoin-heizou/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1394,14 +1394,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="sucrose"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/sucrose/icon-big.webp"
+            src="images/characters/sucrose/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1426,14 +1426,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="hydro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/hydro.png"
+              src="images/elements/hydro.png"
             />
           </span>
           <img
             alt="tartaglia"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/tartaglia/icon-big.webp"
+            src="images/characters/tartaglia/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1458,14 +1458,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="thoma"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/thoma/icon-big.webp"
+            src="images/characters/thoma/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1490,14 +1490,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="dendro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/dendro.png"
+              src="images/elements/dendro.png"
             />
           </span>
           <img
             alt="tighnari"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/tighnari/icon-big.webp"
+            src="images/characters/tighnari/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1522,14 +1522,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="venti"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/venti/icon-big.webp"
+            src="images/characters/venti/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1554,14 +1554,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="wanderer"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/wanderer/icon-big.webp"
+            src="images/characters/wanderer/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1586,14 +1586,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="xiangling"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/xiangling/icon-big.webp"
+            src="images/characters/xiangling/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1618,14 +1618,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="anemo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/anemo.png"
+              src="images/elements/anemo.png"
             />
           </span>
           <img
             alt="xiao"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/xiao/icon-big.webp"
+            src="images/characters/xiao/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1650,14 +1650,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="hydro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/hydro.png"
+              src="images/elements/hydro.png"
             />
           </span>
           <img
             alt="xingqiu"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/xingqiu/icon-big.webp"
+            src="images/characters/xingqiu/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1682,14 +1682,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="xinyan"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/xinyan/icon-big.webp"
+            src="images/characters/xinyan/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1714,14 +1714,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="electro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/electro.png"
+              src="images/elements/electro.png"
             />
           </span>
           <img
             alt="yae-miko"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/yae-miko/icon-big.webp"
+            src="images/characters/yae-miko/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1746,14 +1746,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="yanfei"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/yanfei/icon-big.webp"
+            src="images/characters/yanfei/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1778,14 +1778,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="hydro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/hydro.png"
+              src="images/elements/hydro.png"
             />
           </span>
           <img
             alt="yelan"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/yelan/icon-big.webp"
+            src="images/characters/yelan/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1810,14 +1810,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="pyro"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/pyro.png"
+              src="images/elements/pyro.png"
             />
           </span>
           <img
             alt="yoimiya"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/yoimiya/icon-big.webp"
+            src="images/characters/yoimiya/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1842,14 +1842,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="geo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/geo.png"
+              src="images/elements/geo.png"
             />
           </span>
           <img
             alt="yun-jin"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/yun-jin/icon-big.webp"
+            src="images/characters/yun-jin/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
@@ -1874,14 +1874,14 @@ exports[`Page test > Page load 1`] = `
             <img
               alt="geo"
               class="w-8 h-8 absolute right-0"
-              src="/genshin_banner/src/assets/images/elements/geo.png"
+              src="images/elements/geo.png"
             />
           </span>
           <img
             alt="zhongli"
             class="MuiImageListItem-img characterImage w-full h-full truncate"
             loading="lazy"
-            src="characters/zhongli/icon-big.webp"
+            src="images/characters/zhongli/icon-big.webp"
           />
           <div
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"

@@ -1,6 +1,6 @@
 .scrollbar {
   &::-webkit-scrollbar {
-    @apply w-4;
+    @apply w-2;
   }
 
   &::-webkit-scrollbar-track {
@@ -10,7 +10,7 @@
   &::-webkit-scrollbar-thumb {
     background-color: #d6dee1;
     border-radius: 20px;
-    border: 6px solid transparent;
+    border: 2px solid transparent;
     background-clip: content-box;
   }
 

@@ -22,6 +22,10 @@ const CharacterCard = ({ character, className }: CharacterCardProps) => {
       className={cx(
         className,
         "2xl:ml-4 2xl:w-full 2xl:h-1/2 2xl:flex bg-[#994c4c]/25",
+        {
+          "bg-[#9470bb]": rarity === "4",
+          "bg-[#c87c24]": rarity === "5",
+        },
       )}
     >
       <div className="bg-[#994c4c] relative rounded border-2 border-[#ebe7df] border-solid flex flex-col items-center	">

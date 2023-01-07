@@ -35,7 +35,7 @@ const CharacterCardModal = ({
   return expanded
     ? ReactDOM.createPortal(
         <FocusLock>
-          <div className="modal-backdrop fixed w-full h-full top-0 lg:hidden z-20">
+          <div className="modal-backdrop fixed w-full h-full top-0 2xl:hidden z-20">
             <div
               aria-labelledby="modalTitle"
               aria-modal={true}
