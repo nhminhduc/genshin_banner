@@ -1,4 +1,3 @@
-import { elements as elementsIcon } from "assets/images";
 import cx from "classnames";
 import FilterButton from "components/atoms/FilterButton/FilterButton";
 import { config } from "config";
@@ -43,7 +42,7 @@ const FilterElements = ({ className }: FilterElementsProps) => {
             <img
               alt={element}
               className="w-9 h-9"
-              src={elementsIcon[element as keyof typeof elementsIcon]}
+              src={`images/elements/${element}.png`}
             />
           }
           id={element}

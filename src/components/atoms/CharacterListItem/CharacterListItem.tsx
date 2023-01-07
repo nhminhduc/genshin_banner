@@ -1,5 +1,4 @@
 import { ImageListItem } from "@mui/material";
-import { elements } from "assets/images";
 import cx from "classnames";
 import { useFilterContext } from "hooks/useFilterContext";
 
@@ -41,14 +40,14 @@ const CharacterListItem = ({
         <img
           alt={visionKey}
           className="w-8 h-8 absolute right-0"
-          src={elements[visionKey as keyof typeof elements]}
+          src={`images/elements/${visionKey}.png`}
         />
       </span>
       <img
         alt={name}
         className={cx("characterImage", "w-full h-full truncate")}
         loading="lazy"
-        src={`characters/${name}/icon-big.webp`}
+        src={`images/characters/${name}/icon-big.webp`}
       />
       <CharacterListItemLabel name={name} noVersions={noVersions} />
     </ImageListItem>

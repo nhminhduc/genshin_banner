@@ -1,4 +1,3 @@
-import { elements } from "assets/images";
 import Star from "assets/images/Star";
 import cx from "classnames";
 import CharacterListItemLabel from "components/atoms/CharacterListItem/CharacterListItemLabel";
@@ -30,14 +29,14 @@ const CharacterCard = ({ character, className }: CharacterCardProps) => {
           alt={name}
           className={cx("w-36 h-36")}
           loading="lazy"
-          src={`characters/${name}/icon-big.webp`}
+          src={`images/characters/${name}/icon-big.webp`}
         />
         <div className="flex absolute bottom-0">{renderRarity()}</div>
         <span className="absolute right-0">
           <img
             alt={visionKey}
             className="w-10 h-10"
-            src={elements[visionKey as keyof typeof elements]}
+            src={`images/elements/${visionKey}.png`}
           />
         </span>
       </div>
