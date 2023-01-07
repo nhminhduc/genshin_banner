@@ -15,7 +15,7 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="anemo"
         class="w-9 h-9"
-        src="images/elements/anemo/icon.png"
+        src="elements/anemo/icon.png"
       />
     </button>
     <button
@@ -28,7 +28,7 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="cryo"
         class="w-9 h-9"
-        src="images/elements/cryo/icon.png"
+        src="elements/cryo/icon.png"
       />
     </button>
     <button
@@ -41,7 +41,7 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="dendro"
         class="w-9 h-9"
-        src="images/elements/dendro/icon.png"
+        src="elements/dendro/icon.png"
       />
     </button>
     <button
@@ -54,7 +54,7 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="electro"
         class="w-9 h-9"
-        src="images/elements/electro/icon.png"
+        src="elements/electro/icon.png"
       />
     </button>
     <button
@@ -67,7 +67,7 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="geo"
         class="w-9 h-9"
-        src="images/elements/geo/icon.png"
+        src="elements/geo/icon.png"
       />
     </button>
     <button
@@ -80,7 +80,7 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="hydro"
         class="w-9 h-9"
-        src="images/elements/hydro/icon.png"
+        src="elements/hydro/icon.png"
       />
     </button>
     <button
@@ -93,7 +93,7 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="pyro"
         class="w-9 h-9"
-        src="images/elements/pyro/icon.png"
+        src="elements/pyro/icon.png"
       />
     </button>
   </div>

@@ -35,14 +35,14 @@ const CharacterCard = ({ character, className }: CharacterCardProps) => {
           alt={name}
           className={cx("w-36 h-36")}
           loading="lazy"
-          src={`${baseUrl}/characters/${name}/icon-big.png`}
+          src={`${baseUrl}characters/${name}/icon-big.png`}
         />
         <div className="flex absolute bottom-0">{renderRarity()}</div>
         <span className="absolute right-0">
           <img
             alt={visionKey}
             className="w-10 h-10"
-            src={`${baseUrl}/elements/${visionKey}/icon.png`}
+            src={`${baseUrl}elements/${visionKey}/icon.png`}
           />
         </span>
       </div>

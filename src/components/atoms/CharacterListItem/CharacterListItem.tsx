@@ -42,14 +42,14 @@ const CharacterListItem = ({
         <img
           alt={visionKey}
           className="w-8 h-8 absolute right-0"
-          src={`${baseUrl}/elements/${visionKey}/icon.png`}
+          src={`${baseUrl}elements/${visionKey}/icon.png`}
         />
       </span>
       <img
         alt={name}
         className={cx("characterImage", "w-full h-full truncate")}
         loading="lazy"
-        src={`${baseUrl}/characters/${name}/icon-big.png`}
+        src={`${baseUrl}characters/${name}/icon-big.png`}
       />
       <CharacterListItemLabel name={name} noVersions={noVersions} />
     </ImageListItem>

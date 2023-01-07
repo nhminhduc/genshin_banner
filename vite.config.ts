@@ -6,7 +6,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd());
-  return ({
+  return {
     plugins: [react(), tsconfigPaths()],
     test: {
       environment: "happy-dom",
@@ -16,6 +16,6 @@ export default defineConfig(({ mode }) => {
       },
     },
     base: "/genshin_banner/",
-    publicDir: env.VITE_USE_PUBLIC === "true" ? "public" : false
-  })
+    publicDir: env.VITE_USE_PUBLIC === "true" ? "public" : false,
+  };
 });

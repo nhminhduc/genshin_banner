@@ -19,8 +19,6 @@ const Page = () => {
   )[0];
   const { width } = useWindowSize();
 
-  console.log(import.meta.env.VITE_USE_PUBLIC);
-
   const closeModal = () => {
     setCurrentCharacterName("");
   };
