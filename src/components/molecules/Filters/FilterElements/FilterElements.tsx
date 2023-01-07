@@ -10,7 +10,7 @@ type FilterElementsProps = {
 const FilterElements = ({ className }: FilterElementsProps) => {
   const { elementFilter, setElementFilter } = useFilterContext();
 
-  const { elements } = config;
+  const { baseUrl, elements } = config;
 
   const onElementFilterButtonClick = (
     elementValue: string,
@@ -42,7 +42,7 @@ const FilterElements = ({ className }: FilterElementsProps) => {
             <img
               alt={element}
               className="w-9 h-9"
-              src={`images/elements/${element}.png`}
+              src={`${baseUrl}/elements/${element}/icon.png`}
             />
           }
           id={element}

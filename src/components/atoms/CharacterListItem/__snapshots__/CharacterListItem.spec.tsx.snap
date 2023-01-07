@@ -10,14 +10,14 @@ exports[`CharacterListItem test > CharacterListItem snapshot 1`] = `
       <img
         alt="pyro"
         class="w-8 h-8 absolute right-0"
-        src="images/elements/pyro.png"
+        src="images/elements/pyro/icon.png"
       />
     </span>
     <img
       alt="test CharacterListItem"
       class="MuiImageListItem-img characterImage w-full h-full truncate"
       loading="lazy"
-      src="images/characters/test CharacterListItem/icon-big.webp"
+      src="images/characters/test CharacterListItem/icon-big.png"
     />
     <div
       class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"

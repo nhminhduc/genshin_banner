@@ -1,6 +1,7 @@
 import Star from "assets/images/Star";
 import cx from "classnames";
 import CharacterListItemLabel from "components/atoms/CharacterListItem/CharacterListItemLabel";
+import { config } from "config";
 import type { CharacterData } from "types/CharacterType";
 
 export type CharacterCardProps = {
@@ -8,6 +9,7 @@ export type CharacterCardProps = {
   className?: string;
 };
 const CharacterCard = ({ character, className }: CharacterCardProps) => {
+  const { baseUrl } = config;
   const { fromLastBanner, name, rarity, vision_key: visionKey } = character;
   const renderRarity = () => {
     const stars = [];
@@ -33,14 +35,14 @@ const CharacterCard = ({ character, className }: CharacterCardProps) => {
           alt={name}
           className={cx("w-36 h-36")}
           loading="lazy"
-          src={`images/characters/${name}/icon-big.webp`}
+          src={`${baseUrl}/characters/${name}/icon-big.png`}
         />
         <div className="flex absolute bottom-0">{renderRarity()}</div>
         <span className="absolute right-0">
           <img
             alt={visionKey}
             className="w-10 h-10"
-            src={`images/elements/${visionKey}.png`}
+            src={`${baseUrl}/elements/${visionKey}/icon.png`}
           />
         </span>
       </div>

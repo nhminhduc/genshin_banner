@@ -1,5 +1,6 @@
 import { ImageListItem } from "@mui/material";
 import cx from "classnames";
+import { config } from "config";
 import { useFilterContext } from "hooks/useFilterContext";
 
 import CharacterListItemLabel from "./CharacterListItemLabel";
@@ -19,6 +20,7 @@ const CharacterListItem = ({
   rarity,
   visionKey,
 }: CharacterListItemProps) => {
+  const { baseUrl } = config;
   const { setCurrentCharacterName } = useFilterContext();
   const handleOnClick = () => {
     setCurrentCharacterName(name);
@@ -40,14 +42,14 @@ const CharacterListItem = ({
         <img
           alt={visionKey}
           className="w-8 h-8 absolute right-0"
-          src={`images/elements/${visionKey}.png`}
+          src={`${baseUrl}/elements/${visionKey}/icon.png`}
         />
       </span>
       <img
         alt={name}
         className={cx("characterImage", "w-full h-full truncate")}
         loading="lazy"
-        src={`images/characters/${name}/icon-big.webp`}
+        src={`${baseUrl}/characters/${name}/icon-big.png`}
       />
       <CharacterListItemLabel name={name} noVersions={noVersions} />
     </ImageListItem>

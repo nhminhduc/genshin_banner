@@ -27,5 +27,6 @@ const staticConfig = {
 };
 
 export const config = {
+  baseUrl: import.meta.env.VITE_USE_PUBLIC ? "" : import.meta.env.VITE_IMAGE_S3_BASE_URL,
   ...staticConfig,
 };
