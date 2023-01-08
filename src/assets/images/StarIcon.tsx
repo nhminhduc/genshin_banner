@@ -1,10 +1,10 @@
 import cx from "classnames";
 
-type StarProps = {
+type StarIconProps = {
   className?: string;
 };
 
-const Star = ({ className }: StarProps) => (
+const StarIcon = ({ className }: StarIconProps) => (
   <svg
     className={cx("fill-[#f7d04d]", className)}
     viewBox="0 0 576 512"
@@ -14,4 +14,4 @@ const Star = ({ className }: StarProps) => (
   </svg>
 );
 
-export default Star;
+export default StarIcon;
