@@ -95,7 +95,7 @@ const CharacterCardHeader = ({
         rel="noopener"
         target="_blank"
       >
-        <LinkIcon className="h-3 w-3 md:h-6 md:w-6" />
+        <LinkIcon className="h-4 w-4 md:h-6 md:w-6" />
       </a>
     </div>
   );

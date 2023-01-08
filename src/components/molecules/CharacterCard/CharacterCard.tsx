@@ -17,7 +17,7 @@ const CharacterCard = ({ character, className }: CharacterCardProps) => {
   return (
     <div
       className={cx(
-        "relative flex flex-col rounded border border-[2px] p-4 2xl:ml-4 2xl:mt-12 2xl:w-full 2xl:h-1/2 2xl:p-6 bg-electro-light/50 border-electro-dark",
+        "relative flex flex-col rounded border border-[2px] p-4 2xl:ml-4 2xl:mt-12 2xl:w-full 2xl:h-1/2 2xl:p-6 bg-electro-light/90 border-electro-dark overflow-auto",
         className,
       )}
     >
@@ -28,7 +28,7 @@ const CharacterCard = ({ character, className }: CharacterCardProps) => {
       />
       <CharacterMaterials
         materials={talentMaterials}
-        title="Talent Materials (1 Talent)"
+        title="Talent Materials (x1)"
       />
     </div>
   );

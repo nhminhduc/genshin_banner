@@ -28,11 +28,11 @@ const FoldableSection = ({
   return (
     <div className={cx("flex flex-col", className)}>
       <button
-        className="flex w-full justify-between items-baseline"
+        className="flex w-full justify-between items-center"
         onClick={() => setIsExpanded(!isExpanded)}
         type="button"
       >
-        <h3 className={titleClass}>{title}</h3>
+        <h3 className={cx("justify-self-start", titleClass)}>{title}</h3>
         {Icon}
       </button>
       {isExpanded && <div className={contentClass}>{children}</div>}

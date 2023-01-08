@@ -1,5 +1,6 @@
 import cx from "classnames";
 import { config } from "config";
+import { useWindowSize } from "hooks/useWindowSize";
 import { kebabCase } from "lodash";
 
 type MaterialItemProps = {
@@ -16,6 +17,7 @@ const MaterialItem = ({
   rarity,
 }: MaterialItemProps) => {
   const { baseUrl } = config;
+  const { width } = useWindowSize();
   const link = `https://genshin-impact.fandom.com/wiki/${item.replace(
     / /g,
     "_",
@@ -41,11 +43,7 @@ const MaterialItem = ({
         <img alt={item} className={cx("pb-1")} loading="lazy" src={imageName} />
         <div
           className={cx(
-            "flex bg-[#e4c179] justify-center items-center text-xs font-bold md:text-sm text-slate-600 flex-wrap",
-            {
-              "text-xs break-all p-[1px]": quantity > 100000,
-              "px-1 py-2": quantity <= 100000,
-            },
+            "flex bg-[#e4c179] justify-center items-center text-xs font-bold md:text-sm text-slate-600 flex-wrap break-all h-8 md:px-1 md:py-2 ",
           )}
         >
           {quantity.toLocaleString()}
