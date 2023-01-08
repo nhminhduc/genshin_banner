@@ -19,7 +19,7 @@ const CharacterMaterials = ({
     contentClass="flex flex-wrap"
     expanded={true}
     title={title}
-    titleClass="text-xl font-bold text-stone-200 mb-2"
+    titleClass="text-base md:text-xl md:font-bold text-stone-200 mb-2"
   >
     {materials.map((material) => {
       const { item, quantity, rarity } = material;

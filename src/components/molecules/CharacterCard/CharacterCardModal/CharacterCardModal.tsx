@@ -1,8 +1,9 @@
+import cx from "classnames";
 import CharacterCard, {
   CharacterCardProps,
 } from "components/molecules/CharacterCard/CharacterCard";
 import useModal from "hooks/useModal";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 import ReactDOM from "react-dom";
 import FocusLock from "react-focus-lock";
 
@@ -32,14 +33,10 @@ const CharacterCardModal = ({
     setExpanded(false);
   });
 
-  useEffect(() => {
-    modalRef.current?.focus();
-  }, []);
-
   return expanded
     ? ReactDOM.createPortal(
         <FocusLock>
-          <div className="modal-backdrop fixed w-full h-full top-0 2xl:hidden z-20 flex justify-center top-20">
+          <div className="modal-backdrop fixed w-full h-full top-0 2xl:hidden z-20 flex justify-center overflow-auto">
             <div
               aria-labelledby="modalTitle"
               aria-modal={true}
@@ -48,7 +45,10 @@ const CharacterCardModal = ({
               role="dialog"
               tabIndex={-1}
             >
-              <CharacterCard character={character} className={className} />
+              <CharacterCard
+                character={character}
+                className={cx("mt-4", className)}
+              />
             </div>
           </div>
         </FocusLock>,

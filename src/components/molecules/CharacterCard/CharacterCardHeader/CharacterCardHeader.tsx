@@ -29,7 +29,7 @@ const CharacterCardHeader = ({
   const renderRarity = () => {
     const stars = [];
     for (let i = 0; i < Number(rarity); i += 1) {
-      stars.push(<StarIcon className="h-4 w-4 md:h-6 md:w-6" key={i} />);
+      stars.push(<StarIcon className="h-3 w-3 md:h-6 md:w-6" key={i} />);
     }
     return stars;
   };
@@ -38,7 +38,7 @@ const CharacterCardHeader = ({
     <div className="flex w-full justify-start">
       <div
         className={cx(
-          "relative rounded border-2 border-[#ebe7df] border-solid w-36 h-40 flex-none self-center",
+          "relative rounded border-2 border-[#ebe7df] border-solid w-16 h-20 md:w-36 md:h-40 flex-none self-center",
           {
             "bg-[#9470bb]": rarity === "4",
             "bg-[#c87c24]": rarity === "5",
@@ -48,24 +48,26 @@ const CharacterCardHeader = ({
       >
         <img
           alt={name}
-          className={cx("w-36 h-40 pb-1")}
+          className={cx("w-full h-full")}
           loading="lazy"
           src={`${baseUrl}characters/${name}/icon-big.png`}
         />
         <span className="absolute right-0 top-0">
           <img
             alt={visionKey}
-            className="w-10 h-10"
+            className="w-4 h-4 md:w-10 md:h-10"
             src={`${baseUrl}elements/${visionKey}.png`}
           />
         </span>
       </div>
-      <div className="flex-auto ml-4 flex flex-col">
-        <h1 className="text-3xl font-bold text-stone-200">{startCase(name)}</h1>
-        <div className="flex my-2">{renderRarity()}</div>
+      <div className="flex-auto ml-1 md:ml-4 flex flex-col">
+        <h1 className="text-base font-medium md:text-3xl md:font-bold text-stone-200">
+          {startCase(name)}
+        </h1>
+        <div className="flex my-[1px] md:my-2">{renderRarity()}</div>
         {noVersions !== undefined && noDays !== undefined ? (
           <div
-            className={cx("text-l font-bold mt-2", {
+            className={cx("text-sm font-medium md:text-l md:font-bold mt-2", {
               "text-blue-500": noVersions === 0,
               "text-yellow-400": noVersions <= 3,
               "text-rose-700": noVersions > 3 && noVersions < 10,
@@ -93,7 +95,7 @@ const CharacterCardHeader = ({
         rel="noopener"
         target="_blank"
       >
-        <LinkIcon className="h-6 w-6" />
+        <LinkIcon className="h-3 w-3 md:h-6 md:w-6" />
       </a>
     </div>
   );

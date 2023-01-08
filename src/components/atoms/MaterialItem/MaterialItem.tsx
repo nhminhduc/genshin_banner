@@ -26,7 +26,7 @@ const MaterialItem = ({
   return (
     <div
       className={cx(
-        "flex flex-col w-16 md:w-20 h-min items-center m-[1px] rounded hover:border-2 hover:border-[#ebe7df] hover:border-solid",
+        "flex flex-col w-10 md:w-20 h-min items-center m-[1px] rounded hover:border-2 hover:border-[#ebe7df] hover:border-solid",
         {
           "bg-rarity-1": rarity === 1 || rarity === 0,
           "bg-rarity-2": rarity === 2,
@@ -41,9 +41,10 @@ const MaterialItem = ({
         <img alt={item} className={cx("pb-1")} loading="lazy" src={imageName} />
         <div
           className={cx(
-            "flex bg-[#e4c179] justify-center items-center px-1 py-2 text-xs font-bold md:text-sm text-slate-600",
+            "flex bg-[#e4c179] justify-center items-center text-xs font-bold md:text-sm text-slate-600 flex-wrap",
             {
-              "text-xs font-medium md:font-bold": quantity > 1000000,
+              "text-xs break-all p-[1px]": quantity > 100000,
+              "px-1 py-2": quantity <= 100000,
             },
           )}
         >
