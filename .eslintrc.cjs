@@ -10,6 +10,7 @@ module.exports = {
     "import",
     "prettier",
     "formatjs",
+    "jsx-a11y",
   ],
   extends: [
     "airbnb",
@@ -322,12 +323,7 @@ module.exports = {
         // https://github.com/lydell/eslint-plugin-simple-import-sort
         //
         "simple-import-sort/imports": "error",
-        // "simple-import-sort/imports": [
-        //   "error",
-        //   {
-        //     "groups": [["^\\u0000", "^@?\\w", "^[^.]", "^\\."]]
-        //   }
-        // ],
+        "simple-import-sort/exports": "error",
 
         // force keys sorting in destructuring since we like to sort
         // https://github.com/mthadley/eslint-plugin-sort-destructure-keys
@@ -337,6 +333,7 @@ module.exports = {
             caseSensitive: false,
           },
         ],
+        "jsx-a11y/no-noninteractive-element-interactions": "warn",
       },
     },
   ],

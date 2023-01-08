@@ -8,11 +8,13 @@ Preview: https://nhminhduc.github.io/genshin_banner/
 
 ## How to run
 
-- Install npx
+- Install npx & nvm
 - Use ```nvm``` by running
 ```nvm use```
 - Install packages
 ```npm i```
+- Add .env.local and .env.production.local (if you want images in build /dist) with following line:
+```VITE_USE_PUBLIC=true```
 - Run on local
 ```npm run dev```
 - Formatting

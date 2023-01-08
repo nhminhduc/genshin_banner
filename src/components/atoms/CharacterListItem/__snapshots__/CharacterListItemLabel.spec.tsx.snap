@@ -11,7 +11,7 @@ exports[`CharacterListItem test > CharacterListItem snapshot 1`] = `
       Character List Item Test
     </div>
     <div
-      class="font-bold text-xl text-rose-600"
+      class="font-bold text-xl text-rose-700"
     >
       4
     </div>

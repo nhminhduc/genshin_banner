@@ -14,7 +14,7 @@ const SortByVersionNo = () => {
 
   return (
     <SortButton
-      className="bg-amber-600 border border-amber-200 rounded p-1 text-white font-medium md:font-bold md:self-end"
+      className="bg-amber-600 border border-amber-200 rounded p-1 text-white font-medium md:font-bold md:ml-auto"
       id="versionNo"
       label="Sort by last appearance"
       name="versionNo"

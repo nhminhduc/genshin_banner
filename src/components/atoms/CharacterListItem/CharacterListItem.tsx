@@ -1,12 +1,12 @@
 import { ImageListItem } from "@mui/material";
-import { elements } from "assets/images";
 import cx from "classnames";
+import { config } from "config";
+import { useFilterContext } from "hooks/useFilterContext";
 
 import CharacterListItemLabel from "./CharacterListItemLabel";
 
 interface CharacterListItemProps {
   found?: boolean;
-  link: string;
   name: string;
   noVersions?: number;
   rarity: string;
@@ -15,39 +15,45 @@ interface CharacterListItemProps {
 
 const CharacterListItem = ({
   found,
-  link,
   name,
   noVersions,
   rarity,
   visionKey,
-}: CharacterListItemProps) => (
-  <a href={link}>
+}: CharacterListItemProps) => {
+  const { baseUrl } = config;
+  const { setCurrentCharacterName } = useFilterContext();
+  const handleOnClick = () => {
+    setCurrentCharacterName(name);
+  };
+
+  return (
     <ImageListItem
       className={cx(
-        "bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10",
+        "rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer",
         {
           "opacity-30": !found,
           "bg-[#9470bb]": rarity === "4",
           "bg-[#c87c24]": rarity === "5",
         },
       )}
+      onClick={handleOnClick}
     >
       <span>
         <img
           alt={visionKey}
           className="w-8 h-8 absolute right-0"
-          src={elements[visionKey as keyof typeof elements]}
+          src={`${baseUrl}elements/${visionKey}.png`}
         />
       </span>
       <img
         alt={name}
         className={cx("characterImage", "w-full h-full truncate")}
         loading="lazy"
-        src={`characters/${name}/icon-big.webp`}
+        src={`${baseUrl}characters/${name}/icon-big.png`}
       />
       <CharacterListItemLabel name={name} noVersions={noVersions} />
     </ImageListItem>
-  </a>
-);
+  );
+};
 
 export default CharacterListItem;

@@ -1,4 +1,3 @@
-import { elements as elementsIcon } from "assets/images";
 import cx from "classnames";
 import FilterButton from "components/atoms/FilterButton/FilterButton";
 import { config } from "config";
@@ -11,7 +10,7 @@ type FilterElementsProps = {
 const FilterElements = ({ className }: FilterElementsProps) => {
   const { elementFilter, setElementFilter } = useFilterContext();
 
-  const { elements } = config;
+  const { baseUrl, elements } = config;
 
   const onElementFilterButtonClick = (
     elementValue: string,
@@ -32,16 +31,18 @@ const FilterElements = ({ className }: FilterElementsProps) => {
   };
 
   return (
-    <div className={cx("flex flex-wrap w-36 md:w-24 p-2 mt-2", className)}>
+    <div
+      className={cx("flex flex-wrap w-44 p-2 mt-2 justify-center", className)}
+    >
       {elements.map((element) => (
         <FilterButton
           chosen={elementFilter.includes(element)}
-          className="bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          className="bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           icon={
             <img
               alt={element}
               className="w-9 h-9"
-              src={elementsIcon[element as keyof typeof elementsIcon]}
+              src={`${baseUrl}elements/${element}.png`}
             />
           }
           id={element}

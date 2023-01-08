@@ -16,6 +16,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@heroicons/react": "^2.0.13",
     "@mui/material": "^5.10.16",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "classnames": "^2.3.2",
@@ -23,6 +24,7 @@
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-focus-lock": "^2.9.2",
     "react-icons": "^4.7.1",
     "react-modal": "^3.16.1",
     "tailwindcss": "^3.2.4"

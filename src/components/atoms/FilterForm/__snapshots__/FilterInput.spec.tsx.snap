@@ -4,6 +4,7 @@ exports[`FilterInput test > FilterInput load 1`] = `
 <div>
   <div>
     <input
+      class="p-2"
       defaultvalue="FilterInput test"
       name="FilterInput test"
       type="text"

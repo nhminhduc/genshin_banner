@@ -3,1980 +3,14 @@
 exports[`Page test > Page load 1`] = `
 <div>
   <div
-    class="_pageBackground_c84215 flex justify-center items-start pt-10"
+    class="_pageBackground_c84215 flex justify-center items-start pt-10 lg:mx-48"
   >
     <div
-      class="flex flex-col"
-    >
-      <div
-        class="flex justify-between items-center pb-2 mx-4"
-      >
-        <button
-          class="flex items-center bg-amber-600 border border-amber-200 rounded p-1 text-white font-medium md:font-bold md:self-end opacity-30"
-          id="versionNo"
-          name="versionNo"
-          type="button"
-        >
-           
-          Sort by last appearance
-        </button>
-        <div
-          class="bg-amber-600 border border-amber-200 rounded p-1 mr-4 text-white font-medium md:hidden"
-        >
-          <button
-            type="button"
-          >
-            Filters
-          </button>
-        </div>
-      </div>
-      <ul
-        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-13nh5n-MuiImageList-root"
-        style="grid-template-columns: repeat(3, 1fr); gap: 4px;"
-      >
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Albedo"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="geo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/geo.png"
-              />
-            </span>
-            <img
-              alt="albedo"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/albedo/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Albedo
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                4
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Aloy"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="aloy"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/aloy/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Aloy
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Amber"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="amber"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/amber/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Amber
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Arataki_Itto"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="geo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/geo.png"
-              />
-            </span>
-            <img
-              alt="arataki-itto"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/arataki-itto/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Arataki Itto
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                1
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Kamisato_Ayaka"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="ayaka"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/ayaka/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Ayaka
-              </div>
-              <div
-                class="font-bold text-xl text-rose-900"
-              >
-                12
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Kamisato_Ayato"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="hydro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/hydro.png"
-              />
-            </span>
-            <img
-              alt="ayato"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/ayato/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Ayato
-              </div>
-              <div
-                class="font-bold text-xl text-green-600 text-lime-300"
-              >
-                0
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Barbara"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="hydro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/hydro.png"
-              />
-            </span>
-            <img
-              alt="barbara"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/barbara/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Barbara
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                4
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Beidou"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="beidou"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/beidou/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Beidou
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                4
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Bennett"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="bennett"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/bennett/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Bennett
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                3
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Chongyun"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="chongyun"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/chongyun/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Chongyun
-              </div>
-              <div
-                class="font-bold text-xl text-rose-900"
-              >
-                10
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Collei"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="dendro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/dendro.png"
-              />
-            </span>
-            <img
-              alt="collei"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/collei/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Collei
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                7
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Diluc"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="diluc"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/diluc/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Diluc
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Diona"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="diona"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/diona/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Diona
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                7
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Eula"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="eula"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/eula/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Eula
-              </div>
-              <div
-                class="font-bold text-xl text-rose-900"
-              >
-                19
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Faruzan"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="faruzan"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/faruzan/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Faruzan
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                1
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Fischl"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="fischl"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/fischl/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Fischl
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                7
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Ganyu"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="ganyu"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/ganyu/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Ganyu
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                6
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Gorou"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="geo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/geo.png"
-              />
-            </span>
-            <img
-              alt="gorou"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/gorou/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Gorou
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                1
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Hu_Tao"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="hu-tao"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/hu-tao/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Hu Tao
-              </div>
-              <div
-                class="font-bold text-xl text-rose-900"
-              >
-                20
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Jean"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="jean"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/jean/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Jean
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Kaeya"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="kaeya"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/kaeya/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Kaeya
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Kazuha"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="kazuha"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/kazuha/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Kazuha
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                9
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Keqing"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="keqing"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/keqing/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Keqing
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Klee"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="klee"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/klee/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Klee
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                9
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Kokomi"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="hydro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/hydro.png"
-              />
-            </span>
-            <img
-              alt="kokomi"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/kokomi/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Kokomi
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                6
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Kuki_Shinobu"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="kuki-shinobu"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/kuki-shinobu/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Kuki Shinobu
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                5
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Lisa"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="lisa"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/lisa/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Lisa
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Mona"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="hydro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/hydro.png"
-              />
-            </span>
-            <img
-              alt="mona"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/mona/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Mona
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Nilou"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="hydro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/hydro.png"
-              />
-            </span>
-            <img
-              alt="nilou"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/nilou/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Nilou
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                4
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Ningguang"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="geo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/geo.png"
-              />
-            </span>
-            <img
-              alt="ningguang"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/ningguang/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Ningguang
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                9
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Noelle"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="geo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/geo.png"
-              />
-            </span>
-            <img
-              alt="noelle"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/noelle/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Noelle
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                3
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Qiqi"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="qiqi"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/qiqi/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Qiqi
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="raiden"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/raiden/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Raiden
-              </div>
-              <div
-                class="font-bold text-xl text-green-600 text-lime-300"
-              >
-                0
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Razor"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="razor"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/razor/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Razor
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                3
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Rosaria"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="rosaria"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/rosaria/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Rosaria
-              </div>
-              <div
-                class="font-bold text-xl text-green-600 text-lime-300"
-              >
-                0
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Kujou_Sara"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="kujou-sara"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/kujou-sara/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Kujou Sara
-              </div>
-              <div
-                class="font-bold text-xl text-green-600 text-lime-300"
-              >
-                0
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Sayu"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="sayu"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/sayu/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Sayu
-              </div>
-              <div
-                class="font-bold text-xl text-green-600 text-lime-300"
-              >
-                0
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Shenhe"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="cryo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/cryo.png"
-              />
-            </span>
-            <img
-              alt="shenhe"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/shenhe/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Shenhe
-              </div>
-              <div
-                class="font-bold text-xl text-rose-900"
-              >
-                17
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Shikanoin_Heizou"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="shikanoin-heizou"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/shikanoin-heizou/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Shikanoin Heizou
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                2
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Sucrose"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="sucrose"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/sucrose/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Sucrose
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                6
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Tartaglia"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="hydro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/hydro.png"
-              />
-            </span>
-            <img
-              alt="tartaglia"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/tartaglia/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Tartaglia
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                2
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Thoma"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="thoma"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/thoma/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Thoma
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                2
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Tighnari"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="dendro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/dendro.png"
-              />
-            </span>
-            <img
-              alt="tighnari"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/tighnari/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Tighnari
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                7
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Venti"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="venti"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/venti/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Venti
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                5
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Wanderer"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="wanderer"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/wanderer/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Wanderer
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                1
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Xiangling"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="xiangling"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/xiangling/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Xiangling
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                4
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Xiao"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="anemo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/anemo.png"
-              />
-            </span>
-            <img
-              alt="xiao"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/xiao/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Xiao
-              </div>
-              <div
-                class="font-bold text-xl text-rose-900"
-              >
-                11
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Xingqiu"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="hydro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/hydro.png"
-              />
-            </span>
-            <img
-              alt="xingqiu"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/xingqiu/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Xingqiu
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                6
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Xinyan"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="xinyan"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/xinyan/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Xinyan
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                8
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Yae_Miko"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="electro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/electro.png"
-              />
-            </span>
-            <img
-              alt="yae-miko"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/yae-miko/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Yae Miko
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                2
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Yanfei"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="yanfei"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/yanfei/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Yanfei
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                1
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Yelan"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="hydro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/hydro.png"
-              />
-            </span>
-            <img
-              alt="yelan"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/yelan/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Yelan
-              </div>
-              <div
-                class="font-bold text-xl text-rose-900"
-              >
-                11
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Yoimiya"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="pyro"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/pyro.png"
-              />
-            </span>
-            <img
-              alt="yoimiya"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/yoimiya/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Yoimiya
-              </div>
-              <div
-                class="font-bold text-xl text-lime-300"
-              >
-                3
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Yun_Jin"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="geo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/geo.png"
-              />
-            </span>
-            <img
-              alt="yun-jin"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/yun-jin/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Yun Jin
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                8
-              </div>
-            </div>
-          </li>
-        </a>
-        <a
-          href="https://genshin-impact.fandom.com/wiki/Zhongli"
-        >
-          <li
-            class="MuiImageListItem-root MuiImageListItem-standard bg-[#994c4c] rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
-            style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
-          >
-            <span>
-              <img
-                alt="geo"
-                class="w-8 h-8 absolute right-0"
-                src="/genshin_banner/src/assets/images/elements/geo.png"
-              />
-            </span>
-            <img
-              alt="zhongli"
-              class="MuiImageListItem-img characterImage w-full h-full truncate"
-              loading="lazy"
-              src="characters/zhongli/icon-big.webp"
-            />
-            <div
-              class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
-            >
-              <div
-                class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
-              >
-                Zhongli
-              </div>
-              <div
-                class="font-bold text-xl text-rose-600"
-              >
-                7
-              </div>
-            </div>
-          </li>
-        </a>
-      </ul>
-    </div>
-    <div
-      class="hidden md:flex flex flex-col items-center bg-slate-300/75 h-full rounded p-4 mt-10"
+      class="hidden lg:flex flex flex-col items-center bg-slate-300/75 h-full rounded md:p-4 md:mt-16"
     >
       <div>
         <input
-          class="border-2 rounded border-amber-500 w-36 md:w-48"
+          class="p-2 border-2 rounded border-amber-500 w-48 mt-4 md:h-8 md:w-56"
           defaultvalue=""
           id="name"
           name="name"
@@ -1985,10 +19,10 @@ exports[`Page test > Page load 1`] = `
         />
       </div>
       <div
-        class="flex flex-wrap w-36 md:w-24 p-2 mt-2"
+        class="flex flex-wrap w-44 p-2 mt-2 justify-center"
       >
         <button
-          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           id="anemo"
           name="elementFilter"
           type="button"
@@ -1997,11 +31,11 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="anemo"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/anemo.png"
+            src="elements/anemo.png"
           />
         </button>
         <button
-          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           id="cryo"
           name="elementFilter"
           type="button"
@@ -2010,11 +44,11 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="cryo"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/cryo.png"
+            src="elements/cryo.png"
           />
         </button>
         <button
-          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           id="dendro"
           name="elementFilter"
           type="button"
@@ -2023,11 +57,11 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="dendro"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/dendro.png"
+            src="elements/dendro.png"
           />
         </button>
         <button
-          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           id="electro"
           name="elementFilter"
           type="button"
@@ -2036,11 +70,11 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="electro"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/electro.png"
+            src="elements/electro.png"
           />
         </button>
         <button
-          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           id="geo"
           name="elementFilter"
           type="button"
@@ -2049,11 +83,11 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="geo"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/geo.png"
+            src="elements/geo.png"
           />
         </button>
         <button
-          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           id="hydro"
           name="elementFilter"
           type="button"
@@ -2062,11 +96,11 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="hydro"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/hydro.png"
+            src="elements/hydro.png"
           />
         </button>
         <button
-          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+          class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
           id="pyro"
           name="elementFilter"
           type="button"
@@ -2075,7 +109,7 @@ exports[`Page test > Page load 1`] = `
           <img
             alt="pyro"
             class="w-9 h-9"
-            src="/genshin_banner/src/assets/images/elements/pyro.png"
+            src="elements/pyro.png"
           />
         </button>
       </div>
@@ -2091,7 +125,7 @@ exports[`Page test > Page load 1`] = `
           4
            
           <svg
-            class="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+            class="fill-[#f7d04d] h-4 w-4 md:h-5 md:w-5"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2109,7 +143,7 @@ exports[`Page test > Page load 1`] = `
           5
            
           <svg
-            class="h-4 w-4 fill-[#f7d04d] lg:h-5 lg:w-5"
+            class="fill-[#f7d04d] h-4 w-4 md:h-5 md:w-5"
             viewBox="0 0 576 512"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -2119,6 +153,1784 @@ exports[`Page test > Page load 1`] = `
           </svg>
         </button>
       </div>
+    </div>
+    <div
+      class="flex flex-col"
+    >
+      <div
+        class="flex justify-between items-center pb-2 mx-4"
+      >
+        <div
+          class="bg-amber-600 border border-amber-200 rounded p-1 mr-4 text-white font-medium lg:hidden"
+        >
+          <button
+            type="button"
+          >
+            Filters
+          </button>
+        </div>
+        <button
+          class="flex items-center bg-amber-600 border border-amber-200 rounded p-1 text-white font-medium md:font-bold md:ml-auto opacity-30"
+          id="versionNo"
+          name="versionNo"
+          type="button"
+        >
+           
+          Sort by last appearance
+        </button>
+      </div>
+      <ul
+        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-13nh5n-MuiImageList-root"
+        style="grid-template-columns: repeat(3, 1fr); gap: 4px;"
+      >
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="geo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/geo.png"
+            />
+          </span>
+          <img
+            alt="albedo"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/albedo/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Albedo
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              4
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="aloy"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/aloy/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Aloy
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="amber"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/amber/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Amber
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="geo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/geo.png"
+            />
+          </span>
+          <img
+            alt="arataki-itto"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/arataki-itto/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Arataki Itto
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              1
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="ayaka"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/ayaka/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Ayaka
+            </div>
+            <div
+              class="font-bold text-xl text-rose-900"
+            >
+              12
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="hydro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/hydro.png"
+            />
+          </span>
+          <img
+            alt="ayato"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/ayato/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Ayato
+            </div>
+            <div
+              class="font-bold text-xl text-lime-700 text-yellow-400"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="hydro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/hydro.png"
+            />
+          </span>
+          <img
+            alt="barbara"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/barbara/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Barbara
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              4
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="beidou"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/beidou/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Beidou
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              4
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="bennett"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/bennett/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Bennett
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              3
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="chongyun"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/chongyun/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Chongyun
+            </div>
+            <div
+              class="font-bold text-xl text-rose-900"
+            >
+              10
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="dendro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/dendro.png"
+            />
+          </span>
+          <img
+            alt="collei"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/collei/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Collei
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              7
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="diluc"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/diluc/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Diluc
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="diona"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/diona/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Diona
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              7
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="eula"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/eula/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Eula
+            </div>
+            <div
+              class="font-bold text-xl text-rose-900"
+            >
+              19
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="faruzan"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/faruzan/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Faruzan
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              1
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="fischl"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/fischl/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Fischl
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              7
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="ganyu"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/ganyu/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Ganyu
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              6
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="geo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/geo.png"
+            />
+          </span>
+          <img
+            alt="gorou"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/gorou/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Gorou
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              1
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="hu-tao"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/hu-tao/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Hu Tao
+            </div>
+            <div
+              class="font-bold text-xl text-rose-900"
+            >
+              20
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="jean"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/jean/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Jean
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="kaeya"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/kaeya/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Kaeya
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="kazuha"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/kazuha/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Kazuha
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              9
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="keqing"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/keqing/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Keqing
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="klee"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/klee/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Klee
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              9
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="hydro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/hydro.png"
+            />
+          </span>
+          <img
+            alt="kokomi"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/kokomi/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Kokomi
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              6
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="kuki-shinobu"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/kuki-shinobu/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Kuki Shinobu
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              5
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="lisa"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/lisa/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Lisa
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="hydro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/hydro.png"
+            />
+          </span>
+          <img
+            alt="mona"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/mona/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Mona
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="dendro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/dendro.png"
+            />
+          </span>
+          <img
+            alt="nahida"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/nahida/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Nahida
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              3
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="hydro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/hydro.png"
+            />
+          </span>
+          <img
+            alt="nilou"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/nilou/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Nilou
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              4
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="geo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/geo.png"
+            />
+          </span>
+          <img
+            alt="ningguang"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/ningguang/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Ningguang
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              9
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="geo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/geo.png"
+            />
+          </span>
+          <img
+            alt="noelle"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/noelle/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Noelle
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              3
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="qiqi"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/qiqi/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Qiqi
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="raiden"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/raiden/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Raiden
+            </div>
+            <div
+              class="font-bold text-xl text-lime-700 text-yellow-400"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="razor"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/razor/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Razor
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              3
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="rosaria"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/rosaria/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Rosaria
+            </div>
+            <div
+              class="font-bold text-xl text-lime-700 text-yellow-400"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="kujou-sara"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/kujou-sara/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Kujou Sara
+            </div>
+            <div
+              class="font-bold text-xl text-lime-700 text-yellow-400"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="sayu"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/sayu/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Sayu
+            </div>
+            <div
+              class="font-bold text-xl text-lime-700 text-yellow-400"
+            >
+              0
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="cryo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/cryo.png"
+            />
+          </span>
+          <img
+            alt="shenhe"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/shenhe/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Shenhe
+            </div>
+            <div
+              class="font-bold text-xl text-rose-900"
+            >
+              17
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="shikanoin-heizou"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/shikanoin-heizou/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Shikanoin Heizou
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              2
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="sucrose"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/sucrose/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Sucrose
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              6
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="hydro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/hydro.png"
+            />
+          </span>
+          <img
+            alt="tartaglia"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/tartaglia/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Tartaglia
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              2
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="thoma"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/thoma/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Thoma
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              2
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="dendro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/dendro.png"
+            />
+          </span>
+          <img
+            alt="tighnari"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/tighnari/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Tighnari
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              7
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="venti"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/venti/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Venti
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              5
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="wanderer"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/wanderer/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Wanderer
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              1
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="xiangling"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/xiangling/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Xiangling
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              4
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="anemo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/anemo.png"
+            />
+          </span>
+          <img
+            alt="xiao"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/xiao/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Xiao
+            </div>
+            <div
+              class="font-bold text-xl text-rose-900"
+            >
+              11
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="hydro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/hydro.png"
+            />
+          </span>
+          <img
+            alt="xingqiu"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/xingqiu/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Xingqiu
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              6
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="xinyan"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/xinyan/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Xinyan
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              8
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="electro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/electro.png"
+            />
+          </span>
+          <img
+            alt="yae-miko"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/yae-miko/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Yae Miko
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              2
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="yanfei"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/yanfei/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Yanfei
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              1
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="hydro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/hydro.png"
+            />
+          </span>
+          <img
+            alt="yelan"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/yelan/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Yelan
+            </div>
+            <div
+              class="font-bold text-xl text-rose-900"
+            >
+              11
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="pyro"
+              class="w-8 h-8 absolute right-0"
+              src="elements/pyro.png"
+            />
+          </span>
+          <img
+            alt="yoimiya"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/yoimiya/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Yoimiya
+            </div>
+            <div
+              class="font-bold text-xl text-yellow-400"
+            >
+              3
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="geo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/geo.png"
+            />
+          </span>
+          <img
+            alt="yun-jin"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/yun-jin/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Yun Jin
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              8
+            </div>
+          </div>
+        </li>
+        <li
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
+        >
+          <span>
+            <img
+              alt="geo"
+              class="w-8 h-8 absolute right-0"
+              src="elements/geo.png"
+            />
+          </span>
+          <img
+            alt="zhongli"
+            class="MuiImageListItem-img characterImage w-full h-full truncate"
+            loading="lazy"
+            src="characters/zhongli/icon-big.png"
+          />
+          <div
+            class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
+          >
+            <div
+              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+            >
+              Zhongli
+            </div>
+            <div
+              class="font-bold text-xl text-rose-700"
+            >
+              7
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 </div>

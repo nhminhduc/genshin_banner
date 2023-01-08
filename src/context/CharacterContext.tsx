@@ -8,7 +8,7 @@ export const CharacterContext = createContext<CharacterData[] | undefined>(
 );
 
 const CharacterContextProvider = ({ children }: any) => {
-  const characterData: CharacterData[] = useCharacterData();
+  const characterData = useCharacterData();
   const { elementFilter, nameFilter, rarityFilter, sortByVersionNoDesc } =
     useFilterContext();
 

@@ -1,4 +1,4 @@
-import Star from "assets/images/Star";
+import StarIcon from "assets/images/StarIcon";
 import FilterButton from "components/atoms/FilterButton/FilterButton";
 import { config } from "config";
 import { useFilterContext } from "hooks/useFilterContext";
@@ -33,7 +33,7 @@ const FilterRarities = () => {
         <FilterButton
           chosen={rarityFilter.includes(rarity)}
           className="bg-amber-700 border border-amber-200 rounded w-12 my-1 text-white font-bold"
-          icon={<Star />}
+          icon={<StarIcon className="h-4 w-4 md:h-5 md:w-5" />}
           id={rarity}
           key={rarity}
           label={rarity}

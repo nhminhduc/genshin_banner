@@ -10,7 +10,7 @@ const CharacterList = () => {
   const characterDataContext: CharacterData[] = useCharacterContext();
   const mediumSize = useMediaQuery("(min-width:660px)");
   const ImageListStyle = mediumSize
-    ? { height: 640, width: 600 }
+    ? { height: 655, width: 600 }
     : { height: 480, width: 360 };
 
   return (
@@ -25,7 +25,6 @@ const CharacterList = () => {
         const {
           found,
           fromLastBanner,
-          link,
           name,
           rarity,
           vision_key: visionKey,
@@ -35,7 +34,6 @@ const CharacterList = () => {
           <CharacterListItem
             found={found}
             key={name}
-            link={link}
             name={name}
             noVersions={noVersions}
             rarity={rarity}

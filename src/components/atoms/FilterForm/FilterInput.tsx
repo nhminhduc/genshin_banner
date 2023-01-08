@@ -1,3 +1,4 @@
+import cx from "classnames";
 import { LegacyRef } from "react";
 
 type FilterInputProps = {
@@ -23,7 +24,7 @@ const FilterInput = ({
 }: FilterInputProps) => (
   <div>
     <input
-      className={className}
+      className={cx("p-2", className)}
       id={id}
       name={name}
       onChange={onChange}

@@ -16,6 +16,7 @@ const FilterContextProvider = ({ children }: any) => {
       elementFilter: state.elementFilter,
       rarityFilter: state.rarityFilter,
       sortByVersionNoDesc: state.sortByVersionNoDesc,
+      currentCharacterName: state.currentCharacterName,
       filterByName: (name: string | undefined) => {
         dispatch({ type: actions.SET_NAME_FILTER, value: name });
       },
@@ -30,6 +31,9 @@ const FilterContextProvider = ({ children }: any) => {
           type: actions.SET_SORT_BY_VERSION_NO_DESC,
           value: sortByVersionNoDesc,
         });
+      },
+      setCurrentCharacterName: (name: string | undefined) => {
+        dispatch({ type: actions.SET_CURRENT_CHARACTER_NAME, value: name });
       },
     }),
     [state, dispatch],

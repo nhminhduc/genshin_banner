@@ -256,6 +256,16 @@
     "link": "https://genshin-impact.fandom.com/wiki/Mona"
   },
   {
+    "name": "nahida",
+    "vision_key": "dendro",
+    "rarity": "5",
+    "banner": {
+      "last_date": "2022-11-02",
+      "version": "3.2.1"
+    },
+    "link": "https://genshin-impact.fandom.com/wiki/Nahida"
+  },
+  {
     "name": "nilou",
     "vision_key": "hydro",
     "rarity": "5",

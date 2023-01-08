@@ -3,10 +3,10 @@
 exports[`FilterElements test > FilterElements load 1`] = `
 <div>
   <div
-    class="flex flex-wrap w-36 md:w-24 p-2 mt-2"
+    class="flex flex-wrap w-44 p-2 mt-2 justify-center"
   >
     <button
-      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
       id="anemo"
       name="elementFilter"
       type="button"
@@ -15,11 +15,11 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="anemo"
         class="w-9 h-9"
-        src="/genshin_banner/src/assets/images/elements/anemo.png"
+        src="elements/anemo.png"
       />
     </button>
     <button
-      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
       id="cryo"
       name="elementFilter"
       type="button"
@@ -28,11 +28,11 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="cryo"
         class="w-9 h-9"
-        src="/genshin_banner/src/assets/images/elements/cryo.png"
+        src="elements/cryo.png"
       />
     </button>
     <button
-      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
       id="dendro"
       name="elementFilter"
       type="button"
@@ -41,11 +41,11 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="dendro"
         class="w-9 h-9"
-        src="/genshin_banner/src/assets/images/elements/dendro.png"
+        src="elements/dendro.png"
       />
     </button>
     <button
-      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
       id="electro"
       name="elementFilter"
       type="button"
@@ -54,11 +54,11 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="electro"
         class="w-9 h-9"
-        src="/genshin_banner/src/assets/images/elements/electro.png"
+        src="elements/electro.png"
       />
     </button>
     <button
-      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
       id="geo"
       name="elementFilter"
       type="button"
@@ -67,11 +67,11 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="geo"
         class="w-9 h-9"
-        src="/genshin_banner/src/assets/images/elements/geo.png"
+        src="elements/geo.png"
       />
     </button>
     <button
-      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
       id="hydro"
       name="elementFilter"
       type="button"
@@ -80,11 +80,11 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="hydro"
         class="w-9 h-9"
-        src="/genshin_banner/src/assets/images/elements/hydro.png"
+        src="elements/hydro.png"
       />
     </button>
     <button
-      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[1px]"
+      class="flex justify-around items-center bg-amber-700 border border-amber-200 rounded basis-9 m-[2px]"
       id="pyro"
       name="elementFilter"
       type="button"
@@ -93,7 +93,7 @@ exports[`FilterElements test > FilterElements load 1`] = `
       <img
         alt="pyro"
         class="w-9 h-9"
-        src="/genshin_banner/src/assets/images/elements/pyro.png"
+        src="elements/pyro.png"
       />
     </button>
   </div>

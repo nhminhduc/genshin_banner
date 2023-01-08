@@ -25,9 +25,9 @@ const CharacterListItemLabel = ({
     {(noVersions || noVersions === 0) && (
       <div
         className={cx("font-bold text-xl", {
-          "text-green-600": noVersions === 0,
-          "text-lime-300": noVersions <= 3,
-          "text-rose-600": noVersions > 3 && noVersions < 10,
+          "text-lime-700": noVersions === 0,
+          "text-yellow-400": noVersions <= 3,
+          "text-rose-700": noVersions > 3 && noVersions < 10,
           "text-rose-900": noVersions >= 10,
         })}
       >
