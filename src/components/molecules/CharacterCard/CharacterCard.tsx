@@ -1,5 +1,4 @@
 import cx from "classnames";
-import FoldableSection from "components/atoms/FoldableSection/FoldableSection";
 import type { CharacterData } from "types/CharacterType";
 
 import CharacterCardHeader from "./CharacterCardHeader/CharacterCardHeader";
@@ -12,9 +11,7 @@ export type CharacterCardProps = {
 const CharacterCard = ({ character, className }: CharacterCardProps) => {
   const {
     ascension_materials: ascensionMaterials,
-    name,
     talent_materials: talentMaterials,
-    vision_key: visionKey,
   } = character;
 
   return (

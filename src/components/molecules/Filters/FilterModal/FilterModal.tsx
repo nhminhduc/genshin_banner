@@ -19,12 +19,6 @@ const FilterModal = () => {
     setExpanded(true);
   }
 
-  const modalStyle = {
-    overlay: {
-      backgroundColor: "rgba(255, 255, 255, 0.25)",
-    },
-  };
-
   return (
     <div className="bg-amber-600 border border-amber-200 rounded p-1 mr-4 text-white font-medium lg:hidden">
       <button onClick={openModal} type="button">

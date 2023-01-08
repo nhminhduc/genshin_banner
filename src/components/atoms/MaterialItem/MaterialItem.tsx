@@ -1,6 +1,6 @@
 import cx from "classnames";
 import { config } from "config";
-import { camelCase, kebabCase, startCase } from "lodash";
+import { kebabCase } from "lodash";
 
 type MaterialItemProps = {
   className?: string;
