@@ -1,3 +1,4 @@
+import { XMarkIcon } from "@heroicons/react/24/solid";
 import LinkIcon from "assets/images/LinkIcon";
 import StarIcon from "assets/images/StarIcon";
 import cx from "classnames";
@@ -8,11 +9,13 @@ import type { CharacterData } from "types/CharacterType";
 type CharacterCardHeaderProps = {
   character: CharacterData;
   className?: string;
+  onCloseButton?(): void;
 };
 
 const CharacterCardHeader = ({
   character,
   className,
+  onCloseButton,
 }: CharacterCardHeaderProps) => {
   const { baseUrl } = config;
 
@@ -46,19 +49,22 @@ const CharacterCardHeader = ({
           className,
         )}
       >
-        <img
-          alt={name}
-          className={cx("w-full h-full")}
-          loading="lazy"
-          src={`${baseUrl}characters/${name}/icon-big.png`}
-        />
-        <span className="absolute right-0 top-0">
+        <a href={link} rel="noopener" target="_blank">
           <img
-            alt={visionKey}
-            className="w-4 h-4 md:w-10 md:h-10"
-            src={`${baseUrl}elements/${visionKey}.png`}
+            alt={name}
+            className={cx("w-full h-full")}
+            loading="lazy"
+            src={`${baseUrl}characters/${name}/icon-big.png`}
           />
-        </span>
+          <LinkIcon className="absolute left-0 top-0 h-4 w-4 md:h-6 md:w-6" />
+          <span className="absolute right-0 top-0">
+            <img
+              alt={visionKey}
+              className="w-4 h-4 md:w-10 md:h-10"
+              src={`${baseUrl}elements/${visionKey}.png`}
+            />
+          </span>
+        </a>
       </div>
       <div className="flex-auto ml-1 md:ml-4 flex flex-col">
         <h1 className="text-base font-medium md:text-3xl md:font-bold text-stone-200">
@@ -88,15 +94,13 @@ const CharacterCardHeader = ({
           </div>
         ) : null}
       </div>
-      <div />
-      <a
+      <button
         className="justify-self-end h-fit"
-        href={link}
-        rel="noopener"
-        target="_blank"
+        onClick={onCloseButton}
+        type="button"
       >
-        <LinkIcon className="h-4 w-4 md:h-6 md:w-6" />
-      </a>
+        <XMarkIcon className="w-4 h-4 text-white" />
+      </button>
     </div>
   );
 };

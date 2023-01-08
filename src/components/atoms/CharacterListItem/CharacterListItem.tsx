@@ -29,7 +29,7 @@ const CharacterListItem = ({
   return (
     <ImageListItem
       className={cx(
-        "rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer",
+        "rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer",
         {
           "opacity-30": !found,
           "bg-[#9470bb]": rarity === "4",

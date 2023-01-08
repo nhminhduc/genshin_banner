@@ -41,6 +41,11 @@ const CharacterCardModal = ({
               aria-labelledby="modalTitle"
               aria-modal={true}
               className="h-min w-3/4 md:w-3/5 "
+              onKeyDown={(event) => {
+                if (event.key === "Escape" && onCloseModal) {
+                  onCloseModal();
+                }
+              }}
               ref={modalRef}
               role="dialog"
               tabIndex={-1}
@@ -48,6 +53,7 @@ const CharacterCardModal = ({
               <CharacterCard
                 character={character}
                 className={cx("mt-4", className)}
+                onCloseButton={onCloseModal}
               />
             </div>
           </div>

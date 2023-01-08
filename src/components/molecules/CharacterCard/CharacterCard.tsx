@@ -7,8 +7,13 @@ import CharacterMaterials from "./CharacterMaterials/CharacterMaterials";
 export type CharacterCardProps = {
   character: CharacterData;
   className?: string;
+  onCloseButton?(): void;
 };
-const CharacterCard = ({ character, className }: CharacterCardProps) => {
+const CharacterCard = ({
+  character,
+  className,
+  onCloseButton,
+}: CharacterCardProps) => {
   const {
     ascension_materials: ascensionMaterials,
     talent_materials: talentMaterials,
@@ -21,7 +26,10 @@ const CharacterCard = ({ character, className }: CharacterCardProps) => {
         className,
       )}
     >
-      <CharacterCardHeader character={character} />
+      <CharacterCardHeader
+        character={character}
+        onCloseButton={onCloseButton}
+      />
       <CharacterMaterials
         materials={ascensionMaterials}
         title="Ascension Materials"

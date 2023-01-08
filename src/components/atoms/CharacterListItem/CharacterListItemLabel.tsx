@@ -17,7 +17,7 @@ const CharacterListItemLabel = ({
   >
     <div
       className={cx(
-        "font-bold text-sm text-slate-600 group-hover:text-rose-600",
+        "font-bold text-sm text-slate-600 md:group-hover:text-rose-600",
       )}
     >
       {startCase(name)}

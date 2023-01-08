@@ -180,11 +180,11 @@ exports[`Page test > Page load 1`] = `
         </button>
       </div>
       <ul
-        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-19gx6fv-MuiImageList-root"
+        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-13nh5n-MuiImageList-root"
         style="grid-template-columns: repeat(3, 1fr); gap: 4px;"
       >
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -204,7 +204,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Albedo
             </div>
@@ -216,7 +216,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -236,14 +236,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Aloy
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -263,14 +263,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Amber
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -290,7 +290,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Arataki Itto
             </div>
@@ -302,7 +302,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -322,7 +322,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Ayaka
             </div>
@@ -334,7 +334,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -354,7 +354,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Ayato
             </div>
@@ -366,7 +366,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -386,7 +386,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Barbara
             </div>
@@ -398,7 +398,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -418,7 +418,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Beidou
             </div>
@@ -430,7 +430,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -450,7 +450,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Bennett
             </div>
@@ -462,7 +462,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -482,7 +482,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Chongyun
             </div>
@@ -494,7 +494,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -514,7 +514,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Collei
             </div>
@@ -526,7 +526,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -546,14 +546,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Diluc
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -573,7 +573,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Diona
             </div>
@@ -585,7 +585,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -605,7 +605,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Eula
             </div>
@@ -617,7 +617,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -637,7 +637,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Faruzan
             </div>
@@ -649,7 +649,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -669,7 +669,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Fischl
             </div>
@@ -681,7 +681,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -701,7 +701,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Ganyu
             </div>
@@ -713,7 +713,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -733,7 +733,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Gorou
             </div>
@@ -745,7 +745,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -765,7 +765,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Hu Tao
             </div>
@@ -777,7 +777,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -797,14 +797,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Jean
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -824,14 +824,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Kaeya
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -851,7 +851,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Kazuha
             </div>
@@ -863,7 +863,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -883,14 +883,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Keqing
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -910,7 +910,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Klee
             </div>
@@ -922,7 +922,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -942,7 +942,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Kokomi
             </div>
@@ -954,7 +954,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -974,7 +974,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Kuki Shinobu
             </div>
@@ -986,7 +986,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1006,14 +1006,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Lisa
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1033,14 +1033,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Mona
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1060,7 +1060,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Nahida
             </div>
@@ -1072,7 +1072,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1092,7 +1092,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Nilou
             </div>
@@ -1104,7 +1104,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1124,7 +1124,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Ningguang
             </div>
@@ -1136,7 +1136,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1156,7 +1156,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Noelle
             </div>
@@ -1168,7 +1168,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1188,14 +1188,14 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Qiqi
             </div>
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1215,7 +1215,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Raiden
             </div>
@@ -1227,7 +1227,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1247,7 +1247,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Razor
             </div>
@@ -1259,7 +1259,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1279,7 +1279,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Rosaria
             </div>
@@ -1291,7 +1291,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1311,7 +1311,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Kujou Sara
             </div>
@@ -1323,7 +1323,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1343,7 +1343,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Sayu
             </div>
@@ -1355,7 +1355,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1375,7 +1375,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Shenhe
             </div>
@@ -1387,7 +1387,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1407,7 +1407,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Shikanoin Heizou
             </div>
@@ -1419,7 +1419,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1439,7 +1439,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Sucrose
             </div>
@@ -1451,7 +1451,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1471,7 +1471,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Tartaglia
             </div>
@@ -1483,7 +1483,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1503,7 +1503,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Thoma
             </div>
@@ -1515,7 +1515,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1535,7 +1535,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Tighnari
             </div>
@@ -1547,7 +1547,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1567,7 +1567,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Venti
             </div>
@@ -1579,7 +1579,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1599,7 +1599,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Wanderer
             </div>
@@ -1611,7 +1611,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1631,7 +1631,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Xiangling
             </div>
@@ -1643,7 +1643,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1663,7 +1663,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Xiao
             </div>
@@ -1675,7 +1675,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1695,7 +1695,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Xingqiu
             </div>
@@ -1707,7 +1707,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1727,7 +1727,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Xinyan
             </div>
@@ -1739,7 +1739,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1759,7 +1759,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Yae Miko
             </div>
@@ -1771,7 +1771,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1791,7 +1791,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Yanfei
             </div>
@@ -1803,7 +1803,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1823,7 +1823,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Yelan
             </div>
@@ -1835,7 +1835,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1855,7 +1855,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Yoimiya
             </div>
@@ -1867,7 +1867,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#9470bb] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1887,7 +1887,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Yun Jin
             </div>
@@ -1899,7 +1899,7 @@ exports[`Page test > Page load 1`] = `
           </div>
         </li>
         <li
-          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex group hover:scale-[1.2] hover:z-10 hover:transition-all hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
+          class="MuiImageListItem-root MuiImageListItem-standard rounded border-2 border-[#ebe7df] border-solid flex md:group md:hover:scale-[1.2] md:hover:z-10 md:hover:transition-all md:hover:cursor-pointer bg-[#c87c24] css-ta95xa-MuiImageListItem-root"
           style="height: 156px; grid-column-end: span 1; grid-row-end: span 1;"
         >
           <span>
@@ -1919,7 +1919,7 @@ exports[`Page test > Page load 1`] = `
             class="flex bg-[#e4c179] left-0 right-0 bottom-0 justify-between items-center h-8 px-1 py-2"
           >
             <div
-              class="font-bold text-sm text-slate-600 group-hover:text-rose-600"
+              class="font-bold text-sm text-slate-600 md:group-hover:text-rose-600"
             >
               Zhongli
             </div>
