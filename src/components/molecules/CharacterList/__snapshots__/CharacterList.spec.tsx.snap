@@ -3,7 +3,7 @@
 exports[`CharacterList test > CharacterList load 1`] = `
 <div>
   <ul
-    class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-13nh5n-MuiImageList-root"
+    class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-19gx6fv-MuiImageList-root"
     style="grid-template-columns: repeat(3, 1fr); gap: 4px;"
   >
     <li

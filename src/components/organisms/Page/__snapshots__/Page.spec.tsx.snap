@@ -3,7 +3,7 @@
 exports[`Page test > Page load 1`] = `
 <div>
   <div
-    class="_pageBackground_c84215 flex justify-center items-start pt-10 lg:mx-48"
+    class="_pageBackground_c84215 flex justify-center items-start pt-4 lg:mx-48"
   >
     <div
       class="hidden lg:flex flex flex-col items-center bg-slate-300/75 h-full rounded md:p-4 md:mt-16"
@@ -180,7 +180,7 @@ exports[`Page test > Page load 1`] = `
         </button>
       </div>
       <ul
-        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-13nh5n-MuiImageList-root"
+        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-19gx6fv-MuiImageList-root"
         style="grid-template-columns: repeat(3, 1fr); gap: 4px;"
       >
         <li
