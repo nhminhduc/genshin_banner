@@ -42,7 +42,7 @@ const FilterElements = ({ className }: FilterElementsProps) => {
             <img
               alt={element}
               className="w-9 h-9"
-              src={`${baseUrl}elements/${element}/icon.png`}
+              src={`${baseUrl}elements/${element}.png`}
             />
           }
           id={element}

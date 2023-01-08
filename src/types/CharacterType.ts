@@ -17,6 +17,14 @@ export interface FromLastBanner {
   noVersions?: number;
 }
 
+export interface Material {
+  item: string;
+  quantity: number;
+  rarity: number;
+}
+
 export interface CharacterData extends Character {
+  ascension_materials: Material[];
   fromLastBanner: FromLastBanner;
+  talent_materials: Material[];
 }

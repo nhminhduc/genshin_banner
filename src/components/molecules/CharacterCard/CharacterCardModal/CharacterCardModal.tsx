@@ -35,17 +35,11 @@ const CharacterCardModal = ({
   return expanded
     ? ReactDOM.createPortal(
         <FocusLock>
-          <div className="modal-backdrop fixed w-full h-full top-0 2xl:hidden z-20">
+          <div className="modal-backdrop fixed w-full h-full top-0 2xl:hidden z-20 flex justify-center top-20">
             <div
               aria-labelledby="modalTitle"
               aria-modal={true}
-              className="w-2/3 translate-x-1/4 translate-y-1/2"
-              onKeyDown={(event) => {
-                if (event.key === "Escape") {
-                  event.preventDefault();
-                  setExpanded(false);
-                }
-              }}
+              className="h-min w-3/4 md:w-3/5 "
               ref={modalRef}
               role="dialog"
               tabIndex={-1}

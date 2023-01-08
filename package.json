@@ -16,6 +16,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@heroicons/react": "^2.0.13",
     "@mui/material": "^5.10.16",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "classnames": "^2.3.2",

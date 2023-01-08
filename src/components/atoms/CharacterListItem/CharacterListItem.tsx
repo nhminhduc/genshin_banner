@@ -42,7 +42,7 @@ const CharacterListItem = ({
         <img
           alt={visionKey}
           className="w-8 h-8 absolute right-0"
-          src={`${baseUrl}elements/${visionKey}/icon.png`}
+          src={`${baseUrl}elements/${visionKey}.png`}
         />
       </span>
       <img

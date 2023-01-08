@@ -4,77 +4,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Basalt Pillar",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Prithiva Topaz Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Prithiva Topaz Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Cecilia",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Divining Scroll",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Divining Scroll",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Ballad",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Ballad",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Ballad",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tusk of Monoceros Caeli",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -83,77 +106,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Crystalline Bloom",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crystal Marrow",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Spectral Husk",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Spectral Heart",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Spectral Nucleus",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Spectral Husk",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Spectral Heart",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Spectral Nucleus",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Freedom",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Freedom",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Freedom",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Molten Moment",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -162,77 +208,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Everflame Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Small Lamp Grass",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Firm Arrowhead",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sharp Arrowhead",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Weathered Arrowhead",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Firm Arrowhead",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sharp Arrowhead",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Weathered Arrowhead",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Freedom",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Freedom",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Freedom",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Sigh",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -241,77 +310,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Riftborn Regalia",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Prithiva Topaz Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Prithiva Topaz Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Onikabuto",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Slime Condensate",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Slime Condensate",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Elegance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Elegance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Elegance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Ashen Heart",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -320,77 +412,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Perpetual Heart",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Sakura Bloom",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Old Handguard",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Old Handguard",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Elegance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Elegance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Elegance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Bloodjade Branch",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -399,77 +514,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Dew of Repudiation",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Varunada Lazurite Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Varunada Lazurite Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Sakura Bloom",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Old Handguard",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Old Handguard",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Elegance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Elegance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Elegance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Mudra of the Malefic General",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -478,77 +616,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Cleansing Heart",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Varunada Lazurite Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Varunada Lazurite Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Philanemo Mushroom",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Divining Scroll",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Divining Scroll",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Freedom",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Freedom",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Freedom",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Ring of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -557,77 +718,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Lightning Prism",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Noctilucous Jade",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Gold",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Gold",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Gold",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Sigh",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -636,77 +820,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Everflame Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Windwheel Aster",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Resistance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Resistance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Resistance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Plume",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -715,77 +922,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hoarfrost Core",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Cor Lapis",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Damaged Mask",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Damaged Mask",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Diligence",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Diligence",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Diligence",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Sigh",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -794,77 +1024,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Majestic Hooked Beak",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Nagadus Emerald Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Nagadus Emerald Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Nagadus Emerald Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Nagadus Emerald Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Rukkhashava Mushrooms",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Firm Arrowhead",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sharp Arrowhead",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Weathered Arrowhead",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Firm Arrowhead",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sharp Arrowhead",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Weathered Arrowhead",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Praxis",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Praxis",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Praxis",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tears of the Calamitous God",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -873,77 +1126,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Everflame Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Small Lamp Grass",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Recruit's Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Recruit's Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Resistance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Resistance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Resistance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Plume",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -952,77 +1228,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hoarfrost Core",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Calla Lily",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Firm Arrowhead",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sharp Arrowhead",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Weathered Arrowhead",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Firm Arrowhead",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sharp Arrowhead",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Weathered Arrowhead",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Freedom",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Freedom",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Freedom",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Shard of a Foul Legacy",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1031,77 +1330,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Crystalline Bloom",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Dandelion Seed",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Damaged Mask",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Damaged Mask",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Resistance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Resistance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Resistance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dragon Lord's Crown",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1110,77 +1432,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Light Guiding Tetrahedron",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Henna Berry",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Faded Red Satin",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Trimmed Red Silk",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Rich Red Brocade",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Faded Red Satin",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Trimmed Red Silk",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Rich Red Brocade",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Admonition",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Admonition",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Admonition",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Puppet Strings",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1189,77 +1534,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Lightning Prism",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Small Lamp Grass",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Firm Arrowhead",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sharp Arrowhead",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Weathered Arrowhead",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Firm Arrowhead",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sharp Arrowhead",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Weathered Arrowhead",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Ballad",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Ballad",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Ballad",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Spirit Locket of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1268,77 +1636,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hoarfrost Core",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Qingxin",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 18
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 6
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Diligence",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Diligence",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Diligence",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Shadow of the Warrior",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1347,77 +1738,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Perpetual Heart",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Prithiva Topaz Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Prithiva Topaz Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Sango Pearl",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Spectral Husk",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Spectral Heart",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Spectral Nucleus",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Spectral Husk",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Spectral Heart",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Spectral Nucleus",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Light",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Light",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Light",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Molten Moment",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1426,77 +1840,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Juvenile Jade",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Silk Flower",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 18
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 6
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Diligence",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Diligence",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Diligence",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Shard of a Foul Legacy",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1505,77 +1942,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hurricane Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Dandelion Seed",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Damaged Mask",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Damaged Mask",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Resistance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Resistance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Resistance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Plume",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1584,77 +2044,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hoarfrost Core",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Calla Lily",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Ballad",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Ballad",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Ballad",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Spirit Locket of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1663,77 +2146,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Marionette Core",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Sea Ganoderma",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Diligence",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Diligence",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Diligence",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Gilded Scale",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1742,77 +2248,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Lightning Prism",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Cor Lapis",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 18
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 6
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Prosperity",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Prosperity",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Prosperity",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Ring of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1821,77 +2350,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Everflame Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Philanemo Mushroom",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Divining Scroll",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Divining Scroll",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Freedom",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Freedom",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Freedom",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Ring of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1900,77 +2452,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Dew of Repudiation",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Varunada Lazurite Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Varunada Lazurite Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Sango Pearl",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Spectral Husk",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Spectral Heart",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Spectral Nucleus",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Spectral Husk",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Spectral Heart",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Spectral Nucleus",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Transience",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Transience",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Transience",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Hellfire Butterfly",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -1979,77 +2554,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Runic Fang",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Naku Weed",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Spectral Husk",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Spectral Heart",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Spectral Nucleus",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Spectral Husk",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Spectral Heart",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Spectral Nucleus",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Elegance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Elegance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Elegance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tears of the Calamitous God",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2058,77 +2656,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Lightning Prism",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Valberry",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Slime Condensate",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Slime Condensate",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Ballad",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Ballad",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Ballad",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Claw",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2137,77 +2758,202 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Cleansing Heart",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Varunada Lazurite Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Varunada Lazurite Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Philanemo Mushroom",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 18
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 6
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Resistance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Resistance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Resistance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Ring of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "name": "nahida",
+    "ascension_items": [
+      {
+        "item": "Mora",
+        "quantity": 420000,
+        "rarity": 3
+      },
+      {
+        "item": "Quelled Creeper",
+        "quantity": 46,
+        "rarity": 4
+      },
+      {
+        "item": "Nagadus Emerald Sliver",
+        "quantity": 1,
+        "rarity": 2
+      },
+      {
+        "item": "Nagadus Emerald Fragment",
+        "quantity": 9,
+        "rarity": 3
+      },
+      {
+        "item": "Nagadus Emerald Chunk",
+        "quantity": 9,
+        "rarity": 4
+      },
+      {
+        "item": "Nagadus Emerald Gemstone",
+        "quantity": 6,
+        "rarity": 5
+      },
+      {
+        "item": "Kalpalata Lotus",
+        "quantity": 168,
+        "rarity": 0
+      },
+      {
+        "item": "Fungal Spores",
+        "quantity": 18,
+        "rarity": 1
+      },
+      {
+        "item": "Luminescent Pollen",
+        "quantity": 30,
+        "rarity": 2
+      },
+      {
+        "item": "Crystalline Cyst Dust",
+        "quantity": 36,
+        "rarity": 3
+      }
+    ],
+    "talent_items": [
+      {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
+        "item": "Fungal Spores",
+        "quantity": 6,
+        "rarity": 1
+      },
+      {
+        "item": "Luminescent Pollen",
+        "quantity": 22,
+        "rarity": 2
+      },
+      {
+        "item": "Crystalline Cyst Dust",
+        "quantity": 31,
+        "rarity": 3
+      },
+      {
+        "item": "Teachings of Ingenuity",
+        "quantity": 3,
+        "rarity": 2
+      },
+      {
+        "item": "Guide to Ingenuity",
+        "quantity": 21,
+        "rarity": 3
+      },
+      {
+        "item": "Philosophies of Ingenuity",
+        "quantity": 38,
+        "rarity": 4
+      },
+      {
+        "item": "Puppet Strings",
+        "quantity": 6,
+        "rarity": 5
+      },
+      {
+        "item": "Crown of Insight",
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2216,77 +2962,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Perpetual Caliber",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Varunada Lazurite Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Varunada Lazurite Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Padisarah",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Fungal Spores",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Luminescent Pollen",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Crystalline Cyst Dust",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Fungal Spores",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Luminescent Pollen",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Crystalline Cyst Dust",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Praxis",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Praxis",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Praxis",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tears of the Calamitous God",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2295,77 +3064,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Basalt Pillar",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Prithiva Topaz Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Prithiva Topaz Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Glaze Lily",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Recruit's Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Recruit's Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Prosperity",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Prosperity",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Prosperity",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Spirit Locket of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2374,77 +3166,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Basalt Pillar",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Prithiva Topaz Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Prithiva Topaz Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Valberry",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Damaged Mask",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Damaged Mask",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Resistance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Resistance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Resistance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Claw",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2453,77 +3268,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hoarfrost Core",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Violetgrass",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Divining Scroll",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Divining Scroll",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Prosperity",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Prosperity",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Prosperity",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tail of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2532,77 +3370,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Storm Beads",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Amakumo Fruit",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Old Handguard",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Old Handguard",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Light",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Light",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Light",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Molten Moment",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2611,77 +3472,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Lightning Prism",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Wolfhook",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Damaged Mask",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Damaged Mask",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Resistance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Resistance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Resistance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Claw",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2690,77 +3574,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hoarfrost Core",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Valberry",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Recruit's Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Recruit's Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Ballad",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Ballad",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Ballad",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Shadow of the Warrior",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2769,77 +3676,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Storm Beads",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Dendrobium",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Damaged Mask",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Damaged Mask",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Elegance",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Elegance",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Elegance",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Ashen Heart",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2848,77 +3778,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Marionette Core",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crystal Marrow",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 18
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 6
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Light",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Light",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Light",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Gilded Scale",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -2927,77 +3880,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Dragonheir's False Fin",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Shivada Jade Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Shivada Jade Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Shivada Jade Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Qingxin",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 18
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 6
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Prosperity",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Prosperity",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Prosperity",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Hellfire Butterfly",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3006,77 +3982,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Runic Fang",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Onikabuto",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Transience",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Transience",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Transience",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "The Meaning of Aeons",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3085,77 +4084,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hurricane Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Windwheel Aster",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 18
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
-        "item": "Whopper-flower Nectar",
-        "quantity": 6
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
+        "item": "Whopper\u00adflower Nectar",
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Shimmering Nectar",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Energy Nectar",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Freedom",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Freedom",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Freedom",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Spirit Locket of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3164,77 +4186,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Cleansing Heart",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Varunada Lazurite Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Varunada Lazurite Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Starconch",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Recruit's Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Recruit's Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Freedom",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Freedom",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Freedom",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Shard of a Foul Legacy",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3243,77 +4288,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Smoldering Pearl",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Fluorescent Fungus",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Transience",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Transience",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Transience",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Hellfire Butterfly",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3322,77 +4390,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Majestic Hooked Beak",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Nagadus Emerald Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Nagadus Emerald Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Nagadus Emerald Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Nagadus Emerald Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Nilotpala Lotus",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Fungal Spores",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Luminescent Pollen",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Crystalline Cyst Dust",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Fungal Spores",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Luminescent Pollen",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Crystalline Cyst Dust",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Admonition",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Admonition",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Admonition",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "The Meaning of Aeons",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3401,77 +4492,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Hurricane Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Cecilia",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Slime Condensate",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Slime Condensate",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Ballad",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Ballad",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Ballad",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tail of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3480,77 +4594,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Perpetual Caliber",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Rukkhashava Mushrooms",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Old Handguard",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Old Handguard",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Praxis",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Praxis",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Praxis",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Daka's Bell",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3559,77 +4696,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Everflame Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Jueyun Chili",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Slime Condensate",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Slime Condensate",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Diligence",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Diligence",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Diligence",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dvalin's Claw",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3638,77 +4798,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Juvenile Jade",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vayuda Turquoise Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vayuda Turquoise Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vayuda Turquoise Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Qingxin",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Slime Condensate",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Slime Condensate",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Prosperity",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Prosperity",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Prosperity",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Shadow of the Warrior",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3717,77 +4900,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Cleansing Heart",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Varunada Lazurite Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Varunada Lazurite Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Silk Flower",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Damaged Mask",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Damaged Mask",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Gold",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Gold",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Gold",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tail of Boreas",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3796,77 +5002,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Everflame Seed",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Violetgrass",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Gold",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Gold",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Gold",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tusk of Monoceros Caeli",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3875,77 +5104,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Dragonheir's False Fin",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Vajrada Amethyst Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Vajrada Amethyst Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Vajrada Amethyst Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Sea Ganoderma",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Old Handguard",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Old Handguard",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Kageuchi Handguard",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Famed Handguard",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Light",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Light",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Light",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "The Meaning of Aeons",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -3954,77 +5206,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Juvenile Jade",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Noctilucous Jade",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Treasure Hoarder Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Silver Raven Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Golden Raven Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Gold",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Gold",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Gold",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Bloodjade Branch",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -4033,77 +5308,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Runic Fang",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Varunada Lazurite Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Varunada Lazurite Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Varunada Lazurite Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Starconch",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Recruit's Insignia",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Recruit's Insignia",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sergeant's Insignia",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Lieutenant's Insignia",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Prosperity",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Prosperity",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Prosperity",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Gilded Scale",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -4112,77 +5410,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Smoldering Pearl",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Agnidus Agate Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Agnidus Agate Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Agnidus Agate Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Naku Weed",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Divining Scroll",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Divining Scroll",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Sealed Scroll",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Forbidden Curse Scroll",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Transience",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Transience",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Transience",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Dragon Lord's Crown",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -4191,77 +5512,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Riftborn Regalia",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Prithiva Topaz Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Prithiva Topaz Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Glaze Lily",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Damaged Mask",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Damaged Mask",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Stained Mask",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Ominous Mask",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Diligence",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Diligence",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Diligence",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Ashen Heart",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   },
@@ -4270,77 +5614,100 @@
     "ascension_items": [
       {
         "item": "Mora",
-        "quantity": 420000
+        "quantity": 420000,
+        "rarity": 3
       },
       {
         "item": "Basalt Pillar",
-        "quantity": 46
+        "quantity": 46,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Sliver",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 2
       },
       {
         "item": "Prithiva Topaz Fragment",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 3
       },
       {
         "item": "Prithiva Topaz Chunk",
-        "quantity": 9
+        "quantity": 9,
+        "rarity": 4
       },
       {
         "item": "Prithiva Topaz Gemstone",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Cor Lapis",
-        "quantity": 168
+        "quantity": 168,
+        "rarity": 0
       },
       {
         "item": "Slime Condensate",
-        "quantity": 18
+        "quantity": 18,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 30
+        "quantity": 30,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 36
+        "quantity": 36,
+        "rarity": 3
       }
     ],
     "talent_items": [
       {
+        "item": "Mora",
+        "quantity": 1652500,
+        "rarity": 3
+      },
+      {
         "item": "Slime Condensate",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 1
       },
       {
         "item": "Slime Secretions",
-        "quantity": 22
+        "quantity": 22,
+        "rarity": 2
       },
       {
         "item": "Slime Concentrate",
-        "quantity": 31
+        "quantity": 31,
+        "rarity": 3
       },
       {
         "item": "Teachings of Gold",
-        "quantity": 3
+        "quantity": 3,
+        "rarity": 2
       },
       {
         "item": "Guide to Gold",
-        "quantity": 21
+        "quantity": 21,
+        "rarity": 3
       },
       {
         "item": "Philosophies of Gold",
-        "quantity": 38
+        "quantity": 38,
+        "rarity": 4
       },
       {
         "item": "Tusk of Monoceros Caeli",
-        "quantity": 6
+        "quantity": 6,
+        "rarity": 5
       },
       {
         "item": "Crown of Insight",
-        "quantity": 1
+        "quantity": 1,
+        "rarity": 5
       }
     ]
   }

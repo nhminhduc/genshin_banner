@@ -38,12 +38,6 @@ const FilterModal = () => {
                   aria-labelledby="modalTitle"
                   aria-modal={true}
                   className="w-2/3 translate-x-1/4 translate-y-1/2"
-                  onKeyDown={(event) => {
-                    if (event.key === "Escape") {
-                      event.preventDefault();
-                      setExpanded(false);
-                    }
-                  }}
                   ref={modalRef}
                   role="dialog"
                   tabIndex={-1}
