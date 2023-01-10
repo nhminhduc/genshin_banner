@@ -1,6 +1,5 @@
 import cx from "classnames";
 import { config } from "config";
-import { useWindowSize } from "hooks/useWindowSize";
 import { kebabCase } from "lodash";
 
 type MaterialItemProps = {
@@ -17,7 +16,6 @@ const MaterialItem = ({
   rarity,
 }: MaterialItemProps) => {
   const { baseUrl } = config;
-  const { width } = useWindowSize();
   const link = `https://genshin-impact.fandom.com/wiki/${item.replace(
     / /g,
     "_",

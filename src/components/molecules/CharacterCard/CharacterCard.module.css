@@ -23,11 +23,11 @@
 }
 
 .characterCard {
-  animation: fade-in-center ease .2s;
+  animation: fade-in-center ease 0.2s;
   animation-fill-mode: forwards;
 
   @screen 2xl {
-    animation: fade-in-left-to-right ease .2s;
+    animation: fade-in-left-to-right ease 0.2s;
     animation-fill-mode: forwards;
   }
 }
