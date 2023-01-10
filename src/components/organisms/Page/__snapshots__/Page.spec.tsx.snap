@@ -180,7 +180,7 @@ exports[`Page test > Page load 1`] = `
         </button>
       </div>
       <ul
-        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-13nh5n-MuiImageList-root"
+        class="MuiImageList-root MuiImageList-standard _scrollbar_f0ab42 overflow-x-hidden css-ev903r-MuiImageList-root"
         style="grid-template-columns: repeat(3, 1fr); gap: 4px;"
       >
         <li

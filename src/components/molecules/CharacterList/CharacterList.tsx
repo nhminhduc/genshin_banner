@@ -11,7 +11,7 @@ const CharacterList = () => {
   const mediumSize = useMediaQuery("(min-width:660px)");
   const ImageListStyle = mediumSize
     ? { height: 655, width: 600 }
-    : { height: 480, width: 360 };
+    : { height: 495, width: 340 };
 
   return (
     <ImageList
